@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/types.ts","./src/components/hallmap.tsx","./src/components/revenuepanel.tsx","./src/components/seat.tsx","./src/components/statspanel.tsx","./src/components/tariffpanel.tsx","./src/components/toolbar.tsx","./src/data/generatehall.ts","./src/utils/exportimport.ts","./src/utils/finance.ts","./src/utils/storage.ts"],"version":"5.9.3"}
