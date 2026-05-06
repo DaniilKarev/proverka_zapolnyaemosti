@@ -56,19 +56,6 @@ const beletageRows: RowDefinition[] = [
   },
 ];
 
-const lodgeRows: RowDefinition[] = [
-  {
-    row: 2,
-    y: 170.9,
-    xs: [1486, 1529, 1572.5, 1616, 1660],
-  },
-  {
-    row: 1,
-    y: 214.4,
-    xs: [1486, 1529, 1572.5, 1616, 1660],
-  },
-];
-
 const sideBeletageRows: RowDefinition[] = [
   { row: 7, y: 299.5, xs: [488.5, 531.5] },
   { row: 6, y: 343, xs: [488.5, 531.5] },
@@ -259,7 +246,6 @@ const createParterSeats = (): Seat[] =>
 
 export const generateHallSeats = (): Seat[] => [
   ...createSeatsFromRows("Бельэтаж", "beletage", beletageRows),
-  ...createSeatsFromRows("Ложа", "lodge", lodgeRows),
   ...createSeatsFromRows(
     "Бельэтаж правая сторона",
     "beletage-right-side",

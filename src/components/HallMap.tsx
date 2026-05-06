@@ -155,7 +155,6 @@ export function HallMap({
 
         <g className="hall-card-group">
           <rect x="420" y="38" width="980" height="214" rx="18" className="hall-card" />
-          <rect x="1430" y="74" width="281" height="170" rx="16" className="hall-card" />
           <rect x="10" y="270" width="550" height="365" rx="18" className="hall-card" />
           <rect x="100" y="650" width="1907" height="959" rx="18" className="hall-card" />
         </g>
@@ -163,9 +162,6 @@ export function HallMap({
         <g className="hall-labels">
           <text x="901" y="95" className="section-title section-title--main">
             Бельэтаж
-          </text>
-          <text x="1570" y="136" className="section-title">
-            Ложа
           </text>
           <text x="79" y="356" className="section-title">
             Бельэтаж правая сторона
@@ -178,12 +174,6 @@ export function HallMap({
         <g className="row-labels">
           {[3, 2, 1].map((row, index) => (
             <text key={`beletage-${row}`} x="389" y={132 + index * 43.5} className="row-number">
-              {row}
-            </text>
-          ))}
-
-          {[2, 1].map((row, index) => (
-            <text key={`lodge-${row}`} x="1729" y={172 + index * 43.5} className="row-number">
               {row}
             </text>
           ))}

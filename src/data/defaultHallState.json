@@ -1,0 +1,6771 @@
+{
+  "tariffs": [
+    {
+      "id": "tariff-1",
+      "name": "20000",
+      "color": "#E85D5D",
+      "price": 20000
+    },
+    {
+      "id": "tariff-2",
+      "name": "17500",
+      "color": "#F2A65A",
+      "price": 17500
+    },
+    {
+      "id": "tariff-3",
+      "name": "15000",
+      "color": "#1adff9",
+      "price": 15000
+    },
+    {
+      "id": "tariff-4",
+      "name": "5000",
+      "color": "#12fd8f",
+      "price": 5000
+    },
+    {
+      "id": "tariff-5",
+      "name": "4000",
+      "color": "#4F7DF0",
+      "price": 4000
+    },
+    {
+      "id": "tariff-6",
+      "name": "3500",
+      "color": "#efe6d7",
+      "price": 3500
+    },
+    {
+      "id": "tariff-7",
+      "name": "3000",
+      "color": "#ED80AF",
+      "price": 3000
+    },
+    {
+      "id": "tariff-8",
+      "name": "2500",
+      "color": "#8E63D7",
+      "price": 2500
+    }
+  ],
+  "seats": [
+    {
+      "id": "beletage-r3-s1",
+      "section": "Бельэтаж",
+      "row": 3,
+      "seat": 1,
+      "x": 448,
+      "y": 127.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "beletage-r3-s2",
+      "section": "Бельэтаж",
+      "row": 3,
+      "seat": 2,
+      "x": 491.5,
+      "y": 127.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "beletage-r3-s3",
+      "section": "Бельэтаж",
+      "row": 3,
+      "seat": 3,
+      "x": 533,
+      "y": 127.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "beletage-r3-s4",
+      "section": "Бельэтаж",
+      "row": 3,
+      "seat": 4,
+      "x": 575,
+      "y": 127.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "beletage-r3-s5",
+      "section": "Бельэтаж",
+      "row": 3,
+      "seat": 5,
+      "x": 618.5,
+      "y": 127.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "beletage-r3-s6",
+      "section": "Бельэтаж",
+      "row": 3,
+      "seat": 6,
+      "x": 661.5,
+      "y": 127.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "beletage-r3-s7",
+      "section": "Бельэтаж",
+      "row": 3,
+      "seat": 7,
+      "x": 705.5,
+      "y": 127.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "beletage-r3-s8",
+      "section": "Бельэтаж",
+      "row": 3,
+      "seat": 8,
+      "x": 748.5,
+      "y": 127.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "beletage-r3-s9",
+      "section": "Бельэтаж",
+      "row": 3,
+      "seat": 9,
+      "x": 791.5,
+      "y": 127.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "beletage-r3-s10",
+      "section": "Бельэтаж",
+      "row": 3,
+      "seat": 10,
+      "x": 835.5,
+      "y": 127.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "beletage-r3-s11",
+      "section": "Бельэтаж",
+      "row": 3,
+      "seat": 11,
+      "x": 878.5,
+      "y": 127.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "beletage-r3-s12",
+      "section": "Бельэтаж",
+      "row": 3,
+      "seat": 12,
+      "x": 922.5,
+      "y": 127.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "beletage-r3-s13",
+      "section": "Бельэтаж",
+      "row": 3,
+      "seat": 13,
+      "x": 965.5,
+      "y": 127.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "beletage-r3-s14",
+      "section": "Бельэтаж",
+      "row": 3,
+      "seat": 14,
+      "x": 1008.5,
+      "y": 127.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "beletage-r3-s15",
+      "section": "Бельэтаж",
+      "row": 3,
+      "seat": 15,
+      "x": 1052.5,
+      "y": 127.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "beletage-r3-s16",
+      "section": "Бельэтаж",
+      "row": 3,
+      "seat": 16,
+      "x": 1095.5,
+      "y": 127.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "beletage-r3-s17",
+      "section": "Бельэтаж",
+      "row": 3,
+      "seat": 17,
+      "x": 1139,
+      "y": 127.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "beletage-r3-s18",
+      "section": "Бельэтаж",
+      "row": 3,
+      "seat": 18,
+      "x": 1182.5,
+      "y": 127.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "beletage-r3-s19",
+      "section": "Бельэтаж",
+      "row": 3,
+      "seat": 19,
+      "x": 1225.5,
+      "y": 127.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "beletage-r3-s20",
+      "section": "Бельэтаж",
+      "row": 3,
+      "seat": 20,
+      "x": 1269,
+      "y": 127.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "beletage-r3-s21",
+      "section": "Бельэтаж",
+      "row": 3,
+      "seat": 21,
+      "x": 1312.5,
+      "y": 127.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "beletage-r3-s22",
+      "section": "Бельэтаж",
+      "row": 3,
+      "seat": 22,
+      "x": 1356,
+      "y": 127.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "beletage-r2-s1",
+      "section": "Бельэтаж",
+      "row": 2,
+      "seat": 1,
+      "x": 490,
+      "y": 170.9,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "beletage-r2-s2",
+      "section": "Бельэтаж",
+      "row": 2,
+      "seat": 2,
+      "x": 533.5,
+      "y": 170.9,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "beletage-r2-s3",
+      "section": "Бельэтаж",
+      "row": 2,
+      "seat": 3,
+      "x": 575,
+      "y": 170.9,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "beletage-r2-s4",
+      "section": "Бельэтаж",
+      "row": 2,
+      "seat": 4,
+      "x": 618.5,
+      "y": 170.9,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "beletage-r2-s5",
+      "section": "Бельэтаж",
+      "row": 2,
+      "seat": 5,
+      "x": 662,
+      "y": 170.9,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "beletage-r2-s6",
+      "section": "Бельэтаж",
+      "row": 2,
+      "seat": 6,
+      "x": 705.5,
+      "y": 170.9,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "beletage-r2-s7",
+      "section": "Бельэтаж",
+      "row": 2,
+      "seat": 7,
+      "x": 748.5,
+      "y": 170.9,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "beletage-r2-s8",
+      "section": "Бельэтаж",
+      "row": 2,
+      "seat": 8,
+      "x": 791.5,
+      "y": 170.9,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "beletage-r2-s9",
+      "section": "Бельэтаж",
+      "row": 2,
+      "seat": 9,
+      "x": 835.5,
+      "y": 170.9,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "beletage-r2-s10",
+      "section": "Бельэтаж",
+      "row": 2,
+      "seat": 10,
+      "x": 878.5,
+      "y": 170.9,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "beletage-r2-s11",
+      "section": "Бельэтаж",
+      "row": 2,
+      "seat": 11,
+      "x": 922.5,
+      "y": 170.9,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "beletage-r2-s12",
+      "section": "Бельэтаж",
+      "row": 2,
+      "seat": 12,
+      "x": 965.5,
+      "y": 170.9,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "beletage-r2-s13",
+      "section": "Бельэтаж",
+      "row": 2,
+      "seat": 13,
+      "x": 1008.5,
+      "y": 170.9,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "beletage-r2-s14",
+      "section": "Бельэтаж",
+      "row": 2,
+      "seat": 14,
+      "x": 1052.5,
+      "y": 170.9,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "beletage-r2-s15",
+      "section": "Бельэтаж",
+      "row": 2,
+      "seat": 15,
+      "x": 1095.5,
+      "y": 170.9,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "beletage-r2-s16",
+      "section": "Бельэтаж",
+      "row": 2,
+      "seat": 16,
+      "x": 1139,
+      "y": 170.9,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "beletage-r2-s17",
+      "section": "Бельэтаж",
+      "row": 2,
+      "seat": 17,
+      "x": 1182.5,
+      "y": 170.9,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "beletage-r2-s18",
+      "section": "Бельэтаж",
+      "row": 2,
+      "seat": 18,
+      "x": 1225.5,
+      "y": 170.9,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "beletage-r2-s19",
+      "section": "Бельэтаж",
+      "row": 2,
+      "seat": 19,
+      "x": 1269,
+      "y": 170.9,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "beletage-r2-s20",
+      "section": "Бельэтаж",
+      "row": 2,
+      "seat": 20,
+      "x": 1312.5,
+      "y": 170.9,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "beletage-r2-s21",
+      "section": "Бельэтаж",
+      "row": 2,
+      "seat": 21,
+      "x": 1356,
+      "y": 170.9,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "beletage-r1-s1",
+      "section": "Бельэтаж",
+      "row": 1,
+      "seat": 1,
+      "x": 490,
+      "y": 214.4,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "beletage-r1-s2",
+      "section": "Бельэтаж",
+      "row": 1,
+      "seat": 2,
+      "x": 533.5,
+      "y": 214.4,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "beletage-r1-s3",
+      "section": "Бельэтаж",
+      "row": 1,
+      "seat": 3,
+      "x": 575,
+      "y": 214.4,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "beletage-r1-s4",
+      "section": "Бельэтаж",
+      "row": 1,
+      "seat": 4,
+      "x": 618.5,
+      "y": 214.4,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "beletage-r1-s5",
+      "section": "Бельэтаж",
+      "row": 1,
+      "seat": 5,
+      "x": 661.5,
+      "y": 214.4,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "beletage-r1-s6",
+      "section": "Бельэтаж",
+      "row": 1,
+      "seat": 6,
+      "x": 705.5,
+      "y": 214.4,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "beletage-r1-s7",
+      "section": "Бельэтаж",
+      "row": 1,
+      "seat": 7,
+      "x": 748.5,
+      "y": 214.4,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "beletage-r1-s8",
+      "section": "Бельэтаж",
+      "row": 1,
+      "seat": 8,
+      "x": 791.5,
+      "y": 214.4,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "beletage-r1-s9",
+      "section": "Бельэтаж",
+      "row": 1,
+      "seat": 9,
+      "x": 835.5,
+      "y": 214.4,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "beletage-r1-s10",
+      "section": "Бельэтаж",
+      "row": 1,
+      "seat": 10,
+      "x": 878.5,
+      "y": 214.4,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "beletage-r1-s11",
+      "section": "Бельэтаж",
+      "row": 1,
+      "seat": 11,
+      "x": 922.5,
+      "y": 214.4,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "beletage-r1-s12",
+      "section": "Бельэтаж",
+      "row": 1,
+      "seat": 12,
+      "x": 965.5,
+      "y": 214.4,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "beletage-r1-s13",
+      "section": "Бельэтаж",
+      "row": 1,
+      "seat": 13,
+      "x": 1008.5,
+      "y": 214.4,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "beletage-r1-s14",
+      "section": "Бельэтаж",
+      "row": 1,
+      "seat": 14,
+      "x": 1052.5,
+      "y": 214.4,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "beletage-r1-s15",
+      "section": "Бельэтаж",
+      "row": 1,
+      "seat": 15,
+      "x": 1095.5,
+      "y": 214.4,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "beletage-r1-s16",
+      "section": "Бельэтаж",
+      "row": 1,
+      "seat": 16,
+      "x": 1139.5,
+      "y": 214.4,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "beletage-r1-s17",
+      "section": "Бельэтаж",
+      "row": 1,
+      "seat": 17,
+      "x": 1182.5,
+      "y": 214.4,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "beletage-r1-s18",
+      "section": "Бельэтаж",
+      "row": 1,
+      "seat": 18,
+      "x": 1225.5,
+      "y": 214.4,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "beletage-r1-s19",
+      "section": "Бельэтаж",
+      "row": 1,
+      "seat": 19,
+      "x": 1269,
+      "y": 214.4,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "beletage-r1-s20",
+      "section": "Бельэтаж",
+      "row": 1,
+      "seat": 20,
+      "x": 1312.5,
+      "y": 214.4,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "beletage-r1-s21",
+      "section": "Бельэтаж",
+      "row": 1,
+      "seat": 21,
+      "x": 1355.5,
+      "y": 214.4,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "lodge-r2-s1",
+      "section": "Ложа",
+      "row": 2,
+      "seat": 1,
+      "x": 1486,
+      "y": 170.9,
+      "tariffId": "none"
+    },
+    {
+      "id": "lodge-r2-s2",
+      "section": "Ложа",
+      "row": 2,
+      "seat": 2,
+      "x": 1529,
+      "y": 170.9,
+      "tariffId": "none"
+    },
+    {
+      "id": "lodge-r2-s3",
+      "section": "Ложа",
+      "row": 2,
+      "seat": 3,
+      "x": 1572.5,
+      "y": 170.9,
+      "tariffId": "none"
+    },
+    {
+      "id": "lodge-r2-s4",
+      "section": "Ложа",
+      "row": 2,
+      "seat": 4,
+      "x": 1616,
+      "y": 170.9,
+      "tariffId": "none"
+    },
+    {
+      "id": "lodge-r2-s5",
+      "section": "Ложа",
+      "row": 2,
+      "seat": 5,
+      "x": 1660,
+      "y": 170.9,
+      "tariffId": "none"
+    },
+    {
+      "id": "lodge-r1-s1",
+      "section": "Ложа",
+      "row": 1,
+      "seat": 1,
+      "x": 1486,
+      "y": 214.4,
+      "tariffId": "none"
+    },
+    {
+      "id": "lodge-r1-s2",
+      "section": "Ложа",
+      "row": 1,
+      "seat": 2,
+      "x": 1529,
+      "y": 214.4,
+      "tariffId": "none"
+    },
+    {
+      "id": "lodge-r1-s3",
+      "section": "Ложа",
+      "row": 1,
+      "seat": 3,
+      "x": 1572.5,
+      "y": 214.4,
+      "tariffId": "none"
+    },
+    {
+      "id": "lodge-r1-s4",
+      "section": "Ложа",
+      "row": 1,
+      "seat": 4,
+      "x": 1616,
+      "y": 214.4,
+      "tariffId": "none"
+    },
+    {
+      "id": "lodge-r1-s5",
+      "section": "Ложа",
+      "row": 1,
+      "seat": 5,
+      "x": 1660,
+      "y": 214.4,
+      "tariffId": "none"
+    },
+    {
+      "id": "beletage-right-side-r7-s1",
+      "section": "Бельэтаж правая сторона",
+      "row": 7,
+      "seat": 1,
+      "x": 488.5,
+      "y": 299.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "beletage-right-side-r7-s2",
+      "section": "Бельэтаж правая сторона",
+      "row": 7,
+      "seat": 2,
+      "x": 531.5,
+      "y": 299.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "beletage-right-side-r6-s1",
+      "section": "Бельэтаж правая сторона",
+      "row": 6,
+      "seat": 1,
+      "x": 488.5,
+      "y": 343,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "beletage-right-side-r6-s2",
+      "section": "Бельэтаж правая сторона",
+      "row": 6,
+      "seat": 2,
+      "x": 531.5,
+      "y": 343,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "beletage-right-side-r5-s1",
+      "section": "Бельэтаж правая сторона",
+      "row": 5,
+      "seat": 1,
+      "x": 488.5,
+      "y": 386.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "beletage-right-side-r5-s2",
+      "section": "Бельэтаж правая сторона",
+      "row": 5,
+      "seat": 2,
+      "x": 531.5,
+      "y": 386.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "beletage-right-side-r4-s1",
+      "section": "Бельэтаж правая сторона",
+      "row": 4,
+      "seat": 1,
+      "x": 488.5,
+      "y": 431,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "beletage-right-side-r4-s2",
+      "section": "Бельэтаж правая сторона",
+      "row": 4,
+      "seat": 2,
+      "x": 531.5,
+      "y": 431,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "beletage-right-side-r3-s1",
+      "section": "Бельэтаж правая сторона",
+      "row": 3,
+      "seat": 1,
+      "x": 488.5,
+      "y": 474.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "beletage-right-side-r3-s2",
+      "section": "Бельэтаж правая сторона",
+      "row": 3,
+      "seat": 2,
+      "x": 531.5,
+      "y": 474.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "beletage-right-side-r2-s1",
+      "section": "Бельэтаж правая сторона",
+      "row": 2,
+      "seat": 1,
+      "x": 54.5,
+      "y": 560.5,
+      "tariffId": "tariff-8"
+    },
+    {
+      "id": "beletage-right-side-r2-s2",
+      "section": "Бельэтаж правая сторона",
+      "row": 2,
+      "seat": 2,
+      "x": 98,
+      "y": 560.5,
+      "tariffId": "tariff-8"
+    },
+    {
+      "id": "beletage-right-side-r2-s3",
+      "section": "Бельэтаж правая сторона",
+      "row": 2,
+      "seat": 3,
+      "x": 141.5,
+      "y": 560.5,
+      "tariffId": "tariff-8"
+    },
+    {
+      "id": "beletage-right-side-r2-s4",
+      "section": "Бельэтаж правая сторона",
+      "row": 2,
+      "seat": 4,
+      "x": 184.5,
+      "y": 560.5,
+      "tariffId": "tariff-8"
+    },
+    {
+      "id": "beletage-right-side-r2-s5",
+      "section": "Бельэтаж правая сторона",
+      "row": 2,
+      "seat": 5,
+      "x": 228.5,
+      "y": 560.5,
+      "tariffId": "tariff-8"
+    },
+    {
+      "id": "beletage-right-side-r2-s6",
+      "section": "Бельэтаж правая сторона",
+      "row": 2,
+      "seat": 6,
+      "x": 271.5,
+      "y": 560.5,
+      "tariffId": "tariff-8"
+    },
+    {
+      "id": "beletage-right-side-r2-s7",
+      "section": "Бельэтаж правая сторона",
+      "row": 2,
+      "seat": 7,
+      "x": 314.5,
+      "y": 560.5,
+      "tariffId": "tariff-8"
+    },
+    {
+      "id": "beletage-right-side-r2-s8",
+      "section": "Бельэтаж правая сторона",
+      "row": 2,
+      "seat": 8,
+      "x": 358.5,
+      "y": 560.5,
+      "tariffId": "tariff-8"
+    },
+    {
+      "id": "beletage-right-side-r2-s9",
+      "section": "Бельэтаж правая сторона",
+      "row": 2,
+      "seat": 9,
+      "x": 401.5,
+      "y": 560.5,
+      "tariffId": "tariff-8"
+    },
+    {
+      "id": "beletage-right-side-r2-s10",
+      "section": "Бельэтаж правая сторона",
+      "row": 2,
+      "seat": 10,
+      "x": 444.5,
+      "y": 560.5,
+      "tariffId": "tariff-8"
+    },
+    {
+      "id": "beletage-right-side-r2-s11",
+      "section": "Бельэтаж правая сторона",
+      "row": 2,
+      "seat": 11,
+      "x": 488.5,
+      "y": 560.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "beletage-right-side-r2-s12",
+      "section": "Бельэтаж правая сторона",
+      "row": 2,
+      "seat": 12,
+      "x": 531.5,
+      "y": 560.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "beletage-right-side-r1-s1",
+      "section": "Бельэтаж правая сторона",
+      "row": 1,
+      "seat": 1,
+      "x": 54.5,
+      "y": 604.4,
+      "tariffId": "tariff-8"
+    },
+    {
+      "id": "beletage-right-side-r1-s2",
+      "section": "Бельэтаж правая сторона",
+      "row": 1,
+      "seat": 2,
+      "x": 98,
+      "y": 604.4,
+      "tariffId": "tariff-8"
+    },
+    {
+      "id": "beletage-right-side-r1-s3",
+      "section": "Бельэтаж правая сторона",
+      "row": 1,
+      "seat": 3,
+      "x": 141.5,
+      "y": 604.4,
+      "tariffId": "tariff-8"
+    },
+    {
+      "id": "beletage-right-side-r1-s4",
+      "section": "Бельэтаж правая сторона",
+      "row": 1,
+      "seat": 4,
+      "x": 184.5,
+      "y": 604.4,
+      "tariffId": "tariff-8"
+    },
+    {
+      "id": "beletage-right-side-r1-s5",
+      "section": "Бельэтаж правая сторона",
+      "row": 1,
+      "seat": 5,
+      "x": 228.5,
+      "y": 604.4,
+      "tariffId": "tariff-8"
+    },
+    {
+      "id": "beletage-right-side-r1-s6",
+      "section": "Бельэтаж правая сторона",
+      "row": 1,
+      "seat": 6,
+      "x": 271.5,
+      "y": 604.4,
+      "tariffId": "tariff-8"
+    },
+    {
+      "id": "beletage-right-side-r1-s7",
+      "section": "Бельэтаж правая сторона",
+      "row": 1,
+      "seat": 7,
+      "x": 314.5,
+      "y": 604.4,
+      "tariffId": "tariff-8"
+    },
+    {
+      "id": "beletage-right-side-r1-s8",
+      "section": "Бельэтаж правая сторона",
+      "row": 1,
+      "seat": 8,
+      "x": 358.5,
+      "y": 604.4,
+      "tariffId": "tariff-8"
+    },
+    {
+      "id": "beletage-right-side-r1-s9",
+      "section": "Бельэтаж правая сторона",
+      "row": 1,
+      "seat": 9,
+      "x": 401.5,
+      "y": 604.4,
+      "tariffId": "tariff-8"
+    },
+    {
+      "id": "beletage-right-side-r1-s10",
+      "section": "Бельэтаж правая сторона",
+      "row": 1,
+      "seat": 10,
+      "x": 444.5,
+      "y": 604.4,
+      "tariffId": "tariff-8"
+    },
+    {
+      "id": "beletage-right-side-r1-s11",
+      "section": "Бельэтаж правая сторона",
+      "row": 1,
+      "seat": 11,
+      "x": 488.5,
+      "y": 604.4,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "beletage-right-side-r1-s12",
+      "section": "Бельэтаж правая сторона",
+      "row": 1,
+      "seat": 12,
+      "x": 531.5,
+      "y": 604.4,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r20-s1",
+      "section": "Партер",
+      "row": 20,
+      "seat": 1,
+      "x": 661.5,
+      "y": 734.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-left-r20-s2",
+      "section": "Партер",
+      "row": 20,
+      "seat": 2,
+      "x": 705.5,
+      "y": 734.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-left-r20-s3",
+      "section": "Партер",
+      "row": 20,
+      "seat": 3,
+      "x": 748.5,
+      "y": 734.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-left-r20-s4",
+      "section": "Партер",
+      "row": 20,
+      "seat": 4,
+      "x": 791.5,
+      "y": 734.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-left-r20-s5",
+      "section": "Партер",
+      "row": 20,
+      "seat": 5,
+      "x": 835.5,
+      "y": 734.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-left-r20-s6",
+      "section": "Партер",
+      "row": 20,
+      "seat": 6,
+      "x": 878.5,
+      "y": 734.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-left-r20-s7",
+      "section": "Партер",
+      "row": 20,
+      "seat": 7,
+      "x": 922.5,
+      "y": 734.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-left-r20-s8",
+      "section": "Партер",
+      "row": 20,
+      "seat": 8,
+      "x": 965.5,
+      "y": 734.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-left-r20-s9",
+      "section": "Партер",
+      "row": 20,
+      "seat": 9,
+      "x": 1008.5,
+      "y": 734.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-left-r20-s10",
+      "section": "Партер",
+      "row": 20,
+      "seat": 10,
+      "x": 1052.5,
+      "y": 734.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-left-r20-s11",
+      "section": "Партер",
+      "row": 20,
+      "seat": 11,
+      "x": 1095.5,
+      "y": 734.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-left-r20-s12",
+      "section": "Партер",
+      "row": 20,
+      "seat": 12,
+      "x": 1139,
+      "y": 734.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-left-r20-s13",
+      "section": "Партер",
+      "row": 20,
+      "seat": 13,
+      "x": 1182.5,
+      "y": 734.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-left-r20-s14",
+      "section": "Партер",
+      "row": 20,
+      "seat": 14,
+      "x": 1225.5,
+      "y": 734.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-right-r20-s15",
+      "section": "Партер",
+      "row": 20,
+      "seat": 15,
+      "x": 1398.5,
+      "y": 734.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-right-r20-s16",
+      "section": "Партер",
+      "row": 20,
+      "seat": 16,
+      "x": 1442,
+      "y": 734.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-right-r20-s17",
+      "section": "Партер",
+      "row": 20,
+      "seat": 17,
+      "x": 1485.5,
+      "y": 734.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-right-r20-s18",
+      "section": "Партер",
+      "row": 20,
+      "seat": 18,
+      "x": 1528.5,
+      "y": 734.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-right-r20-s19",
+      "section": "Партер",
+      "row": 20,
+      "seat": 19,
+      "x": 1572.5,
+      "y": 734.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-right-r20-s20",
+      "section": "Партер",
+      "row": 20,
+      "seat": 20,
+      "x": 1616,
+      "y": 734.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-right-r20-s21",
+      "section": "Партер",
+      "row": 20,
+      "seat": 21,
+      "x": 1659.5,
+      "y": 734.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-right-r20-s22",
+      "section": "Партер",
+      "row": 20,
+      "seat": 22,
+      "x": 1702.5,
+      "y": 734.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-right-r20-s23",
+      "section": "Партер",
+      "row": 20,
+      "seat": 23,
+      "x": 1746.5,
+      "y": 734.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-right-r20-s24",
+      "section": "Партер",
+      "row": 20,
+      "seat": 24,
+      "x": 1789.5,
+      "y": 734.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-left-r19-s1",
+      "section": "Партер",
+      "row": 19,
+      "seat": 1,
+      "x": 618.5,
+      "y": 778.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-left-r19-s2",
+      "section": "Партер",
+      "row": 19,
+      "seat": 2,
+      "x": 661.5,
+      "y": 778.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-left-r19-s3",
+      "section": "Партер",
+      "row": 19,
+      "seat": 3,
+      "x": 705.5,
+      "y": 778.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-left-r19-s4",
+      "section": "Партер",
+      "row": 19,
+      "seat": 4,
+      "x": 748.5,
+      "y": 778.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-left-r19-s5",
+      "section": "Партер",
+      "row": 19,
+      "seat": 5,
+      "x": 791.5,
+      "y": 778.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-left-r19-s6",
+      "section": "Партер",
+      "row": 19,
+      "seat": 6,
+      "x": 835.5,
+      "y": 778.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-left-r19-s7",
+      "section": "Партер",
+      "row": 19,
+      "seat": 7,
+      "x": 878.5,
+      "y": 778.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-left-r19-s8",
+      "section": "Партер",
+      "row": 19,
+      "seat": 8,
+      "x": 922.5,
+      "y": 778.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-left-r19-s9",
+      "section": "Партер",
+      "row": 19,
+      "seat": 9,
+      "x": 965.5,
+      "y": 778.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-left-r19-s10",
+      "section": "Партер",
+      "row": 19,
+      "seat": 10,
+      "x": 1008.5,
+      "y": 778.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-left-r19-s11",
+      "section": "Партер",
+      "row": 19,
+      "seat": 11,
+      "x": 1052.5,
+      "y": 778.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-left-r19-s12",
+      "section": "Партер",
+      "row": 19,
+      "seat": 12,
+      "x": 1095.5,
+      "y": 778.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-left-r19-s13",
+      "section": "Партер",
+      "row": 19,
+      "seat": 13,
+      "x": 1139,
+      "y": 778.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-left-r19-s14",
+      "section": "Партер",
+      "row": 19,
+      "seat": 14,
+      "x": 1182.5,
+      "y": 778.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-left-r19-s15",
+      "section": "Партер",
+      "row": 19,
+      "seat": 15,
+      "x": 1225.5,
+      "y": 778.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-right-r19-s16",
+      "section": "Партер",
+      "row": 19,
+      "seat": 16,
+      "x": 1398.5,
+      "y": 778.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-right-r19-s17",
+      "section": "Партер",
+      "row": 19,
+      "seat": 17,
+      "x": 1442,
+      "y": 778.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-right-r19-s18",
+      "section": "Партер",
+      "row": 19,
+      "seat": 18,
+      "x": 1485.5,
+      "y": 778.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-right-r19-s19",
+      "section": "Партер",
+      "row": 19,
+      "seat": 19,
+      "x": 1528.5,
+      "y": 778.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-right-r19-s20",
+      "section": "Партер",
+      "row": 19,
+      "seat": 20,
+      "x": 1572.5,
+      "y": 778.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-right-r19-s21",
+      "section": "Партер",
+      "row": 19,
+      "seat": 21,
+      "x": 1616,
+      "y": 778.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-right-r19-s22",
+      "section": "Партер",
+      "row": 19,
+      "seat": 22,
+      "x": 1659.5,
+      "y": 778.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-right-r19-s23",
+      "section": "Партер",
+      "row": 19,
+      "seat": 23,
+      "x": 1702.5,
+      "y": 778.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-right-r19-s24",
+      "section": "Партер",
+      "row": 19,
+      "seat": 24,
+      "x": 1746.5,
+      "y": 778.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-right-r19-s25",
+      "section": "Партер",
+      "row": 19,
+      "seat": 25,
+      "x": 1789.5,
+      "y": 778.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-right-r19-s26",
+      "section": "Партер",
+      "row": 19,
+      "seat": 26,
+      "x": 1833,
+      "y": 778.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-left-r18-s1",
+      "section": "Партер",
+      "row": 18,
+      "seat": 1,
+      "x": 575,
+      "y": 821.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-left-r18-s2",
+      "section": "Партер",
+      "row": 18,
+      "seat": 2,
+      "x": 618.5,
+      "y": 821.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-left-r18-s3",
+      "section": "Партер",
+      "row": 18,
+      "seat": 3,
+      "x": 662.5,
+      "y": 821.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-left-r18-s4",
+      "section": "Партер",
+      "row": 18,
+      "seat": 4,
+      "x": 705.5,
+      "y": 821.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-left-r18-s5",
+      "section": "Партер",
+      "row": 18,
+      "seat": 5,
+      "x": 749,
+      "y": 821.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-left-r18-s6",
+      "section": "Партер",
+      "row": 18,
+      "seat": 6,
+      "x": 792,
+      "y": 821.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-left-r18-s7",
+      "section": "Партер",
+      "row": 18,
+      "seat": 7,
+      "x": 835.5,
+      "y": 821.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-left-r18-s8",
+      "section": "Партер",
+      "row": 18,
+      "seat": 8,
+      "x": 878.5,
+      "y": 821.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-left-r18-s9",
+      "section": "Партер",
+      "row": 18,
+      "seat": 9,
+      "x": 922.5,
+      "y": 821.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-left-r18-s10",
+      "section": "Партер",
+      "row": 18,
+      "seat": 10,
+      "x": 965.5,
+      "y": 821.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-left-r18-s11",
+      "section": "Партер",
+      "row": 18,
+      "seat": 11,
+      "x": 1009,
+      "y": 821.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-left-r18-s12",
+      "section": "Партер",
+      "row": 18,
+      "seat": 12,
+      "x": 1052.5,
+      "y": 821.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-left-r18-s13",
+      "section": "Партер",
+      "row": 18,
+      "seat": 13,
+      "x": 1096.5,
+      "y": 821.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-left-r18-s14",
+      "section": "Партер",
+      "row": 18,
+      "seat": 14,
+      "x": 1139.5,
+      "y": 821.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-left-r18-s15",
+      "section": "Партер",
+      "row": 18,
+      "seat": 15,
+      "x": 1183,
+      "y": 821.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-left-r18-s16",
+      "section": "Партер",
+      "row": 18,
+      "seat": 16,
+      "x": 1226.5,
+      "y": 821.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-right-r18-s17",
+      "section": "Партер",
+      "row": 18,
+      "seat": 17,
+      "x": 1399.5,
+      "y": 821.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-right-r18-s18",
+      "section": "Партер",
+      "row": 18,
+      "seat": 18,
+      "x": 1443,
+      "y": 821.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-right-r18-s19",
+      "section": "Партер",
+      "row": 18,
+      "seat": 19,
+      "x": 1486.5,
+      "y": 821.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-right-r18-s20",
+      "section": "Партер",
+      "row": 18,
+      "seat": 20,
+      "x": 1529.5,
+      "y": 821.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-right-r18-s21",
+      "section": "Партер",
+      "row": 18,
+      "seat": 21,
+      "x": 1572.5,
+      "y": 821.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-right-r18-s22",
+      "section": "Партер",
+      "row": 18,
+      "seat": 22,
+      "x": 1616,
+      "y": 821.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-right-r18-s23",
+      "section": "Партер",
+      "row": 18,
+      "seat": 23,
+      "x": 1659.5,
+      "y": 821.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-right-r18-s24",
+      "section": "Партер",
+      "row": 18,
+      "seat": 24,
+      "x": 1702.5,
+      "y": 821.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-right-r18-s25",
+      "section": "Партер",
+      "row": 18,
+      "seat": 25,
+      "x": 1746.5,
+      "y": 821.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-right-r18-s26",
+      "section": "Партер",
+      "row": 18,
+      "seat": 26,
+      "x": 1789.5,
+      "y": 821.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-right-r18-s27",
+      "section": "Партер",
+      "row": 18,
+      "seat": 27,
+      "x": 1833,
+      "y": 821.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-right-r18-s28",
+      "section": "Партер",
+      "row": 18,
+      "seat": 28,
+      "x": 1876,
+      "y": 821.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-right-r18-s29",
+      "section": "Партер",
+      "row": 18,
+      "seat": 29,
+      "x": 1919.5,
+      "y": 821.5,
+      "tariffId": "tariff-6"
+    },
+    {
+      "id": "parter-left-r17-s1",
+      "section": "Партер",
+      "row": 17,
+      "seat": 1,
+      "x": 531.5,
+      "y": 864.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r17-s2",
+      "section": "Партер",
+      "row": 17,
+      "seat": 2,
+      "x": 575,
+      "y": 864.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r17-s3",
+      "section": "Партер",
+      "row": 17,
+      "seat": 3,
+      "x": 618.5,
+      "y": 864.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r17-s4",
+      "section": "Партер",
+      "row": 17,
+      "seat": 4,
+      "x": 662.5,
+      "y": 864.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r17-s5",
+      "section": "Партер",
+      "row": 17,
+      "seat": 5,
+      "x": 705.5,
+      "y": 864.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r17-s6",
+      "section": "Партер",
+      "row": 17,
+      "seat": 6,
+      "x": 749,
+      "y": 864.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r17-s7",
+      "section": "Партер",
+      "row": 17,
+      "seat": 7,
+      "x": 792,
+      "y": 864.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r17-s8",
+      "section": "Партер",
+      "row": 17,
+      "seat": 8,
+      "x": 835.5,
+      "y": 864.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r17-s9",
+      "section": "Партер",
+      "row": 17,
+      "seat": 9,
+      "x": 878.5,
+      "y": 864.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r17-s10",
+      "section": "Партер",
+      "row": 17,
+      "seat": 10,
+      "x": 922.5,
+      "y": 864.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r17-s11",
+      "section": "Партер",
+      "row": 17,
+      "seat": 11,
+      "x": 965.5,
+      "y": 864.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r17-s12",
+      "section": "Партер",
+      "row": 17,
+      "seat": 12,
+      "x": 1009,
+      "y": 864.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r17-s13",
+      "section": "Партер",
+      "row": 17,
+      "seat": 13,
+      "x": 1052.5,
+      "y": 864.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r17-s14",
+      "section": "Партер",
+      "row": 17,
+      "seat": 14,
+      "x": 1096.5,
+      "y": 864.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r17-s15",
+      "section": "Партер",
+      "row": 17,
+      "seat": 15,
+      "x": 1139.5,
+      "y": 864.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r17-s16",
+      "section": "Партер",
+      "row": 17,
+      "seat": 16,
+      "x": 1183,
+      "y": 864.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r17-s17",
+      "section": "Партер",
+      "row": 17,
+      "seat": 17,
+      "x": 1226.5,
+      "y": 864.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-right-r17-s18",
+      "section": "Партер",
+      "row": 17,
+      "seat": 18,
+      "x": 1399.5,
+      "y": 864.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-right-r17-s19",
+      "section": "Партер",
+      "row": 17,
+      "seat": 19,
+      "x": 1443,
+      "y": 864.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-right-r17-s20",
+      "section": "Партер",
+      "row": 17,
+      "seat": 20,
+      "x": 1486.5,
+      "y": 864.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-right-r17-s21",
+      "section": "Партер",
+      "row": 17,
+      "seat": 21,
+      "x": 1529.5,
+      "y": 864.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-right-r17-s22",
+      "section": "Партер",
+      "row": 17,
+      "seat": 22,
+      "x": 1572.5,
+      "y": 864.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-right-r17-s23",
+      "section": "Партер",
+      "row": 17,
+      "seat": 23,
+      "x": 1616,
+      "y": 864.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-right-r17-s24",
+      "section": "Партер",
+      "row": 17,
+      "seat": 24,
+      "x": 1659.5,
+      "y": 864.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-right-r17-s25",
+      "section": "Партер",
+      "row": 17,
+      "seat": 25,
+      "x": 1702.5,
+      "y": 864.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-right-r17-s26",
+      "section": "Партер",
+      "row": 17,
+      "seat": 26,
+      "x": 1746.5,
+      "y": 864.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-right-r17-s27",
+      "section": "Партер",
+      "row": 17,
+      "seat": 27,
+      "x": 1789.5,
+      "y": 864.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-right-r17-s28",
+      "section": "Партер",
+      "row": 17,
+      "seat": 28,
+      "x": 1833,
+      "y": 864.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-right-r17-s29",
+      "section": "Партер",
+      "row": 17,
+      "seat": 29,
+      "x": 1876,
+      "y": 864.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-right-r17-s30",
+      "section": "Партер",
+      "row": 17,
+      "seat": 30,
+      "x": 1919.5,
+      "y": 864.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r16-s1",
+      "section": "Партер",
+      "row": 16,
+      "seat": 1,
+      "x": 531.5,
+      "y": 908,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r16-s2",
+      "section": "Партер",
+      "row": 16,
+      "seat": 2,
+      "x": 575,
+      "y": 908,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r16-s3",
+      "section": "Партер",
+      "row": 16,
+      "seat": 3,
+      "x": 618.5,
+      "y": 908,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r16-s4",
+      "section": "Партер",
+      "row": 16,
+      "seat": 4,
+      "x": 662.5,
+      "y": 908,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r16-s5",
+      "section": "Партер",
+      "row": 16,
+      "seat": 5,
+      "x": 705.5,
+      "y": 908,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r16-s6",
+      "section": "Партер",
+      "row": 16,
+      "seat": 6,
+      "x": 748.5,
+      "y": 908,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r16-s7",
+      "section": "Партер",
+      "row": 16,
+      "seat": 7,
+      "x": 792.5,
+      "y": 908,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r16-s8",
+      "section": "Партер",
+      "row": 16,
+      "seat": 8,
+      "x": 835.5,
+      "y": 908,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r16-s9",
+      "section": "Партер",
+      "row": 16,
+      "seat": 9,
+      "x": 879,
+      "y": 908,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r16-s10",
+      "section": "Партер",
+      "row": 16,
+      "seat": 10,
+      "x": 922.5,
+      "y": 908,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r16-s11",
+      "section": "Партер",
+      "row": 16,
+      "seat": 11,
+      "x": 965.5,
+      "y": 908,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r16-s12",
+      "section": "Партер",
+      "row": 16,
+      "seat": 12,
+      "x": 1009.5,
+      "y": 908,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r16-s13",
+      "section": "Партер",
+      "row": 16,
+      "seat": 13,
+      "x": 1052.5,
+      "y": 908,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r16-s14",
+      "section": "Партер",
+      "row": 16,
+      "seat": 14,
+      "x": 1095.5,
+      "y": 908,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r16-s15",
+      "section": "Партер",
+      "row": 16,
+      "seat": 15,
+      "x": 1139,
+      "y": 908,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r16-s16",
+      "section": "Партер",
+      "row": 16,
+      "seat": 16,
+      "x": 1181.5,
+      "y": 908,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r16-s17",
+      "section": "Партер",
+      "row": 16,
+      "seat": 17,
+      "x": 1225,
+      "y": 908,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-right-r16-s18",
+      "section": "Партер",
+      "row": 16,
+      "seat": 18,
+      "x": 1400.5,
+      "y": 908,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-right-r16-s19",
+      "section": "Партер",
+      "row": 16,
+      "seat": 19,
+      "x": 1442.5,
+      "y": 908,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-right-r16-s20",
+      "section": "Партер",
+      "row": 16,
+      "seat": 20,
+      "x": 1486,
+      "y": 908,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-right-r16-s21",
+      "section": "Партер",
+      "row": 16,
+      "seat": 21,
+      "x": 1529.5,
+      "y": 908,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-right-r16-s22",
+      "section": "Партер",
+      "row": 16,
+      "seat": 22,
+      "x": 1572.5,
+      "y": 908,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-right-r16-s23",
+      "section": "Партер",
+      "row": 16,
+      "seat": 23,
+      "x": 1616,
+      "y": 908,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-right-r16-s24",
+      "section": "Партер",
+      "row": 16,
+      "seat": 24,
+      "x": 1659.5,
+      "y": 908,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-right-r16-s25",
+      "section": "Партер",
+      "row": 16,
+      "seat": 25,
+      "x": 1702.5,
+      "y": 908,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-right-r16-s26",
+      "section": "Партер",
+      "row": 16,
+      "seat": 26,
+      "x": 1746,
+      "y": 908,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-right-r16-s27",
+      "section": "Партер",
+      "row": 16,
+      "seat": 27,
+      "x": 1789.5,
+      "y": 908,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-right-r16-s28",
+      "section": "Партер",
+      "row": 16,
+      "seat": 28,
+      "x": 1832.5,
+      "y": 908,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-right-r16-s29",
+      "section": "Партер",
+      "row": 16,
+      "seat": 29,
+      "x": 1876.5,
+      "y": 908,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-right-r16-s30",
+      "section": "Партер",
+      "row": 16,
+      "seat": 30,
+      "x": 1919.5,
+      "y": 908,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r15-s1",
+      "section": "Партер",
+      "row": 15,
+      "seat": 1,
+      "x": 488.5,
+      "y": 951.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r15-s2",
+      "section": "Партер",
+      "row": 15,
+      "seat": 2,
+      "x": 531.5,
+      "y": 951.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r15-s3",
+      "section": "Партер",
+      "row": 15,
+      "seat": 3,
+      "x": 575,
+      "y": 951.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r15-s4",
+      "section": "Партер",
+      "row": 15,
+      "seat": 4,
+      "x": 618.5,
+      "y": 951.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r15-s5",
+      "section": "Партер",
+      "row": 15,
+      "seat": 5,
+      "x": 662.5,
+      "y": 951.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r15-s6",
+      "section": "Партер",
+      "row": 15,
+      "seat": 6,
+      "x": 705.5,
+      "y": 951.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r15-s7",
+      "section": "Партер",
+      "row": 15,
+      "seat": 7,
+      "x": 748.5,
+      "y": 951.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r15-s8",
+      "section": "Партер",
+      "row": 15,
+      "seat": 8,
+      "x": 792.5,
+      "y": 951.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r15-s9",
+      "section": "Партер",
+      "row": 15,
+      "seat": 9,
+      "x": 835.5,
+      "y": 951.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r15-s10",
+      "section": "Партер",
+      "row": 15,
+      "seat": 10,
+      "x": 879,
+      "y": 951.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r15-s11",
+      "section": "Партер",
+      "row": 15,
+      "seat": 11,
+      "x": 922.5,
+      "y": 951.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r15-s12",
+      "section": "Партер",
+      "row": 15,
+      "seat": 12,
+      "x": 965.5,
+      "y": 951.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r15-s13",
+      "section": "Партер",
+      "row": 15,
+      "seat": 13,
+      "x": 1009.5,
+      "y": 951.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r15-s14",
+      "section": "Партер",
+      "row": 15,
+      "seat": 14,
+      "x": 1052.5,
+      "y": 951.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r15-s15",
+      "section": "Партер",
+      "row": 15,
+      "seat": 15,
+      "x": 1095.5,
+      "y": 951.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r15-s16",
+      "section": "Партер",
+      "row": 15,
+      "seat": 16,
+      "x": 1139,
+      "y": 951.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r15-s17",
+      "section": "Партер",
+      "row": 15,
+      "seat": 17,
+      "x": 1181.5,
+      "y": 951.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r15-s18",
+      "section": "Партер",
+      "row": 15,
+      "seat": 18,
+      "x": 1225,
+      "y": 951.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-right-r15-s19",
+      "section": "Партер",
+      "row": 15,
+      "seat": 19,
+      "x": 1400.5,
+      "y": 951.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-right-r15-s20",
+      "section": "Партер",
+      "row": 15,
+      "seat": 20,
+      "x": 1442.5,
+      "y": 951.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-right-r15-s21",
+      "section": "Партер",
+      "row": 15,
+      "seat": 21,
+      "x": 1486,
+      "y": 951.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-right-r15-s22",
+      "section": "Партер",
+      "row": 15,
+      "seat": 22,
+      "x": 1529.5,
+      "y": 951.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-right-r15-s23",
+      "section": "Партер",
+      "row": 15,
+      "seat": 23,
+      "x": 1572.5,
+      "y": 951.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-right-r15-s24",
+      "section": "Партер",
+      "row": 15,
+      "seat": 24,
+      "x": 1616,
+      "y": 951.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-right-r15-s25",
+      "section": "Партер",
+      "row": 15,
+      "seat": 25,
+      "x": 1659.5,
+      "y": 951.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-right-r15-s26",
+      "section": "Партер",
+      "row": 15,
+      "seat": 26,
+      "x": 1702.5,
+      "y": 951.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-right-r15-s27",
+      "section": "Партер",
+      "row": 15,
+      "seat": 27,
+      "x": 1746,
+      "y": 951.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-right-r15-s28",
+      "section": "Партер",
+      "row": 15,
+      "seat": 28,
+      "x": 1789.5,
+      "y": 951.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-right-r15-s29",
+      "section": "Партер",
+      "row": 15,
+      "seat": 29,
+      "x": 1832.5,
+      "y": 951.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-right-r15-s30",
+      "section": "Партер",
+      "row": 15,
+      "seat": 30,
+      "x": 1876.5,
+      "y": 951.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-right-r15-s31",
+      "section": "Партер",
+      "row": 15,
+      "seat": 31,
+      "x": 1919.5,
+      "y": 951.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r14-s1",
+      "section": "Партер",
+      "row": 14,
+      "seat": 1,
+      "x": 445.5,
+      "y": 994.6,
+      "tariffId": "tariff-7"
+    },
+    {
+      "id": "parter-left-r14-s2",
+      "section": "Партер",
+      "row": 14,
+      "seat": 2,
+      "x": 488.5,
+      "y": 994.6,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r14-s3",
+      "section": "Партер",
+      "row": 14,
+      "seat": 3,
+      "x": 531.5,
+      "y": 994.6,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r14-s4",
+      "section": "Партер",
+      "row": 14,
+      "seat": 4,
+      "x": 575,
+      "y": 994.6,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r14-s5",
+      "section": "Партер",
+      "row": 14,
+      "seat": 5,
+      "x": 618.5,
+      "y": 994.6,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r14-s6",
+      "section": "Партер",
+      "row": 14,
+      "seat": 6,
+      "x": 662.5,
+      "y": 994.6,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r14-s7",
+      "section": "Партер",
+      "row": 14,
+      "seat": 7,
+      "x": 705.5,
+      "y": 994.6,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r14-s8",
+      "section": "Партер",
+      "row": 14,
+      "seat": 8,
+      "x": 748.5,
+      "y": 994.6,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r14-s9",
+      "section": "Партер",
+      "row": 14,
+      "seat": 9,
+      "x": 792.5,
+      "y": 994.6,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r14-s10",
+      "section": "Партер",
+      "row": 14,
+      "seat": 10,
+      "x": 835.5,
+      "y": 994.6,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r14-s11",
+      "section": "Партер",
+      "row": 14,
+      "seat": 11,
+      "x": 879,
+      "y": 994.6,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r14-s12",
+      "section": "Партер",
+      "row": 14,
+      "seat": 12,
+      "x": 922.5,
+      "y": 994.6,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r14-s13",
+      "section": "Партер",
+      "row": 14,
+      "seat": 13,
+      "x": 965.5,
+      "y": 994.6,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r14-s14",
+      "section": "Партер",
+      "row": 14,
+      "seat": 14,
+      "x": 1009,
+      "y": 994.6,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r14-s15",
+      "section": "Партер",
+      "row": 14,
+      "seat": 15,
+      "x": 1052.5,
+      "y": 994.6,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r14-s16",
+      "section": "Партер",
+      "row": 14,
+      "seat": 16,
+      "x": 1095.5,
+      "y": 994.6,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r14-s17",
+      "section": "Партер",
+      "row": 14,
+      "seat": 17,
+      "x": 1139,
+      "y": 994.6,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r14-s18",
+      "section": "Партер",
+      "row": 14,
+      "seat": 18,
+      "x": 1182.5,
+      "y": 994.6,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r14-s19",
+      "section": "Партер",
+      "row": 14,
+      "seat": 19,
+      "x": 1226,
+      "y": 994.6,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-right-r14-s20",
+      "section": "Партер",
+      "row": 14,
+      "seat": 20,
+      "x": 1399.5,
+      "y": 994.6,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-right-r14-s21",
+      "section": "Партер",
+      "row": 14,
+      "seat": 21,
+      "x": 1443.5,
+      "y": 994.6,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-right-r14-s22",
+      "section": "Партер",
+      "row": 14,
+      "seat": 22,
+      "x": 1485.5,
+      "y": 994.6,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-right-r14-s23",
+      "section": "Партер",
+      "row": 14,
+      "seat": 23,
+      "x": 1529.5,
+      "y": 994.6,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-right-r14-s24",
+      "section": "Партер",
+      "row": 14,
+      "seat": 24,
+      "x": 1572.5,
+      "y": 994.6,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-right-r14-s25",
+      "section": "Партер",
+      "row": 14,
+      "seat": 25,
+      "x": 1616.5,
+      "y": 994.6,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-right-r14-s26",
+      "section": "Партер",
+      "row": 14,
+      "seat": 26,
+      "x": 1659.5,
+      "y": 994.6,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-right-r14-s27",
+      "section": "Партер",
+      "row": 14,
+      "seat": 27,
+      "x": 1702.5,
+      "y": 994.6,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-right-r14-s28",
+      "section": "Партер",
+      "row": 14,
+      "seat": 28,
+      "x": 1746.5,
+      "y": 994.6,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-right-r14-s29",
+      "section": "Партер",
+      "row": 14,
+      "seat": 29,
+      "x": 1789.5,
+      "y": 994.6,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-right-r14-s30",
+      "section": "Партер",
+      "row": 14,
+      "seat": 30,
+      "x": 1832.5,
+      "y": 994.6,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-right-r14-s31",
+      "section": "Партер",
+      "row": 14,
+      "seat": 31,
+      "x": 1876.5,
+      "y": 994.6,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-right-r14-s32",
+      "section": "Партер",
+      "row": 14,
+      "seat": 32,
+      "x": 1919.5,
+      "y": 994.6,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-right-r14-s33",
+      "section": "Партер",
+      "row": 14,
+      "seat": 33,
+      "x": 1963,
+      "y": 994.6,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r13-s1",
+      "section": "Партер",
+      "row": 13,
+      "seat": 1,
+      "x": 445.5,
+      "y": 1038.5,
+      "tariffId": "tariff-7"
+    },
+    {
+      "id": "parter-left-r13-s2",
+      "section": "Партер",
+      "row": 13,
+      "seat": 2,
+      "x": 488.5,
+      "y": 1038.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r13-s3",
+      "section": "Партер",
+      "row": 13,
+      "seat": 3,
+      "x": 531.5,
+      "y": 1038.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r13-s4",
+      "section": "Партер",
+      "row": 13,
+      "seat": 4,
+      "x": 575,
+      "y": 1038.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r13-s5",
+      "section": "Партер",
+      "row": 13,
+      "seat": 5,
+      "x": 618.5,
+      "y": 1038.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r13-s6",
+      "section": "Партер",
+      "row": 13,
+      "seat": 6,
+      "x": 662.5,
+      "y": 1038.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r13-s7",
+      "section": "Партер",
+      "row": 13,
+      "seat": 7,
+      "x": 705.5,
+      "y": 1038.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r13-s8",
+      "section": "Партер",
+      "row": 13,
+      "seat": 8,
+      "x": 748.5,
+      "y": 1038.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r13-s9",
+      "section": "Партер",
+      "row": 13,
+      "seat": 9,
+      "x": 792.5,
+      "y": 1038.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r13-s10",
+      "section": "Партер",
+      "row": 13,
+      "seat": 10,
+      "x": 835.5,
+      "y": 1038.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r13-s11",
+      "section": "Партер",
+      "row": 13,
+      "seat": 11,
+      "x": 879,
+      "y": 1038.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r13-s12",
+      "section": "Партер",
+      "row": 13,
+      "seat": 12,
+      "x": 922.5,
+      "y": 1038.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r13-s13",
+      "section": "Партер",
+      "row": 13,
+      "seat": 13,
+      "x": 965.5,
+      "y": 1038.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r13-s14",
+      "section": "Партер",
+      "row": 13,
+      "seat": 14,
+      "x": 1009,
+      "y": 1038.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r13-s15",
+      "section": "Партер",
+      "row": 13,
+      "seat": 15,
+      "x": 1052.5,
+      "y": 1038.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r13-s16",
+      "section": "Партер",
+      "row": 13,
+      "seat": 16,
+      "x": 1095.5,
+      "y": 1038.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r13-s17",
+      "section": "Партер",
+      "row": 13,
+      "seat": 17,
+      "x": 1139,
+      "y": 1038.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r13-s18",
+      "section": "Партер",
+      "row": 13,
+      "seat": 18,
+      "x": 1182.5,
+      "y": 1038.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r13-s19",
+      "section": "Партер",
+      "row": 13,
+      "seat": 19,
+      "x": 1226,
+      "y": 1038.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r13-s20",
+      "section": "Партер",
+      "row": 13,
+      "seat": 20,
+      "x": 1399.5,
+      "y": 1038.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r13-s21",
+      "section": "Партер",
+      "row": 13,
+      "seat": 21,
+      "x": 1443.5,
+      "y": 1038.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r13-s22",
+      "section": "Партер",
+      "row": 13,
+      "seat": 22,
+      "x": 1485.5,
+      "y": 1038.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r13-s23",
+      "section": "Партер",
+      "row": 13,
+      "seat": 23,
+      "x": 1529.5,
+      "y": 1038.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r13-s24",
+      "section": "Партер",
+      "row": 13,
+      "seat": 24,
+      "x": 1572.5,
+      "y": 1038.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r13-s25",
+      "section": "Партер",
+      "row": 13,
+      "seat": 25,
+      "x": 1616.5,
+      "y": 1038.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r13-s26",
+      "section": "Партер",
+      "row": 13,
+      "seat": 26,
+      "x": 1659.5,
+      "y": 1038.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r13-s27",
+      "section": "Партер",
+      "row": 13,
+      "seat": 27,
+      "x": 1702.5,
+      "y": 1038.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r13-s28",
+      "section": "Партер",
+      "row": 13,
+      "seat": 28,
+      "x": 1746.5,
+      "y": 1038.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r13-s29",
+      "section": "Партер",
+      "row": 13,
+      "seat": 29,
+      "x": 1789.5,
+      "y": 1038.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r13-s30",
+      "section": "Партер",
+      "row": 13,
+      "seat": 30,
+      "x": 1832.5,
+      "y": 1038.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r13-s31",
+      "section": "Партер",
+      "row": 13,
+      "seat": 31,
+      "x": 1876.5,
+      "y": 1038.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-right-r13-s32",
+      "section": "Партер",
+      "row": 13,
+      "seat": 32,
+      "x": 1919.5,
+      "y": 1038.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-right-r13-s33",
+      "section": "Партер",
+      "row": 13,
+      "seat": 33,
+      "x": 1963,
+      "y": 1038.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r12-s1",
+      "section": "Партер",
+      "row": 12,
+      "seat": 1,
+      "x": 228.5,
+      "y": 1081.5,
+      "tariffId": "tariff-7"
+    },
+    {
+      "id": "parter-left-r12-s2",
+      "section": "Партер",
+      "row": 12,
+      "seat": 2,
+      "x": 271.5,
+      "y": 1081.5,
+      "tariffId": "tariff-7"
+    },
+    {
+      "id": "parter-left-r12-s3",
+      "section": "Партер",
+      "row": 12,
+      "seat": 3,
+      "x": 314.5,
+      "y": 1081.5,
+      "tariffId": "tariff-7"
+    },
+    {
+      "id": "parter-left-r12-s4",
+      "section": "Партер",
+      "row": 12,
+      "seat": 4,
+      "x": 358.5,
+      "y": 1081.5,
+      "tariffId": "tariff-7"
+    },
+    {
+      "id": "parter-left-r12-s5",
+      "section": "Партер",
+      "row": 12,
+      "seat": 5,
+      "x": 401.5,
+      "y": 1081.5,
+      "tariffId": "tariff-7"
+    },
+    {
+      "id": "parter-left-r12-s6",
+      "section": "Партер",
+      "row": 12,
+      "seat": 6,
+      "x": 445.5,
+      "y": 1081.5,
+      "tariffId": "tariff-7"
+    },
+    {
+      "id": "parter-left-r12-s7",
+      "section": "Партер",
+      "row": 12,
+      "seat": 7,
+      "x": 488.5,
+      "y": 1081.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r12-s8",
+      "section": "Партер",
+      "row": 12,
+      "seat": 8,
+      "x": 531.5,
+      "y": 1081.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r12-s9",
+      "section": "Партер",
+      "row": 12,
+      "seat": 9,
+      "x": 575,
+      "y": 1081.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r12-s10",
+      "section": "Партер",
+      "row": 12,
+      "seat": 10,
+      "x": 618.5,
+      "y": 1081.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r12-s11",
+      "section": "Партер",
+      "row": 12,
+      "seat": 11,
+      "x": 662.5,
+      "y": 1081.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r12-s12",
+      "section": "Партер",
+      "row": 12,
+      "seat": 12,
+      "x": 705.5,
+      "y": 1081.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r12-s13",
+      "section": "Партер",
+      "row": 12,
+      "seat": 13,
+      "x": 748.5,
+      "y": 1081.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r12-s14",
+      "section": "Партер",
+      "row": 12,
+      "seat": 14,
+      "x": 792.5,
+      "y": 1081.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r12-s15",
+      "section": "Партер",
+      "row": 12,
+      "seat": 15,
+      "x": 835.5,
+      "y": 1081.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r12-s16",
+      "section": "Партер",
+      "row": 12,
+      "seat": 16,
+      "x": 879,
+      "y": 1081.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r12-s17",
+      "section": "Партер",
+      "row": 12,
+      "seat": 17,
+      "x": 922.5,
+      "y": 1081.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r12-s18",
+      "section": "Партер",
+      "row": 12,
+      "seat": 18,
+      "x": 965.5,
+      "y": 1081.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r12-s19",
+      "section": "Партер",
+      "row": 12,
+      "seat": 19,
+      "x": 1009,
+      "y": 1081.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r12-s20",
+      "section": "Партер",
+      "row": 12,
+      "seat": 20,
+      "x": 1052.5,
+      "y": 1081.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r12-s21",
+      "section": "Партер",
+      "row": 12,
+      "seat": 21,
+      "x": 1095.5,
+      "y": 1081.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r12-s22",
+      "section": "Партер",
+      "row": 12,
+      "seat": 22,
+      "x": 1139,
+      "y": 1081.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r12-s23",
+      "section": "Партер",
+      "row": 12,
+      "seat": 23,
+      "x": 1182.5,
+      "y": 1081.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r12-s24",
+      "section": "Партер",
+      "row": 12,
+      "seat": 24,
+      "x": 1225.5,
+      "y": 1081.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r12-s25",
+      "section": "Партер",
+      "row": 12,
+      "seat": 25,
+      "x": 1399.5,
+      "y": 1081.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r12-s26",
+      "section": "Партер",
+      "row": 12,
+      "seat": 26,
+      "x": 1442.5,
+      "y": 1081.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r12-s27",
+      "section": "Партер",
+      "row": 12,
+      "seat": 27,
+      "x": 1485.5,
+      "y": 1081.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r12-s28",
+      "section": "Партер",
+      "row": 12,
+      "seat": 28,
+      "x": 1529.5,
+      "y": 1081.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r12-s29",
+      "section": "Партер",
+      "row": 12,
+      "seat": 29,
+      "x": 1572.5,
+      "y": 1081.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r12-s30",
+      "section": "Партер",
+      "row": 12,
+      "seat": 30,
+      "x": 1616,
+      "y": 1081.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r12-s31",
+      "section": "Партер",
+      "row": 12,
+      "seat": 31,
+      "x": 1659.5,
+      "y": 1081.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r12-s32",
+      "section": "Партер",
+      "row": 12,
+      "seat": 32,
+      "x": 1702.5,
+      "y": 1081.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r12-s33",
+      "section": "Партер",
+      "row": 12,
+      "seat": 33,
+      "x": 1746.5,
+      "y": 1081.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r12-s34",
+      "section": "Партер",
+      "row": 12,
+      "seat": 34,
+      "x": 1789.5,
+      "y": 1081.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r12-s35",
+      "section": "Партер",
+      "row": 12,
+      "seat": 35,
+      "x": 1832.5,
+      "y": 1081.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r12-s36",
+      "section": "Партер",
+      "row": 12,
+      "seat": 36,
+      "x": 1876.5,
+      "y": 1081.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-right-r12-s37",
+      "section": "Партер",
+      "row": 12,
+      "seat": 37,
+      "x": 1919.5,
+      "y": 1081.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-right-r12-s38",
+      "section": "Партер",
+      "row": 12,
+      "seat": 38,
+      "x": 1963,
+      "y": 1081.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r11-s1",
+      "section": "Партер",
+      "row": 11,
+      "seat": 1,
+      "x": 141.5,
+      "y": 1124.7,
+      "tariffId": "tariff-7"
+    },
+    {
+      "id": "parter-left-r11-s2",
+      "section": "Партер",
+      "row": 11,
+      "seat": 2,
+      "x": 184.5,
+      "y": 1124.7,
+      "tariffId": "tariff-7"
+    },
+    {
+      "id": "parter-left-r11-s3",
+      "section": "Партер",
+      "row": 11,
+      "seat": 3,
+      "x": 228.5,
+      "y": 1124.7,
+      "tariffId": "tariff-7"
+    },
+    {
+      "id": "parter-left-r11-s4",
+      "section": "Партер",
+      "row": 11,
+      "seat": 4,
+      "x": 271.5,
+      "y": 1124.7,
+      "tariffId": "tariff-7"
+    },
+    {
+      "id": "parter-left-r11-s5",
+      "section": "Партер",
+      "row": 11,
+      "seat": 5,
+      "x": 314.5,
+      "y": 1124.7,
+      "tariffId": "tariff-7"
+    },
+    {
+      "id": "parter-left-r11-s6",
+      "section": "Партер",
+      "row": 11,
+      "seat": 6,
+      "x": 358.5,
+      "y": 1124.7,
+      "tariffId": "tariff-7"
+    },
+    {
+      "id": "parter-left-r11-s7",
+      "section": "Партер",
+      "row": 11,
+      "seat": 7,
+      "x": 401.5,
+      "y": 1124.7,
+      "tariffId": "tariff-7"
+    },
+    {
+      "id": "parter-left-r11-s8",
+      "section": "Партер",
+      "row": 11,
+      "seat": 8,
+      "x": 445,
+      "y": 1124.7,
+      "tariffId": "tariff-7"
+    },
+    {
+      "id": "parter-left-r11-s9",
+      "section": "Партер",
+      "row": 11,
+      "seat": 9,
+      "x": 488.5,
+      "y": 1124.7,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r11-s10",
+      "section": "Партер",
+      "row": 11,
+      "seat": 10,
+      "x": 531.5,
+      "y": 1124.7,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r11-s11",
+      "section": "Партер",
+      "row": 11,
+      "seat": 11,
+      "x": 575,
+      "y": 1124.7,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r11-s12",
+      "section": "Партер",
+      "row": 11,
+      "seat": 12,
+      "x": 618.5,
+      "y": 1124.7,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r11-s13",
+      "section": "Партер",
+      "row": 11,
+      "seat": 13,
+      "x": 662.5,
+      "y": 1124.7,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r11-s14",
+      "section": "Партер",
+      "row": 11,
+      "seat": 14,
+      "x": 705.5,
+      "y": 1124.7,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r11-s15",
+      "section": "Партер",
+      "row": 11,
+      "seat": 15,
+      "x": 748.5,
+      "y": 1124.7,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-left-r11-s16",
+      "section": "Партер",
+      "row": 11,
+      "seat": 16,
+      "x": 792.5,
+      "y": 1124.7,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-left-r11-s17",
+      "section": "Партер",
+      "row": 11,
+      "seat": 17,
+      "x": 835.5,
+      "y": 1124.7,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-left-r11-s18",
+      "section": "Партер",
+      "row": 11,
+      "seat": 18,
+      "x": 879,
+      "y": 1124.7,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-left-r11-s19",
+      "section": "Партер",
+      "row": 11,
+      "seat": 19,
+      "x": 922.5,
+      "y": 1124.7,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-left-r11-s20",
+      "section": "Партер",
+      "row": 11,
+      "seat": 20,
+      "x": 965.5,
+      "y": 1124.7,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-left-r11-s21",
+      "section": "Партер",
+      "row": 11,
+      "seat": 21,
+      "x": 1009,
+      "y": 1124.7,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-left-r11-s22",
+      "section": "Партер",
+      "row": 11,
+      "seat": 22,
+      "x": 1052.5,
+      "y": 1124.7,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-left-r11-s23",
+      "section": "Партер",
+      "row": 11,
+      "seat": 23,
+      "x": 1095.5,
+      "y": 1124.7,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-left-r11-s24",
+      "section": "Партер",
+      "row": 11,
+      "seat": 24,
+      "x": 1139,
+      "y": 1124.7,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-left-r11-s25",
+      "section": "Партер",
+      "row": 11,
+      "seat": 25,
+      "x": 1182.5,
+      "y": 1124.7,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-left-r11-s26",
+      "section": "Партер",
+      "row": 11,
+      "seat": 26,
+      "x": 1225.5,
+      "y": 1124.7,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-right-r11-s27",
+      "section": "Партер",
+      "row": 11,
+      "seat": 27,
+      "x": 1399.5,
+      "y": 1124.7,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-right-r11-s28",
+      "section": "Партер",
+      "row": 11,
+      "seat": 28,
+      "x": 1442.5,
+      "y": 1124.7,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-right-r11-s29",
+      "section": "Партер",
+      "row": 11,
+      "seat": 29,
+      "x": 1485.5,
+      "y": 1124.7,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-right-r11-s30",
+      "section": "Партер",
+      "row": 11,
+      "seat": 30,
+      "x": 1529.5,
+      "y": 1124.7,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-right-r11-s31",
+      "section": "Партер",
+      "row": 11,
+      "seat": 31,
+      "x": 1572.5,
+      "y": 1124.7,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-right-r11-s32",
+      "section": "Партер",
+      "row": 11,
+      "seat": 32,
+      "x": 1616,
+      "y": 1124.7,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-right-r11-s33",
+      "section": "Партер",
+      "row": 11,
+      "seat": 33,
+      "x": 1659.5,
+      "y": 1124.7,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-right-r11-s34",
+      "section": "Партер",
+      "row": 11,
+      "seat": 34,
+      "x": 1702.5,
+      "y": 1124.7,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-right-r11-s35",
+      "section": "Партер",
+      "row": 11,
+      "seat": 35,
+      "x": 1746.5,
+      "y": 1124.7,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-right-r11-s36",
+      "section": "Партер",
+      "row": 11,
+      "seat": 36,
+      "x": 1789.5,
+      "y": 1124.7,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r11-s37",
+      "section": "Партер",
+      "row": 11,
+      "seat": 37,
+      "x": 1832.5,
+      "y": 1124.7,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r11-s38",
+      "section": "Партер",
+      "row": 11,
+      "seat": 38,
+      "x": 1876.5,
+      "y": 1124.7,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-right-r11-s39",
+      "section": "Партер",
+      "row": 11,
+      "seat": 39,
+      "x": 1919.5,
+      "y": 1124.7,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-right-r11-s40",
+      "section": "Партер",
+      "row": 11,
+      "seat": 40,
+      "x": 1963.5,
+      "y": 1124.7,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r10-s1",
+      "section": "Партер",
+      "row": 10,
+      "seat": 1,
+      "x": 141.5,
+      "y": 1168.5,
+      "tariffId": "tariff-7"
+    },
+    {
+      "id": "parter-left-r10-s2",
+      "section": "Партер",
+      "row": 10,
+      "seat": 2,
+      "x": 184.5,
+      "y": 1168.5,
+      "tariffId": "tariff-7"
+    },
+    {
+      "id": "parter-left-r10-s3",
+      "section": "Партер",
+      "row": 10,
+      "seat": 3,
+      "x": 228.5,
+      "y": 1168.5,
+      "tariffId": "tariff-7"
+    },
+    {
+      "id": "parter-left-r10-s4",
+      "section": "Партер",
+      "row": 10,
+      "seat": 4,
+      "x": 271.5,
+      "y": 1168.5,
+      "tariffId": "tariff-7"
+    },
+    {
+      "id": "parter-left-r10-s5",
+      "section": "Партер",
+      "row": 10,
+      "seat": 5,
+      "x": 314.5,
+      "y": 1168.5,
+      "tariffId": "tariff-7"
+    },
+    {
+      "id": "parter-left-r10-s6",
+      "section": "Партер",
+      "row": 10,
+      "seat": 6,
+      "x": 358.5,
+      "y": 1168.5,
+      "tariffId": "tariff-7"
+    },
+    {
+      "id": "parter-left-r10-s7",
+      "section": "Партер",
+      "row": 10,
+      "seat": 7,
+      "x": 401.5,
+      "y": 1168.5,
+      "tariffId": "tariff-7"
+    },
+    {
+      "id": "parter-left-r10-s8",
+      "section": "Партер",
+      "row": 10,
+      "seat": 8,
+      "x": 445.5,
+      "y": 1168.5,
+      "tariffId": "tariff-7"
+    },
+    {
+      "id": "parter-left-r10-s9",
+      "section": "Партер",
+      "row": 10,
+      "seat": 9,
+      "x": 488.5,
+      "y": 1168.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r10-s10",
+      "section": "Партер",
+      "row": 10,
+      "seat": 10,
+      "x": 531.5,
+      "y": 1168.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r10-s11",
+      "section": "Партер",
+      "row": 10,
+      "seat": 11,
+      "x": 575,
+      "y": 1168.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r10-s12",
+      "section": "Партер",
+      "row": 10,
+      "seat": 12,
+      "x": 618.5,
+      "y": 1168.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r10-s13",
+      "section": "Партер",
+      "row": 10,
+      "seat": 13,
+      "x": 662.5,
+      "y": 1168.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r10-s14",
+      "section": "Партер",
+      "row": 10,
+      "seat": 14,
+      "x": 705.5,
+      "y": 1168.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r10-s15",
+      "section": "Партер",
+      "row": 10,
+      "seat": 15,
+      "x": 748.5,
+      "y": 1168.5,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-left-r10-s16",
+      "section": "Партер",
+      "row": 10,
+      "seat": 16,
+      "x": 792.5,
+      "y": 1168.5,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-left-r10-s17",
+      "section": "Партер",
+      "row": 10,
+      "seat": 17,
+      "x": 835.5,
+      "y": 1168.5,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-left-r10-s18",
+      "section": "Партер",
+      "row": 10,
+      "seat": 18,
+      "x": 879,
+      "y": 1168.5,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-left-r10-s19",
+      "section": "Партер",
+      "row": 10,
+      "seat": 19,
+      "x": 922.5,
+      "y": 1168.5,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-left-r10-s20",
+      "section": "Партер",
+      "row": 10,
+      "seat": 20,
+      "x": 965.5,
+      "y": 1168.5,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-left-r10-s21",
+      "section": "Партер",
+      "row": 10,
+      "seat": 21,
+      "x": 1009,
+      "y": 1168.5,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-left-r10-s22",
+      "section": "Партер",
+      "row": 10,
+      "seat": 22,
+      "x": 1052.5,
+      "y": 1168.5,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-left-r10-s23",
+      "section": "Партер",
+      "row": 10,
+      "seat": 23,
+      "x": 1095.5,
+      "y": 1168.5,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-left-r10-s24",
+      "section": "Партер",
+      "row": 10,
+      "seat": 24,
+      "x": 1139.5,
+      "y": 1168.5,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-left-r10-s25",
+      "section": "Партер",
+      "row": 10,
+      "seat": 25,
+      "x": 1182.5,
+      "y": 1168.5,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-left-r10-s26",
+      "section": "Партер",
+      "row": 10,
+      "seat": 26,
+      "x": 1226,
+      "y": 1168.5,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-right-r10-s27",
+      "section": "Партер",
+      "row": 10,
+      "seat": 27,
+      "x": 1399.5,
+      "y": 1168.5,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-right-r10-s28",
+      "section": "Партер",
+      "row": 10,
+      "seat": 28,
+      "x": 1442.5,
+      "y": 1168.5,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-right-r10-s29",
+      "section": "Партер",
+      "row": 10,
+      "seat": 29,
+      "x": 1486,
+      "y": 1168.5,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-right-r10-s30",
+      "section": "Партер",
+      "row": 10,
+      "seat": 30,
+      "x": 1529.5,
+      "y": 1168.5,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-right-r10-s31",
+      "section": "Партер",
+      "row": 10,
+      "seat": 31,
+      "x": 1572.5,
+      "y": 1168.5,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-right-r10-s32",
+      "section": "Партер",
+      "row": 10,
+      "seat": 32,
+      "x": 1616,
+      "y": 1168.5,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-right-r10-s33",
+      "section": "Партер",
+      "row": 10,
+      "seat": 33,
+      "x": 1659.5,
+      "y": 1168.5,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-right-r10-s34",
+      "section": "Партер",
+      "row": 10,
+      "seat": 34,
+      "x": 1702.5,
+      "y": 1168.5,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-right-r10-s35",
+      "section": "Партер",
+      "row": 10,
+      "seat": 35,
+      "x": 1746.5,
+      "y": 1168.5,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-right-r10-s36",
+      "section": "Партер",
+      "row": 10,
+      "seat": 36,
+      "x": 1789.5,
+      "y": 1168.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r10-s37",
+      "section": "Партер",
+      "row": 10,
+      "seat": 37,
+      "x": 1832.5,
+      "y": 1168.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r10-s38",
+      "section": "Партер",
+      "row": 10,
+      "seat": 38,
+      "x": 1876.5,
+      "y": 1168.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-right-r10-s39",
+      "section": "Партер",
+      "row": 10,
+      "seat": 39,
+      "x": 1919.5,
+      "y": 1168.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-right-r10-s40",
+      "section": "Партер",
+      "row": 10,
+      "seat": 40,
+      "x": 1963,
+      "y": 1168.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r9-s1",
+      "section": "Партер",
+      "row": 9,
+      "seat": 1,
+      "x": 141.5,
+      "y": 1211.7,
+      "tariffId": "tariff-7"
+    },
+    {
+      "id": "parter-left-r9-s2",
+      "section": "Партер",
+      "row": 9,
+      "seat": 2,
+      "x": 184.5,
+      "y": 1211.7,
+      "tariffId": "tariff-7"
+    },
+    {
+      "id": "parter-left-r9-s3",
+      "section": "Партер",
+      "row": 9,
+      "seat": 3,
+      "x": 228.5,
+      "y": 1211.7,
+      "tariffId": "tariff-7"
+    },
+    {
+      "id": "parter-left-r9-s4",
+      "section": "Партер",
+      "row": 9,
+      "seat": 4,
+      "x": 271.5,
+      "y": 1211.7,
+      "tariffId": "tariff-7"
+    },
+    {
+      "id": "parter-left-r9-s5",
+      "section": "Партер",
+      "row": 9,
+      "seat": 5,
+      "x": 314.5,
+      "y": 1211.7,
+      "tariffId": "tariff-7"
+    },
+    {
+      "id": "parter-left-r9-s6",
+      "section": "Партер",
+      "row": 9,
+      "seat": 6,
+      "x": 358.5,
+      "y": 1211.7,
+      "tariffId": "tariff-7"
+    },
+    {
+      "id": "parter-left-r9-s7",
+      "section": "Партер",
+      "row": 9,
+      "seat": 7,
+      "x": 401.5,
+      "y": 1211.7,
+      "tariffId": "tariff-7"
+    },
+    {
+      "id": "parter-left-r9-s8",
+      "section": "Партер",
+      "row": 9,
+      "seat": 8,
+      "x": 445,
+      "y": 1211.7,
+      "tariffId": "tariff-7"
+    },
+    {
+      "id": "parter-left-r9-s9",
+      "section": "Партер",
+      "row": 9,
+      "seat": 9,
+      "x": 488.5,
+      "y": 1211.7,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r9-s10",
+      "section": "Партер",
+      "row": 9,
+      "seat": 10,
+      "x": 531.5,
+      "y": 1211.7,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r9-s11",
+      "section": "Партер",
+      "row": 9,
+      "seat": 11,
+      "x": 575,
+      "y": 1211.7,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r9-s12",
+      "section": "Партер",
+      "row": 9,
+      "seat": 12,
+      "x": 618.5,
+      "y": 1211.7,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r9-s13",
+      "section": "Партер",
+      "row": 9,
+      "seat": 13,
+      "x": 662.5,
+      "y": 1211.7,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r9-s14",
+      "section": "Партер",
+      "row": 9,
+      "seat": 14,
+      "x": 705.5,
+      "y": 1211.7,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r9-s15",
+      "section": "Партер",
+      "row": 9,
+      "seat": 15,
+      "x": 748.5,
+      "y": 1211.7,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-left-r9-s16",
+      "section": "Партер",
+      "row": 9,
+      "seat": 16,
+      "x": 792.5,
+      "y": 1211.7,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-left-r9-s17",
+      "section": "Партер",
+      "row": 9,
+      "seat": 17,
+      "x": 835.5,
+      "y": 1211.7,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-left-r9-s18",
+      "section": "Партер",
+      "row": 9,
+      "seat": 18,
+      "x": 879,
+      "y": 1211.7,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-left-r9-s19",
+      "section": "Партер",
+      "row": 9,
+      "seat": 19,
+      "x": 922.5,
+      "y": 1211.7,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-left-r9-s20",
+      "section": "Партер",
+      "row": 9,
+      "seat": 20,
+      "x": 965.5,
+      "y": 1211.7,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-left-r9-s21",
+      "section": "Партер",
+      "row": 9,
+      "seat": 21,
+      "x": 1009,
+      "y": 1211.7,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r9-s22",
+      "section": "Партер",
+      "row": 9,
+      "seat": 22,
+      "x": 1052.5,
+      "y": 1211.7,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r9-s23",
+      "section": "Партер",
+      "row": 9,
+      "seat": 23,
+      "x": 1095.5,
+      "y": 1211.7,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r9-s24",
+      "section": "Партер",
+      "row": 9,
+      "seat": 24,
+      "x": 1139.5,
+      "y": 1211.7,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r9-s25",
+      "section": "Партер",
+      "row": 9,
+      "seat": 25,
+      "x": 1182.5,
+      "y": 1211.7,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r9-s26",
+      "section": "Партер",
+      "row": 9,
+      "seat": 26,
+      "x": 1226,
+      "y": 1211.7,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r9-s27",
+      "section": "Партер",
+      "row": 9,
+      "seat": 27,
+      "x": 1399.5,
+      "y": 1211.7,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r9-s28",
+      "section": "Партер",
+      "row": 9,
+      "seat": 28,
+      "x": 1442.5,
+      "y": 1211.7,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r9-s29",
+      "section": "Партер",
+      "row": 9,
+      "seat": 29,
+      "x": 1486,
+      "y": 1211.7,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r9-s30",
+      "section": "Партер",
+      "row": 9,
+      "seat": 30,
+      "x": 1529.5,
+      "y": 1211.7,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r9-s31",
+      "section": "Партер",
+      "row": 9,
+      "seat": 31,
+      "x": 1572.5,
+      "y": 1211.7,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-right-r9-s32",
+      "section": "Партер",
+      "row": 9,
+      "seat": 32,
+      "x": 1616,
+      "y": 1211.7,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-right-r9-s33",
+      "section": "Партер",
+      "row": 9,
+      "seat": 33,
+      "x": 1659.5,
+      "y": 1211.7,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-right-r9-s34",
+      "section": "Партер",
+      "row": 9,
+      "seat": 34,
+      "x": 1702.5,
+      "y": 1211.7,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-right-r9-s35",
+      "section": "Партер",
+      "row": 9,
+      "seat": 35,
+      "x": 1746.5,
+      "y": 1211.7,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-right-r9-s36",
+      "section": "Партер",
+      "row": 9,
+      "seat": 36,
+      "x": 1789.5,
+      "y": 1211.7,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r9-s37",
+      "section": "Партер",
+      "row": 9,
+      "seat": 37,
+      "x": 1832.5,
+      "y": 1211.7,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r9-s38",
+      "section": "Партер",
+      "row": 9,
+      "seat": 38,
+      "x": 1876.5,
+      "y": 1211.7,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-right-r9-s39",
+      "section": "Партер",
+      "row": 9,
+      "seat": 39,
+      "x": 1919.5,
+      "y": 1211.7,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-right-r9-s40",
+      "section": "Партер",
+      "row": 9,
+      "seat": 40,
+      "x": 1963,
+      "y": 1211.7,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r8-s1",
+      "section": "Партер",
+      "row": 8,
+      "seat": 1,
+      "x": 184.5,
+      "y": 1255.2,
+      "tariffId": "tariff-7"
+    },
+    {
+      "id": "parter-left-r8-s2",
+      "section": "Партер",
+      "row": 8,
+      "seat": 2,
+      "x": 228.5,
+      "y": 1255.2,
+      "tariffId": "tariff-7"
+    },
+    {
+      "id": "parter-left-r8-s3",
+      "section": "Партер",
+      "row": 8,
+      "seat": 3,
+      "x": 271.5,
+      "y": 1255.2,
+      "tariffId": "tariff-7"
+    },
+    {
+      "id": "parter-left-r8-s4",
+      "section": "Партер",
+      "row": 8,
+      "seat": 4,
+      "x": 314.5,
+      "y": 1255.2,
+      "tariffId": "tariff-7"
+    },
+    {
+      "id": "parter-left-r8-s5",
+      "section": "Партер",
+      "row": 8,
+      "seat": 5,
+      "x": 358.5,
+      "y": 1255.2,
+      "tariffId": "tariff-7"
+    },
+    {
+      "id": "parter-left-r8-s6",
+      "section": "Партер",
+      "row": 8,
+      "seat": 6,
+      "x": 401.5,
+      "y": 1255.2,
+      "tariffId": "tariff-7"
+    },
+    {
+      "id": "parter-left-r8-s7",
+      "section": "Партер",
+      "row": 8,
+      "seat": 7,
+      "x": 445.5,
+      "y": 1255.2,
+      "tariffId": "tariff-7"
+    },
+    {
+      "id": "parter-left-r8-s8",
+      "section": "Партер",
+      "row": 8,
+      "seat": 8,
+      "x": 488.5,
+      "y": 1255.2,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r8-s9",
+      "section": "Партер",
+      "row": 8,
+      "seat": 9,
+      "x": 531.5,
+      "y": 1255.2,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r8-s10",
+      "section": "Партер",
+      "row": 8,
+      "seat": 10,
+      "x": 575,
+      "y": 1255.2,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r8-s11",
+      "section": "Партер",
+      "row": 8,
+      "seat": 11,
+      "x": 618.5,
+      "y": 1255.2,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r8-s12",
+      "section": "Партер",
+      "row": 8,
+      "seat": 12,
+      "x": 662.5,
+      "y": 1255.2,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r8-s13",
+      "section": "Партер",
+      "row": 8,
+      "seat": 13,
+      "x": 705.5,
+      "y": 1255.2,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r8-s14",
+      "section": "Партер",
+      "row": 8,
+      "seat": 14,
+      "x": 748.5,
+      "y": 1255.2,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-left-r8-s15",
+      "section": "Партер",
+      "row": 8,
+      "seat": 15,
+      "x": 792.5,
+      "y": 1255.2,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-left-r8-s16",
+      "section": "Партер",
+      "row": 8,
+      "seat": 16,
+      "x": 835.5,
+      "y": 1255.2,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-left-r8-s17",
+      "section": "Партер",
+      "row": 8,
+      "seat": 17,
+      "x": 879,
+      "y": 1255.2,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-left-r8-s18",
+      "section": "Партер",
+      "row": 8,
+      "seat": 18,
+      "x": 922.5,
+      "y": 1255.2,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r8-s19",
+      "section": "Партер",
+      "row": 8,
+      "seat": 19,
+      "x": 965.5,
+      "y": 1255.2,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r8-s20",
+      "section": "Партер",
+      "row": 8,
+      "seat": 20,
+      "x": 1009,
+      "y": 1255.2,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r8-s21",
+      "section": "Партер",
+      "row": 8,
+      "seat": 21,
+      "x": 1052.5,
+      "y": 1255.2,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r8-s22",
+      "section": "Партер",
+      "row": 8,
+      "seat": 22,
+      "x": 1095.5,
+      "y": 1255.2,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r8-s23",
+      "section": "Партер",
+      "row": 8,
+      "seat": 23,
+      "x": 1139,
+      "y": 1255.2,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r8-s24",
+      "section": "Партер",
+      "row": 8,
+      "seat": 24,
+      "x": 1182.5,
+      "y": 1255.2,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r8-s25",
+      "section": "Партер",
+      "row": 8,
+      "seat": 25,
+      "x": 1225.5,
+      "y": 1255.2,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r8-s26",
+      "section": "Партер",
+      "row": 8,
+      "seat": 26,
+      "x": 1399.5,
+      "y": 1255.2,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r8-s27",
+      "section": "Партер",
+      "row": 8,
+      "seat": 27,
+      "x": 1442.5,
+      "y": 1255.2,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r8-s28",
+      "section": "Партер",
+      "row": 8,
+      "seat": 28,
+      "x": 1486,
+      "y": 1255.2,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r8-s29",
+      "section": "Партер",
+      "row": 8,
+      "seat": 29,
+      "x": 1529.5,
+      "y": 1255.2,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r8-s30",
+      "section": "Партер",
+      "row": 8,
+      "seat": 30,
+      "x": 1572.5,
+      "y": 1255.2,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r8-s31",
+      "section": "Партер",
+      "row": 8,
+      "seat": 31,
+      "x": 1616,
+      "y": 1255.2,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-right-r8-s32",
+      "section": "Партер",
+      "row": 8,
+      "seat": 32,
+      "x": 1659.5,
+      "y": 1255.2,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-right-r8-s33",
+      "section": "Партер",
+      "row": 8,
+      "seat": 33,
+      "x": 1702.5,
+      "y": 1255.2,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-right-r8-s34",
+      "section": "Партер",
+      "row": 8,
+      "seat": 34,
+      "x": 1746.5,
+      "y": 1255.2,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-right-r8-s35",
+      "section": "Партер",
+      "row": 8,
+      "seat": 35,
+      "x": 1789.5,
+      "y": 1255.2,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r8-s36",
+      "section": "Партер",
+      "row": 8,
+      "seat": 36,
+      "x": 1832.5,
+      "y": 1255.2,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r8-s37",
+      "section": "Партер",
+      "row": 8,
+      "seat": 37,
+      "x": 1876.5,
+      "y": 1255.2,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-right-r8-s38",
+      "section": "Партер",
+      "row": 8,
+      "seat": 38,
+      "x": 1919.5,
+      "y": 1255.2,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-right-r8-s39",
+      "section": "Партер",
+      "row": 8,
+      "seat": 39,
+      "x": 1963,
+      "y": 1255.2,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r7-s1",
+      "section": "Партер",
+      "row": 7,
+      "seat": 1,
+      "x": 358.5,
+      "y": 1298.5,
+      "tariffId": "tariff-7"
+    },
+    {
+      "id": "parter-left-r7-s2",
+      "section": "Партер",
+      "row": 7,
+      "seat": 2,
+      "x": 401.5,
+      "y": 1298.5,
+      "tariffId": "tariff-7"
+    },
+    {
+      "id": "parter-left-r7-s3",
+      "section": "Партер",
+      "row": 7,
+      "seat": 3,
+      "x": 445,
+      "y": 1298.5,
+      "tariffId": "tariff-7"
+    },
+    {
+      "id": "parter-left-r7-s4",
+      "section": "Партер",
+      "row": 7,
+      "seat": 4,
+      "x": 488.5,
+      "y": 1298.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r7-s5",
+      "section": "Партер",
+      "row": 7,
+      "seat": 5,
+      "x": 531.5,
+      "y": 1298.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r7-s6",
+      "section": "Партер",
+      "row": 7,
+      "seat": 6,
+      "x": 575,
+      "y": 1298.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r7-s7",
+      "section": "Партер",
+      "row": 7,
+      "seat": 7,
+      "x": 618.5,
+      "y": 1298.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r7-s8",
+      "section": "Партер",
+      "row": 7,
+      "seat": 8,
+      "x": 662.5,
+      "y": 1298.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r7-s9",
+      "section": "Партер",
+      "row": 7,
+      "seat": 9,
+      "x": 705.5,
+      "y": 1298.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r7-s10",
+      "section": "Партер",
+      "row": 7,
+      "seat": 10,
+      "x": 748.5,
+      "y": 1298.5,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-left-r7-s11",
+      "section": "Партер",
+      "row": 7,
+      "seat": 11,
+      "x": 792.5,
+      "y": 1298.5,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-left-r7-s12",
+      "section": "Партер",
+      "row": 7,
+      "seat": 12,
+      "x": 835.5,
+      "y": 1298.5,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-left-r7-s13",
+      "section": "Партер",
+      "row": 7,
+      "seat": 13,
+      "x": 879,
+      "y": 1298.5,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r7-s14",
+      "section": "Партер",
+      "row": 7,
+      "seat": 14,
+      "x": 922.5,
+      "y": 1298.5,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r7-s15",
+      "section": "Партер",
+      "row": 7,
+      "seat": 15,
+      "x": 965.5,
+      "y": 1298.5,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r7-s16",
+      "section": "Партер",
+      "row": 7,
+      "seat": 16,
+      "x": 1009,
+      "y": 1298.5,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r7-s17",
+      "section": "Партер",
+      "row": 7,
+      "seat": 17,
+      "x": 1052.5,
+      "y": 1298.5,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r7-s18",
+      "section": "Партер",
+      "row": 7,
+      "seat": 18,
+      "x": 1095.5,
+      "y": 1298.5,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r7-s19",
+      "section": "Партер",
+      "row": 7,
+      "seat": 19,
+      "x": 1139,
+      "y": 1298.5,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r7-s20",
+      "section": "Партер",
+      "row": 7,
+      "seat": 20,
+      "x": 1182.5,
+      "y": 1298.5,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r7-s21",
+      "section": "Партер",
+      "row": 7,
+      "seat": 21,
+      "x": 1225.5,
+      "y": 1298.5,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r7-s22",
+      "section": "Партер",
+      "row": 7,
+      "seat": 22,
+      "x": 1399.5,
+      "y": 1298.5,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r7-s23",
+      "section": "Партер",
+      "row": 7,
+      "seat": 23,
+      "x": 1442.5,
+      "y": 1298.5,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r7-s24",
+      "section": "Партер",
+      "row": 7,
+      "seat": 24,
+      "x": 1486,
+      "y": 1298.5,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r7-s25",
+      "section": "Партер",
+      "row": 7,
+      "seat": 25,
+      "x": 1529.5,
+      "y": 1298.5,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r7-s26",
+      "section": "Партер",
+      "row": 7,
+      "seat": 26,
+      "x": 1572.5,
+      "y": 1298.5,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r7-s27",
+      "section": "Партер",
+      "row": 7,
+      "seat": 27,
+      "x": 1616,
+      "y": 1298.5,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r7-s28",
+      "section": "Партер",
+      "row": 7,
+      "seat": 28,
+      "x": 1659.5,
+      "y": 1298.5,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-right-r7-s29",
+      "section": "Партер",
+      "row": 7,
+      "seat": 29,
+      "x": 1702.5,
+      "y": 1298.5,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-right-r7-s30",
+      "section": "Партер",
+      "row": 7,
+      "seat": 30,
+      "x": 1746.5,
+      "y": 1298.5,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-right-r7-s31",
+      "section": "Партер",
+      "row": 7,
+      "seat": 31,
+      "x": 1789.5,
+      "y": 1298.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r7-s32",
+      "section": "Партер",
+      "row": 7,
+      "seat": 32,
+      "x": 1832.5,
+      "y": 1298.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r7-s33",
+      "section": "Партер",
+      "row": 7,
+      "seat": 33,
+      "x": 1876.5,
+      "y": 1298.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-right-r7-s34",
+      "section": "Партер",
+      "row": 7,
+      "seat": 34,
+      "x": 1919.5,
+      "y": 1298.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-right-r7-s35",
+      "section": "Партер",
+      "row": 7,
+      "seat": 35,
+      "x": 1963,
+      "y": 1298.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r6-s1",
+      "section": "Партер",
+      "row": 6,
+      "seat": 1,
+      "x": 445,
+      "y": 1341.5,
+      "tariffId": "tariff-7"
+    },
+    {
+      "id": "parter-left-r6-s2",
+      "section": "Партер",
+      "row": 6,
+      "seat": 2,
+      "x": 488.5,
+      "y": 1341.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r6-s3",
+      "section": "Партер",
+      "row": 6,
+      "seat": 3,
+      "x": 531.5,
+      "y": 1341.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r6-s4",
+      "section": "Партер",
+      "row": 6,
+      "seat": 4,
+      "x": 575,
+      "y": 1341.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r6-s5",
+      "section": "Партер",
+      "row": 6,
+      "seat": 5,
+      "x": 618.5,
+      "y": 1341.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r6-s6",
+      "section": "Партер",
+      "row": 6,
+      "seat": 6,
+      "x": 662.5,
+      "y": 1341.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r6-s7",
+      "section": "Партер",
+      "row": 6,
+      "seat": 7,
+      "x": 705.5,
+      "y": 1341.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r6-s8",
+      "section": "Партер",
+      "row": 6,
+      "seat": 8,
+      "x": 748.5,
+      "y": 1341.5,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-left-r6-s9",
+      "section": "Партер",
+      "row": 6,
+      "seat": 9,
+      "x": 792.5,
+      "y": 1341.5,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-left-r6-s10",
+      "section": "Партер",
+      "row": 6,
+      "seat": 10,
+      "x": 835.5,
+      "y": 1341.5,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r6-s11",
+      "section": "Партер",
+      "row": 6,
+      "seat": 11,
+      "x": 879,
+      "y": 1341.5,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r6-s12",
+      "section": "Партер",
+      "row": 6,
+      "seat": 12,
+      "x": 922.5,
+      "y": 1341.5,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r6-s13",
+      "section": "Партер",
+      "row": 6,
+      "seat": 13,
+      "x": 965.5,
+      "y": 1341.5,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r6-s14",
+      "section": "Партер",
+      "row": 6,
+      "seat": 14,
+      "x": 1009,
+      "y": 1341.5,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r6-s15",
+      "section": "Партер",
+      "row": 6,
+      "seat": 15,
+      "x": 1052.5,
+      "y": 1341.5,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r6-s16",
+      "section": "Партер",
+      "row": 6,
+      "seat": 16,
+      "x": 1095.5,
+      "y": 1341.5,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r6-s17",
+      "section": "Партер",
+      "row": 6,
+      "seat": 17,
+      "x": 1139.5,
+      "y": 1341.5,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r6-s18",
+      "section": "Партер",
+      "row": 6,
+      "seat": 18,
+      "x": 1182.5,
+      "y": 1341.5,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r6-s19",
+      "section": "Партер",
+      "row": 6,
+      "seat": 19,
+      "x": 1225.5,
+      "y": 1341.5,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r6-s20",
+      "section": "Партер",
+      "row": 6,
+      "seat": 20,
+      "x": 1399.5,
+      "y": 1341.5,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r6-s21",
+      "section": "Партер",
+      "row": 6,
+      "seat": 21,
+      "x": 1442.5,
+      "y": 1341.5,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r6-s22",
+      "section": "Партер",
+      "row": 6,
+      "seat": 22,
+      "x": 1486,
+      "y": 1341.5,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r6-s23",
+      "section": "Партер",
+      "row": 6,
+      "seat": 23,
+      "x": 1529.5,
+      "y": 1341.5,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r6-s24",
+      "section": "Партер",
+      "row": 6,
+      "seat": 24,
+      "x": 1572.5,
+      "y": 1341.5,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r6-s25",
+      "section": "Партер",
+      "row": 6,
+      "seat": 25,
+      "x": 1616,
+      "y": 1341.5,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r6-s26",
+      "section": "Партер",
+      "row": 6,
+      "seat": 26,
+      "x": 1659.5,
+      "y": 1341.5,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r6-s27",
+      "section": "Партер",
+      "row": 6,
+      "seat": 27,
+      "x": 1702.5,
+      "y": 1341.5,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-right-r6-s28",
+      "section": "Партер",
+      "row": 6,
+      "seat": 28,
+      "x": 1746.5,
+      "y": 1341.5,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-right-r6-s29",
+      "section": "Партер",
+      "row": 6,
+      "seat": 29,
+      "x": 1789.5,
+      "y": 1341.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r6-s30",
+      "section": "Партер",
+      "row": 6,
+      "seat": 30,
+      "x": 1832.5,
+      "y": 1341.5,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r6-s31",
+      "section": "Партер",
+      "row": 6,
+      "seat": 31,
+      "x": 1876.5,
+      "y": 1341.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-right-r6-s32",
+      "section": "Партер",
+      "row": 6,
+      "seat": 32,
+      "x": 1919.5,
+      "y": 1341.5,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-right-r6-s33",
+      "section": "Партер",
+      "row": 6,
+      "seat": 33,
+      "x": 1963.5,
+      "y": 1341.5,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r5-s1",
+      "section": "Партер",
+      "row": 5,
+      "seat": 1,
+      "x": 488.5,
+      "y": 1385.1,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r5-s2",
+      "section": "Партер",
+      "row": 5,
+      "seat": 2,
+      "x": 531.5,
+      "y": 1385.1,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r5-s3",
+      "section": "Партер",
+      "row": 5,
+      "seat": 3,
+      "x": 575,
+      "y": 1385.1,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r5-s4",
+      "section": "Партер",
+      "row": 5,
+      "seat": 4,
+      "x": 618.5,
+      "y": 1385.1,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r5-s5",
+      "section": "Партер",
+      "row": 5,
+      "seat": 5,
+      "x": 662.5,
+      "y": 1385.1,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r5-s6",
+      "section": "Партер",
+      "row": 5,
+      "seat": 6,
+      "x": 705.5,
+      "y": 1385.1,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r5-s7",
+      "section": "Партер",
+      "row": 5,
+      "seat": 7,
+      "x": 748.5,
+      "y": 1385.1,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-left-r5-s8",
+      "section": "Партер",
+      "row": 5,
+      "seat": 8,
+      "x": 792.5,
+      "y": 1385.1,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-left-r5-s9",
+      "section": "Партер",
+      "row": 5,
+      "seat": 9,
+      "x": 835.5,
+      "y": 1385.1,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r5-s10",
+      "section": "Партер",
+      "row": 5,
+      "seat": 10,
+      "x": 879,
+      "y": 1385.1,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r5-s11",
+      "section": "Партер",
+      "row": 5,
+      "seat": 11,
+      "x": 922.5,
+      "y": 1385.1,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r5-s12",
+      "section": "Партер",
+      "row": 5,
+      "seat": 12,
+      "x": 965.5,
+      "y": 1385.1,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r5-s13",
+      "section": "Партер",
+      "row": 5,
+      "seat": 13,
+      "x": 1009,
+      "y": 1385.1,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r5-s14",
+      "section": "Партер",
+      "row": 5,
+      "seat": 14,
+      "x": 1052.5,
+      "y": 1385.1,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r5-s15",
+      "section": "Партер",
+      "row": 5,
+      "seat": 15,
+      "x": 1095.5,
+      "y": 1385.1,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r5-s16",
+      "section": "Партер",
+      "row": 5,
+      "seat": 16,
+      "x": 1139.5,
+      "y": 1385.1,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r5-s17",
+      "section": "Партер",
+      "row": 5,
+      "seat": 17,
+      "x": 1182.5,
+      "y": 1385.1,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r5-s18",
+      "section": "Партер",
+      "row": 5,
+      "seat": 18,
+      "x": 1225.5,
+      "y": 1385.1,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r5-s19",
+      "section": "Партер",
+      "row": 5,
+      "seat": 19,
+      "x": 1399.5,
+      "y": 1385.1,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r5-s20",
+      "section": "Партер",
+      "row": 5,
+      "seat": 20,
+      "x": 1442.5,
+      "y": 1385.1,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r5-s21",
+      "section": "Партер",
+      "row": 5,
+      "seat": 21,
+      "x": 1486,
+      "y": 1385.1,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r5-s22",
+      "section": "Партер",
+      "row": 5,
+      "seat": 22,
+      "x": 1529.5,
+      "y": 1385.1,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r5-s23",
+      "section": "Партер",
+      "row": 5,
+      "seat": 23,
+      "x": 1572.5,
+      "y": 1385.1,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r5-s24",
+      "section": "Партер",
+      "row": 5,
+      "seat": 24,
+      "x": 1616,
+      "y": 1385.1,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r5-s25",
+      "section": "Партер",
+      "row": 5,
+      "seat": 25,
+      "x": 1659.5,
+      "y": 1385.1,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r5-s26",
+      "section": "Партер",
+      "row": 5,
+      "seat": 26,
+      "x": 1702.5,
+      "y": 1385.1,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-right-r5-s27",
+      "section": "Партер",
+      "row": 5,
+      "seat": 27,
+      "x": 1746.5,
+      "y": 1385.1,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-right-r5-s28",
+      "section": "Партер",
+      "row": 5,
+      "seat": 28,
+      "x": 1789.5,
+      "y": 1385.1,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r5-s29",
+      "section": "Партер",
+      "row": 5,
+      "seat": 29,
+      "x": 1832.5,
+      "y": 1385.1,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r5-s30",
+      "section": "Партер",
+      "row": 5,
+      "seat": 30,
+      "x": 1876.5,
+      "y": 1385.1,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-right-r5-s31",
+      "section": "Партер",
+      "row": 5,
+      "seat": 31,
+      "x": 1919.5,
+      "y": 1385.1,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-right-r5-s32",
+      "section": "Партер",
+      "row": 5,
+      "seat": 32,
+      "x": 1963,
+      "y": 1385.1,
+      "tariffId": "tariff-5"
+    },
+    {
+      "id": "parter-left-r4-s1",
+      "section": "Партер",
+      "row": 4,
+      "seat": 1,
+      "x": 662.5,
+      "y": 1428.2,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r4-s2",
+      "section": "Партер",
+      "row": 4,
+      "seat": 2,
+      "x": 705.5,
+      "y": 1428.2,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r4-s3",
+      "section": "Партер",
+      "row": 4,
+      "seat": 3,
+      "x": 748.5,
+      "y": 1428.2,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-left-r4-s4",
+      "section": "Партер",
+      "row": 4,
+      "seat": 4,
+      "x": 792.5,
+      "y": 1428.2,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-left-r4-s5",
+      "section": "Партер",
+      "row": 4,
+      "seat": 5,
+      "x": 835.5,
+      "y": 1428.2,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r4-s6",
+      "section": "Партер",
+      "row": 4,
+      "seat": 6,
+      "x": 879,
+      "y": 1428.2,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r4-s7",
+      "section": "Партер",
+      "row": 4,
+      "seat": 7,
+      "x": 922.5,
+      "y": 1428.2,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r4-s8",
+      "section": "Партер",
+      "row": 4,
+      "seat": 8,
+      "x": 965.5,
+      "y": 1428.2,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r4-s9",
+      "section": "Партер",
+      "row": 4,
+      "seat": 9,
+      "x": 1009,
+      "y": 1428.2,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r4-s10",
+      "section": "Партер",
+      "row": 4,
+      "seat": 10,
+      "x": 1052.5,
+      "y": 1428.2,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r4-s11",
+      "section": "Партер",
+      "row": 4,
+      "seat": 11,
+      "x": 1095.5,
+      "y": 1428.2,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r4-s12",
+      "section": "Партер",
+      "row": 4,
+      "seat": 12,
+      "x": 1139.5,
+      "y": 1428.2,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r4-s13",
+      "section": "Партер",
+      "row": 4,
+      "seat": 13,
+      "x": 1182.5,
+      "y": 1428.2,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r4-s14",
+      "section": "Партер",
+      "row": 4,
+      "seat": 14,
+      "x": 1225.5,
+      "y": 1428.2,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r4-s15",
+      "section": "Партер",
+      "row": 4,
+      "seat": 15,
+      "x": 1399.5,
+      "y": 1428.2,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r4-s16",
+      "section": "Партер",
+      "row": 4,
+      "seat": 16,
+      "x": 1442.5,
+      "y": 1428.2,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r4-s17",
+      "section": "Партер",
+      "row": 4,
+      "seat": 17,
+      "x": 1486,
+      "y": 1428.2,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r4-s18",
+      "section": "Партер",
+      "row": 4,
+      "seat": 18,
+      "x": 1529.5,
+      "y": 1428.2,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r4-s19",
+      "section": "Партер",
+      "row": 4,
+      "seat": 19,
+      "x": 1572.5,
+      "y": 1428.2,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r4-s20",
+      "section": "Партер",
+      "row": 4,
+      "seat": 20,
+      "x": 1616,
+      "y": 1428.2,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r4-s21",
+      "section": "Партер",
+      "row": 4,
+      "seat": 21,
+      "x": 1659.5,
+      "y": 1428.2,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r4-s22",
+      "section": "Партер",
+      "row": 4,
+      "seat": 22,
+      "x": 1702.5,
+      "y": 1428.2,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-right-r4-s23",
+      "section": "Партер",
+      "row": 4,
+      "seat": 23,
+      "x": 1746.5,
+      "y": 1428.2,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-right-r4-s24",
+      "section": "Партер",
+      "row": 4,
+      "seat": 24,
+      "x": 1789.5,
+      "y": 1428.2,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r4-s25",
+      "section": "Партер",
+      "row": 4,
+      "seat": 25,
+      "x": 1832.5,
+      "y": 1428.2,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r4-s26",
+      "section": "Партер",
+      "row": 4,
+      "seat": 26,
+      "x": 1876.5,
+      "y": 1428.2,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-right-r4-s27",
+      "section": "Партер",
+      "row": 4,
+      "seat": 27,
+      "x": 1919.5,
+      "y": 1428.2,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r3-s1",
+      "section": "Партер",
+      "row": 3,
+      "seat": 1,
+      "x": 662.5,
+      "y": 1471.4,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r3-s2",
+      "section": "Партер",
+      "row": 3,
+      "seat": 2,
+      "x": 705.5,
+      "y": 1471.4,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r3-s3",
+      "section": "Партер",
+      "row": 3,
+      "seat": 3,
+      "x": 748.5,
+      "y": 1471.4,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-left-r3-s4",
+      "section": "Партер",
+      "row": 3,
+      "seat": 4,
+      "x": 792.5,
+      "y": 1471.4,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-left-r3-s5",
+      "section": "Партер",
+      "row": 3,
+      "seat": 5,
+      "x": 835.5,
+      "y": 1471.4,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r3-s6",
+      "section": "Партер",
+      "row": 3,
+      "seat": 6,
+      "x": 879,
+      "y": 1471.4,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r3-s7",
+      "section": "Партер",
+      "row": 3,
+      "seat": 7,
+      "x": 922.5,
+      "y": 1471.4,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r3-s8",
+      "section": "Партер",
+      "row": 3,
+      "seat": 8,
+      "x": 965.5,
+      "y": 1471.4,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r3-s9",
+      "section": "Партер",
+      "row": 3,
+      "seat": 9,
+      "x": 1009,
+      "y": 1471.4,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r3-s10",
+      "section": "Партер",
+      "row": 3,
+      "seat": 10,
+      "x": 1052.5,
+      "y": 1471.4,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r3-s11",
+      "section": "Партер",
+      "row": 3,
+      "seat": 11,
+      "x": 1095.5,
+      "y": 1471.4,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r3-s12",
+      "section": "Партер",
+      "row": 3,
+      "seat": 12,
+      "x": 1139.5,
+      "y": 1471.4,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r3-s13",
+      "section": "Партер",
+      "row": 3,
+      "seat": 13,
+      "x": 1182.5,
+      "y": 1471.4,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-left-r3-s14",
+      "section": "Партер",
+      "row": 3,
+      "seat": 14,
+      "x": 1225.5,
+      "y": 1471.4,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r3-s15",
+      "section": "Партер",
+      "row": 3,
+      "seat": 15,
+      "x": 1399.5,
+      "y": 1471.4,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r3-s16",
+      "section": "Партер",
+      "row": 3,
+      "seat": 16,
+      "x": 1442.5,
+      "y": 1471.4,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r3-s17",
+      "section": "Партер",
+      "row": 3,
+      "seat": 17,
+      "x": 1486,
+      "y": 1471.4,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r3-s18",
+      "section": "Партер",
+      "row": 3,
+      "seat": 18,
+      "x": 1529.5,
+      "y": 1471.4,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r3-s19",
+      "section": "Партер",
+      "row": 3,
+      "seat": 19,
+      "x": 1572.5,
+      "y": 1471.4,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r3-s20",
+      "section": "Партер",
+      "row": 3,
+      "seat": 20,
+      "x": 1616,
+      "y": 1471.4,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r3-s21",
+      "section": "Партер",
+      "row": 3,
+      "seat": 21,
+      "x": 1659.5,
+      "y": 1471.4,
+      "tariffId": "tariff-1"
+    },
+    {
+      "id": "parter-right-r3-s22",
+      "section": "Партер",
+      "row": 3,
+      "seat": 22,
+      "x": 1702.5,
+      "y": 1471.4,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-right-r3-s23",
+      "section": "Партер",
+      "row": 3,
+      "seat": 23,
+      "x": 1746.5,
+      "y": 1471.4,
+      "tariffId": "tariff-2"
+    },
+    {
+      "id": "parter-right-r3-s24",
+      "section": "Партер",
+      "row": 3,
+      "seat": 24,
+      "x": 1789.5,
+      "y": 1471.4,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r3-s25",
+      "section": "Партер",
+      "row": 3,
+      "seat": 25,
+      "x": 1832.5,
+      "y": 1471.4,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r3-s26",
+      "section": "Партер",
+      "row": 3,
+      "seat": 26,
+      "x": 1876.5,
+      "y": 1471.4,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-right-r3-s27",
+      "section": "Партер",
+      "row": 3,
+      "seat": 27,
+      "x": 1919.5,
+      "y": 1471.4,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r2-s1",
+      "section": "Партер",
+      "row": 2,
+      "seat": 1,
+      "x": 662.5,
+      "y": 1514.9,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r2-s2",
+      "section": "Партер",
+      "row": 2,
+      "seat": 2,
+      "x": 705.5,
+      "y": 1514.9,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r2-s3",
+      "section": "Партер",
+      "row": 2,
+      "seat": 3,
+      "x": 748.5,
+      "y": 1514.9,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r2-s4",
+      "section": "Партер",
+      "row": 2,
+      "seat": 4,
+      "x": 792.5,
+      "y": 1514.9,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r2-s5",
+      "section": "Партер",
+      "row": 2,
+      "seat": 5,
+      "x": 835.5,
+      "y": 1514.9,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r2-s6",
+      "section": "Партер",
+      "row": 2,
+      "seat": 6,
+      "x": 879,
+      "y": 1514.9,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r2-s7",
+      "section": "Партер",
+      "row": 2,
+      "seat": 7,
+      "x": 922.5,
+      "y": 1514.9,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r2-s8",
+      "section": "Партер",
+      "row": 2,
+      "seat": 8,
+      "x": 965.5,
+      "y": 1514.9,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r2-s9",
+      "section": "Партер",
+      "row": 2,
+      "seat": 9,
+      "x": 1009,
+      "y": 1514.9,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r2-s10",
+      "section": "Партер",
+      "row": 2,
+      "seat": 10,
+      "x": 1052.5,
+      "y": 1514.9,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r2-s11",
+      "section": "Партер",
+      "row": 2,
+      "seat": 11,
+      "x": 1095.5,
+      "y": 1514.9,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r2-s12",
+      "section": "Партер",
+      "row": 2,
+      "seat": 12,
+      "x": 1139.5,
+      "y": 1514.9,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r2-s13",
+      "section": "Партер",
+      "row": 2,
+      "seat": 13,
+      "x": 1182.5,
+      "y": 1514.9,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r2-s14",
+      "section": "Партер",
+      "row": 2,
+      "seat": 14,
+      "x": 1225.5,
+      "y": 1514.9,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r2-s15",
+      "section": "Партер",
+      "row": 2,
+      "seat": 15,
+      "x": 1399.5,
+      "y": 1514.9,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r2-s16",
+      "section": "Партер",
+      "row": 2,
+      "seat": 16,
+      "x": 1442.5,
+      "y": 1514.9,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r2-s17",
+      "section": "Партер",
+      "row": 2,
+      "seat": 17,
+      "x": 1486,
+      "y": 1514.9,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r2-s18",
+      "section": "Партер",
+      "row": 2,
+      "seat": 18,
+      "x": 1529.5,
+      "y": 1514.9,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r2-s19",
+      "section": "Партер",
+      "row": 2,
+      "seat": 19,
+      "x": 1572.5,
+      "y": 1514.9,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r2-s20",
+      "section": "Партер",
+      "row": 2,
+      "seat": 20,
+      "x": 1616,
+      "y": 1514.9,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r2-s21",
+      "section": "Партер",
+      "row": 2,
+      "seat": 21,
+      "x": 1659.5,
+      "y": 1514.9,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r2-s22",
+      "section": "Партер",
+      "row": 2,
+      "seat": 22,
+      "x": 1702.5,
+      "y": 1514.9,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r2-s23",
+      "section": "Партер",
+      "row": 2,
+      "seat": 23,
+      "x": 1746.5,
+      "y": 1514.9,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r2-s24",
+      "section": "Партер",
+      "row": 2,
+      "seat": 24,
+      "x": 1789.5,
+      "y": 1514.9,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r2-s25",
+      "section": "Партер",
+      "row": 2,
+      "seat": 25,
+      "x": 1832.5,
+      "y": 1514.9,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r2-s26",
+      "section": "Партер",
+      "row": 2,
+      "seat": 26,
+      "x": 1876.5,
+      "y": 1514.9,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-right-r2-s27",
+      "section": "Партер",
+      "row": 2,
+      "seat": 27,
+      "x": 1919.5,
+      "y": 1514.9,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-left-r1-s1",
+      "section": "Партер",
+      "row": 1,
+      "seat": 1,
+      "x": 835.5,
+      "y": 1558.3,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r1-s2",
+      "section": "Партер",
+      "row": 1,
+      "seat": 2,
+      "x": 879,
+      "y": 1558.3,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r1-s3",
+      "section": "Партер",
+      "row": 1,
+      "seat": 3,
+      "x": 922.5,
+      "y": 1558.3,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r1-s4",
+      "section": "Партер",
+      "row": 1,
+      "seat": 4,
+      "x": 965.5,
+      "y": 1558.3,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r1-s5",
+      "section": "Партер",
+      "row": 1,
+      "seat": 5,
+      "x": 1009,
+      "y": 1558.3,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r1-s6",
+      "section": "Партер",
+      "row": 1,
+      "seat": 6,
+      "x": 1052.5,
+      "y": 1558.3,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r1-s7",
+      "section": "Партер",
+      "row": 1,
+      "seat": 7,
+      "x": 1095.5,
+      "y": 1558.3,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r1-s8",
+      "section": "Партер",
+      "row": 1,
+      "seat": 8,
+      "x": 1139.5,
+      "y": 1558.3,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r1-s9",
+      "section": "Партер",
+      "row": 1,
+      "seat": 9,
+      "x": 1182.5,
+      "y": 1558.3,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-left-r1-s10",
+      "section": "Партер",
+      "row": 1,
+      "seat": 10,
+      "x": 1225.5,
+      "y": 1558.3,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r1-s11",
+      "section": "Партер",
+      "row": 1,
+      "seat": 11,
+      "x": 1399.5,
+      "y": 1558.3,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r1-s12",
+      "section": "Партер",
+      "row": 1,
+      "seat": 12,
+      "x": 1442.5,
+      "y": 1558.3,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r1-s13",
+      "section": "Партер",
+      "row": 1,
+      "seat": 13,
+      "x": 1486,
+      "y": 1558.3,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r1-s14",
+      "section": "Партер",
+      "row": 1,
+      "seat": 14,
+      "x": 1529.5,
+      "y": 1558.3,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r1-s15",
+      "section": "Партер",
+      "row": 1,
+      "seat": 15,
+      "x": 1572.5,
+      "y": 1558.3,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r1-s16",
+      "section": "Партер",
+      "row": 1,
+      "seat": 16,
+      "x": 1616,
+      "y": 1558.3,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r1-s17",
+      "section": "Партер",
+      "row": 1,
+      "seat": 17,
+      "x": 1659.5,
+      "y": 1558.3,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r1-s18",
+      "section": "Партер",
+      "row": 1,
+      "seat": 18,
+      "x": 1702.5,
+      "y": 1558.3,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r1-s19",
+      "section": "Партер",
+      "row": 1,
+      "seat": 19,
+      "x": 1746.5,
+      "y": 1558.3,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r1-s20",
+      "section": "Партер",
+      "row": 1,
+      "seat": 20,
+      "x": 1789.5,
+      "y": 1558.3,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r1-s21",
+      "section": "Партер",
+      "row": 1,
+      "seat": 21,
+      "x": 1832.5,
+      "y": 1558.3,
+      "tariffId": "tariff-3"
+    },
+    {
+      "id": "parter-right-r1-s22",
+      "section": "Партер",
+      "row": 1,
+      "seat": 22,
+      "x": 1876.5,
+      "y": 1558.3,
+      "tariffId": "tariff-4"
+    },
+    {
+      "id": "parter-right-r1-s23",
+      "section": "Партер",
+      "row": 1,
+      "seat": 23,
+      "x": 1919.5,
+      "y": 1558.3,
+      "tariffId": "tariff-4"
+    }
+  ],
+  "salesPlan": {
+    "tariff-1": 74,
+    "tariff-2": 58,
+    "tariff-3": 93,
+    "tariff-4": 91,
+    "tariff-5": 84,
+    "tariff-6": 71,
+    "tariff-7": 30,
+    "tariff-8": 14,
+    "none": 7
+  },
+  "occupancyPercent": 70
+}

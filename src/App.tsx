@@ -5,7 +5,8 @@ import { StatsPanel } from "./components/StatsPanel";
 import { TariffPanel } from "./components/TariffPanel";
 import { Toolbar } from "./components/Toolbar";
 import { DEFAULT_TARIFFS, generateHallSeats } from "./data/generateHall";
-import type { Tariff } from "./types";
+import defaultHallStateData from "./data/defaultHallState.json";
+import type { ExportedHallState, Tariff } from "./types";
 import {
   buildRevenueRows,
   calculateOccupancyPercent,
@@ -15,13 +16,22 @@ import {
   sanitizePrice,
 } from "./utils/finance";
 import { exportHallState, importHallStateFromFile } from "./utils/exportImport";
+import { normalizeImportedState } from "./utils/stateNormalization";
 import {
   clearStoredHallState,
   loadHallState,
   saveHallState,
 } from "./utils/storage";
 
-const getInitialState = () => loadHallState(generateHallSeats(), DEFAULT_TARIFFS);
+const createDefaultState = (): ExportedHallState =>
+  normalizeImportedState(
+    defaultHallStateData,
+    generateHallSeats(),
+    DEFAULT_TARIFFS,
+  );
+
+const getInitialState = () => loadHallState(createDefaultState());
+const getDefaultState = () => createDefaultState();
 
 function App() {
   const [state, setState] = useState(getInitialState);
@@ -197,10 +207,14 @@ function App() {
 
   const handleImport = async (file: File) => {
     try {
-      const imported = await importHallStateFromFile(file);
+      const imported = await importHallStateFromFile(
+        file,
+        getDefaultState().seats,
+        getDefaultState().tariffs,
+      );
       setState(imported);
       setSelectedSeatIds([]);
-      setActiveTariffId(imported.tariffs[0]?.id ?? DEFAULT_TARIFFS[0].id);
+      setActiveTariffId(imported.tariffs[0]?.id ?? getDefaultState().tariffs[0].id);
     } catch (error) {
       const message =
         error instanceof Error ? error.message : "Не удалось импортировать JSON.";
@@ -214,16 +228,10 @@ function App() {
     }
 
     clearStoredHallState();
-    const defaultSeats = generateHallSeats();
-    const nextState = {
-      seats: defaultSeats,
-      tariffs: DEFAULT_TARIFFS,
-      salesPlan: normalizeSalesPlan({}, defaultSeats, DEFAULT_TARIFFS),
-      occupancyPercent: 0,
-    };
+    const nextState = getDefaultState();
     setState(nextState);
     setSelectedSeatIds([]);
-    setActiveTariffId(DEFAULT_TARIFFS[0].id);
+    setActiveTariffId(nextState.tariffs[0]?.id ?? DEFAULT_TARIFFS[0].id);
   };
 
   return (
