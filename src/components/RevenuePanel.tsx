@@ -2,6 +2,7 @@ import type { SalesPlan, Seat, Tariff } from "../types";
 import { buildRevenueRows, formatCurrency, formatPercent } from "../utils/finance";
 
 type RevenuePanelProps = {
+  venueName: string;
   occupancyPercent: number;
   salesPlan: SalesPlan;
   seats: Seat[];
@@ -11,6 +12,7 @@ type RevenuePanelProps = {
 };
 
 export function RevenuePanel({
+  venueName,
   occupancyPercent,
   salesPlan,
   seats,
@@ -34,7 +36,7 @@ export function RevenuePanel({
     <section className="revenue-panel">
       <div className="revenue-panel__header">
         <div>
-          <p className="sidebar-card__eyebrow">Финансы</p>
+          <p className="sidebar-card__eyebrow">Финансы · {venueName}</p>
           <h2>Расчёт выручки</h2>
         </div>
         <div className="revenue-panel__hero">

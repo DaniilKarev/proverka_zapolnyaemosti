@@ -12,8 +12,18 @@ export type Seat = {
   seat: number;
   x: number;
   y: number;
+  rotation?: number;
+  table?: number;
+  chair?: number;
   tariffId: string;
 };
+
+export type HallLayoutId =
+  | "classic"
+  | "auditorium-90"
+  | "auditorium-314"
+  | "theatre-maska"
+  | "multi-tier-hall";
 
 export type SalesPlan = Record<string, number>;
 
@@ -22,6 +32,24 @@ export type ExportedHallState = {
   seats: Seat[];
   salesPlan: SalesPlan;
   occupancyPercent: number;
+};
+
+export type Venue = ExportedHallState & {
+  id: string;
+  name: string;
+  layoutId: HallLayoutId;
+  layoutRevision: number;
+};
+
+export type AppState = {
+  version: 2;
+  activeVenueId: string;
+  venues: Venue[];
+};
+
+export type ExportedVenueState = {
+  version: 2;
+  venue: Venue;
 };
 
 export type TooltipSeat = {

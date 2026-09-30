@@ -2,6 +2,7 @@ import type { Seat, Tariff } from "../types";
 import { buildRevenueRows, formatCurrency } from "../utils/finance";
 
 type StatsPanelProps = {
+  venueName: string;
   totalSeats: number;
   selectedSeatsCount: number;
   seats: Seat[];
@@ -9,6 +10,7 @@ type StatsPanelProps = {
 };
 
 export function StatsPanel({
+  venueName,
   totalSeats,
   selectedSeatsCount,
   seats,
@@ -32,7 +34,7 @@ export function StatsPanel({
     <section className="sidebar-card">
       <div className="sidebar-card__header">
         <div>
-          <p className="sidebar-card__eyebrow">Статистика</p>
+          <p className="sidebar-card__eyebrow">Статистика · {venueName}</p>
           <h2>Распределение и потенциальная выручка</h2>
         </div>
       </div>

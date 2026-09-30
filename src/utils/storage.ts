@@ -1,43 +1,27 @@
-import type { ExportedHallState, SalesPlan, Seat, Tariff } from "../types";
-import { sanitizeOccupancyPercent } from "./finance";
-import { normalizeImportedState } from "./stateNormalization";
+import type { AppState } from "../types";
+import { migrateStoredState } from "./stateNormalization";
 
 const STORAGE_KEY = "theatre-hall-tariff-editor-v1";
 
-export const loadHallState = (
-  defaultState: ExportedHallState,
-): ExportedHallState => {
+export const loadAppState = (defaultState: AppState): AppState => {
   try {
     const raw = window.localStorage.getItem(STORAGE_KEY);
     if (!raw) {
       return defaultState;
     }
 
-    return normalizeImportedState(
-      JSON.parse(raw),
-      defaultState.seats,
-      defaultState.tariffs,
-    );
+    const migratedState = migrateStoredState(JSON.parse(raw), defaultState);
+    window.localStorage.setItem(STORAGE_KEY, JSON.stringify(migratedState));
+    return migratedState;
   } catch {
     return defaultState;
   }
 };
 
-export const saveHallState = (
-  seats: Seat[],
-  tariffs: Tariff[],
-  salesPlan: SalesPlan,
-  occupancyPercent: number,
-) => {
-  const payload: ExportedHallState = {
-    seats,
-    tariffs,
-    salesPlan,
-    occupancyPercent: sanitizeOccupancyPercent(occupancyPercent),
-  };
-  window.localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
+export const saveAppState = (state: AppState) => {
+  window.localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
 };
 
-export const clearStoredHallState = () => {
+export const clearStoredAppState = () => {
   window.localStorage.removeItem(STORAGE_KEY);
 };

@@ -3,17 +3,21 @@ import { useRef } from "react";
 type ToolbarProps = {
   selectedSeatsCount: number;
   onClearSelection: () => void;
-  onExport: () => void;
+  onExportCurrent: () => void;
+  onExportAll: () => void;
   onImport: (file: File) => void;
-  onReset: () => void;
+  onResetCurrent: () => void;
+  onResetAll: () => void;
 };
 
 export function Toolbar({
   selectedSeatsCount,
   onClearSelection,
-  onExport,
+  onExportCurrent,
+  onExportAll,
   onImport,
-  onReset,
+  onResetCurrent,
+  onResetAll,
 }: ToolbarProps) {
   const inputRef = useRef<HTMLInputElement | null>(null);
 
@@ -27,8 +31,11 @@ export function Toolbar({
       >
         Снять выделение
       </button>
-      <button className="secondary-button" type="button" onClick={onExport}>
-        Экспорт JSON
+      <button className="secondary-button" type="button" onClick={onExportCurrent}>
+        Экспортировать текущую площадку
+      </button>
+      <button className="secondary-button" type="button" onClick={onExportAll}>
+        Экспортировать все площадки
       </button>
       <button
         className="secondary-button"
@@ -37,13 +44,24 @@ export function Toolbar({
       >
         Импорт JSON
       </button>
-      <button className="secondary-button secondary-button--danger" type="button" onClick={onReset}>
-        Сбросить
+      <button
+        className="secondary-button secondary-button--danger"
+        type="button"
+        onClick={onResetCurrent}
+      >
+        Сбросить текущую площадку
+      </button>
+      <button
+        className="secondary-button secondary-button--danger"
+        type="button"
+        onClick={onResetAll}
+      >
+        Сбросить все площадки
       </button>
       <input
         ref={inputRef}
         hidden
-        accept="application/json"
+        accept="application/json,.json"
         type="file"
         onChange={(event) => {
           const file = event.target.files?.[0];

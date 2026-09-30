@@ -4,9 +4,13 @@ import { RevenuePanel } from "./components/RevenuePanel";
 import { StatsPanel } from "./components/StatsPanel";
 import { TariffPanel } from "./components/TariffPanel";
 import { Toolbar } from "./components/Toolbar";
-import { DEFAULT_TARIFFS, generateHallSeats } from "./data/generateHall";
-import defaultHallStateData from "./data/defaultHallState.json";
-import type { ExportedHallState, Tariff } from "./types";
+import { VenueTabs } from "./components/VenueTabs";
+import { DEFAULT_TARIFFS } from "./data/generateHall";
+import {
+  createDefaultAppState,
+  createDefaultVenue,
+} from "./data/venues";
+import type { Tariff, Venue } from "./types";
 import {
   buildRevenueRows,
   calculateOccupancyPercent,
@@ -15,78 +19,93 @@ import {
   sanitizeOccupancyPercent,
   sanitizePrice,
 } from "./utils/finance";
-import { exportHallState, importHallStateFromFile } from "./utils/exportImport";
-import { normalizeImportedState } from "./utils/stateNormalization";
 import {
-  clearStoredHallState,
-  loadHallState,
-  saveHallState,
+  exportAllVenues,
+  exportCurrentVenue,
+  importStateFromFile,
+} from "./utils/exportImport";
+import { createUniqueId } from "./utils/stateNormalization";
+import {
+  clearStoredAppState,
+  loadAppState,
+  saveAppState,
 } from "./utils/storage";
 
-const createDefaultState = (): ExportedHallState =>
-  normalizeImportedState(
-    defaultHallStateData,
-    generateHallSeats(),
-    DEFAULT_TARIFFS,
+const getDefaultState = () => createDefaultAppState();
+const getInitialState = () => loadAppState(getDefaultState());
+
+const normalizeVenueSales = (venue: Venue): Venue => {
+  const salesPlan = normalizeSalesPlan(
+    venue.salesPlan,
+    venue.seats,
+    venue.tariffs,
   );
 
-const getInitialState = () => loadHallState(createDefaultState());
-const getDefaultState = () => createDefaultState();
+  return {
+    ...venue,
+    salesPlan,
+    occupancyPercent: calculateOccupancyPercent(salesPlan, venue.seats.length),
+  };
+};
 
 function App() {
   const [state, setState] = useState(getInitialState);
   const [selectedSeatIds, setSelectedSeatIds] = useState<string[]>([]);
-  const [activeTariffId, setActiveTariffId] = useState<string>(
-    state.tariffs[0]?.id ?? DEFAULT_TARIFFS[0].id,
+  const [activeTariffId, setActiveTariffId] = useState<string>(() => {
+    const initialVenue =
+      state.venues.find((venue) => venue.id === state.activeVenueId) ??
+      state.venues[0];
+    return initialVenue?.tariffs[0]?.id ?? DEFAULT_TARIFFS[0].id;
+  });
+
+  const activeVenue =
+    state.venues.find((venue) => venue.id === state.activeVenueId) ??
+    state.venues[0];
+  const activeVenueIndex = activeVenue
+    ? state.venues.findIndex((venue) => venue.id === activeVenue.id)
+    : -1;
+  const seats = activeVenue?.seats ?? [];
+  const tariffs = activeVenue?.tariffs ?? [];
+  const salesPlan = activeVenue?.salesPlan ?? {};
+  const occupancyPercent = activeVenue?.occupancyPercent ?? 0;
+
+  useEffect(() => {
+    saveAppState(state);
+  }, [state]);
+
+  const revenueRows = useMemo(
+    () => buildRevenueRows(seats, tariffs),
+    [seats, tariffs],
   );
-
-  const seats = state.seats;
-  const tariffs = state.tariffs;
-  const salesPlan = state.salesPlan;
-  const occupancyPercent = state.occupancyPercent;
-
-  useEffect(() => {
-    setState(getInitialState());
-  }, []);
-
-  useEffect(() => {
-    saveHallState(seats, tariffs, salesPlan, occupancyPercent);
-  }, [occupancyPercent, salesPlan, seats, tariffs]);
-
-  useEffect(() => {
-    setState((currentState) => {
-      const normalizedSalesPlan = normalizeSalesPlan(
-        currentState.salesPlan,
-        currentState.seats,
-        currentState.tariffs,
-      );
-
-      return {
-        ...currentState,
-        salesPlan: normalizedSalesPlan,
-        occupancyPercent: calculateOccupancyPercent(
-          normalizedSalesPlan,
-          currentState.seats.length,
-        ),
-      };
-    });
-  }, [seats, tariffs]);
-
-  const revenueRows = useMemo(() => buildRevenueRows(seats, tariffs), [seats, tariffs]);
   const selectedSeatsCount = selectedSeatIds.length;
   const totalSeats = seats.length;
 
-  const assignTariffToSeats = (tariffId: string, seatIds = selectedSeatIds) => {
+  const updateActiveVenue = (updater: (venue: Venue) => Venue) => {
+    setState((currentState) => ({
+      ...currentState,
+      venues: currentState.venues.map((venue) =>
+        venue.id === currentState.activeVenueId ? updater(venue) : venue,
+      ),
+    }));
+  };
+
+  const assignTariffToSeats = (
+    tariffId: string,
+    seatIds = selectedSeatIds,
+  ) => {
     if (seatIds.length === 0) {
       return;
     }
 
-    setState((currentState) => ({
-      ...currentState,
-      seats: currentState.seats.map((seat) =>
-        seatIds.includes(seat.id) ? { ...seat, tariffId } : seat,
-      ),
-    }));
+    const selectedIds = new Set(seatIds);
+    updateActiveVenue((venue) =>
+      normalizeVenueSales({
+        ...venue,
+        seats: venue.seats.map((seat) =>
+          selectedIds.has(seat.id) ? { ...seat, tariffId } : seat,
+        ),
+      }),
+    );
     setActiveTariffId(tariffId);
   };
 
@@ -95,15 +114,18 @@ function App() {
   };
 
   const updateTariff = (tariffId: string, patch: Partial<Tariff>) => {
-    setState((currentState) => ({
-      ...currentState,
-      tariffs: currentState.tariffs.map((tariff) =>
+    updateActiveVenue((venue) => ({
+      ...venue,
+      tariffs: venue.tariffs.map((tariff) =>
         tariff.id === tariffId
           ? {
               ...tariff,
-              ...patch,
+              name: patch.name ?? tariff.name,
+              color: patch.color ?? tariff.color,
               price:
-                patch.price === undefined ? tariff.price : sanitizePrice(patch.price),
+                patch.price === undefined
+                  ? tariff.price
+                  : sanitizePrice(patch.price),
             }
           : tariff,
       ),
@@ -131,10 +153,10 @@ function App() {
       price: 0,
     };
 
-    setState((currentState) => ({
-      ...currentState,
-      tariffs: [...currentState.tariffs, newTariff],
-      salesPlan: { ...currentState.salesPlan, [newTariff.id]: 0 },
+    updateActiveVenue((venue) => ({
+      ...venue,
+      tariffs: [...venue.tariffs, newTariff],
+      salesPlan: { ...venue.salesPlan, [newTariff.id]: 0 },
     }));
     setActiveTariffId(newTariff.id);
   };
@@ -145,76 +167,123 @@ function App() {
       return;
     }
 
-    const isUsed = seats.some((seat) => seat.tariffId === tariffId);
-    if (isUsed) {
+    if (seats.some((seat) => seat.tariffId === tariffId)) {
       window.alert("Этот тариф уже назначен местам. Сначала снимите его с мест.");
       return;
     }
 
-    setState((currentState) => {
-      const nextTariffs = currentState.tariffs.filter((tariff) => tariff.id !== tariffId);
-      const { [tariffId]: _removedPlan, ...nextSalesPlan } = currentState.salesPlan;
-      if (activeTariffId === tariffId && nextTariffs[0]) {
-        setActiveTariffId(nextTariffs[0].id);
-      }
-      return {
-        ...currentState,
-        tariffs: nextTariffs,
+    const nextTariffs = tariffs.filter((tariff) => tariff.id !== tariffId);
+    updateActiveVenue((venue) => {
+      const { [tariffId]: _removedPlan, ...nextSalesPlan } = venue.salesPlan;
+      return normalizeVenueSales({
+        ...venue,
+        tariffs: venue.tariffs.filter((tariff) => tariff.id !== tariffId),
         salesPlan: nextSalesPlan,
-      };
+      });
     });
+
+    if (activeTariffId === tariffId && nextTariffs[0]) {
+      setActiveTariffId(nextTariffs[0].id);
+    }
   };
 
   const updateSalesPlan = (tariffId: string, soldSeats: number) => {
     const row = revenueRows.find((revenueRow) => revenueRow.id === tariffId);
     const maxSeats = row?.seatsCount ?? 0;
-    const normalizedValue = Math.max(0, Math.min(maxSeats, Math.floor(soldSeats)));
+    const normalizedValue = Math.max(
+      0,
+      Math.min(maxSeats, Math.floor(soldSeats)),
+    );
 
-    setState((currentState) => {
+    updateActiveVenue((venue) => {
       const nextSalesPlan = {
-        ...currentState.salesPlan,
+        ...venue.salesPlan,
         [tariffId]: normalizedValue,
       };
 
       return {
-        ...currentState,
+        ...venue,
         salesPlan: nextSalesPlan,
-        occupancyPercent: calculateOccupancyPercent(nextSalesPlan, currentState.seats.length),
+        occupancyPercent: calculateOccupancyPercent(
+          nextSalesPlan,
+          venue.seats.length,
+        ),
       };
     });
   };
 
   const updateOccupancyPercent = (nextPercent: number) => {
-    setState((currentState) => {
+    updateActiveVenue((venue) => {
       const normalizedOccupancyPercent = sanitizeOccupancyPercent(nextPercent);
       const nextSalesPlan = distributeSalesPlanByOccupancy(
         normalizedOccupancyPercent,
-        currentState.seats,
-        currentState.tariffs,
+        venue.seats,
+        venue.tariffs,
       );
 
       return {
-        ...currentState,
+        ...venue,
         salesPlan: nextSalesPlan,
         occupancyPercent: normalizedOccupancyPercent,
       };
     });
   };
 
-  const handleExport = () => {
-    exportHallState({ tariffs, seats, salesPlan, occupancyPercent });
+  const handleVenueChange = (venueId: string) => {
+    const nextVenue = state.venues.find((venue) => venue.id === venueId);
+    if (!nextVenue || venueId === state.activeVenueId) {
+      return;
+    }
+
+    setState((currentState) => ({
+      ...currentState,
+      activeVenueId: currentState.venues.some((venue) => venue.id === venueId)
+        ? venueId
+        : currentState.venues[0]?.id ?? currentState.activeVenueId,
+    }));
+    setSelectedSeatIds([]);
+    setActiveTariffId(nextVenue.tariffs[0]?.id ?? DEFAULT_TARIFFS[0].id);
   };
 
   const handleImport = async (file: File) => {
     try {
-      const imported = await importHallStateFromFile(
-        file,
-        getDefaultState().seats,
-        getDefaultState().tariffs,
+      const imported = await importStateFromFile(file, getDefaultState());
+
+      if (imported.kind === "all-venues") {
+        if (
+          !window.confirm(
+            "Импорт заменит все текущие площадки и их настройки. Продолжить?",
+          )
+        ) {
+          return;
+        }
+
+        const importedActiveVenue =
+          imported.state.venues.find(
+            (venue) => venue.id === imported.state.activeVenueId,
+          ) ?? imported.state.venues[0];
+        setState(imported.state);
+        setSelectedSeatIds([]);
+        setActiveTariffId(
+          importedActiveVenue?.tariffs[0]?.id ?? DEFAULT_TARIFFS[0].id,
+        );
+        return;
+      }
+
+      const venueId = createUniqueId(
+        imported.venue.id || "imported-venue",
+        new Set(state.venues.map((venue) => venue.id)),
       );
-      setState(imported);
+      const importedVenue = { ...imported.venue, id: venueId };
+      setState((currentState) => ({
+        ...currentState,
+        activeVenueId: venueId,
+        venues: [...currentState.venues, importedVenue],
+      }));
       setSelectedSeatIds([]);
-      setActiveTariffId(imported.tariffs[0]?.id ?? getDefaultState().tariffs[0].id);
+      setActiveTariffId(
+        importedVenue.tariffs[0]?.id ?? DEFAULT_TARIFFS[0].id,
+      );
     } catch (error) {
       const message =
         error instanceof Error ? error.message : "Не удалось импортировать JSON.";
@@ -222,16 +291,45 @@ function App() {
     }
   };
 
-  const handleReset = () => {
-    if (!window.confirm("Сбросить все тарифы, цены, назначения и план продаж до стартового состояния?")) {
+  const handleResetCurrent = () => {
+    if (!activeVenue) {
       return;
     }
 
-    clearStoredHallState();
+    if (
+      !window.confirm(
+        `Сбросить все настройки площадки “${activeVenue.name}”?`,
+      )
+    ) {
+      return;
+    }
+
+    const resetVenue = createDefaultVenue(
+      activeVenue.id,
+      activeVenue.name,
+      activeVenue.layoutId,
+    );
+    updateActiveVenue(() => resetVenue);
+    setSelectedSeatIds([]);
+    setActiveTariffId(resetVenue.tariffs[0]?.id ?? DEFAULT_TARIFFS[0].id);
+  };
+
+  const handleResetAll = () => {
+    if (
+      !window.confirm(
+        "Сбросить все площадки, тарифы, назначения и планы продаж?",
+      )
+    ) {
+      return;
+    }
+
+    clearStoredAppState();
     const nextState = getDefaultState();
     setState(nextState);
     setSelectedSeatIds([]);
-    setActiveTariffId(nextState.tariffs[0]?.id ?? DEFAULT_TARIFFS[0].id);
+    setActiveTariffId(
+      nextState.venues[0]?.tariffs[0]?.id ?? DEFAULT_TARIFFS[0].id,
+    );
   };
 
   return (
@@ -244,16 +342,34 @@ function App() {
         <Toolbar
           selectedSeatsCount={selectedSeatsCount}
           onClearSelection={clearSelection}
-          onExport={handleExport}
+          onExportCurrent={() => activeVenue && exportCurrentVenue(activeVenue)}
+          onExportAll={() => exportAllVenues(state)}
           onImport={handleImport}
-          onReset={handleReset}
+          onResetCurrent={handleResetCurrent}
+          onResetAll={handleResetAll}
         />
       </header>
 
-      <main className="app-layout">
+      <VenueTabs
+        venues={state.venues}
+        activeVenueId={activeVenue?.id ?? ""}
+        onVenueChange={handleVenueChange}
+      />
+
+      <main
+        id="active-venue-panel"
+        className="app-layout"
+        role="tabpanel"
+        aria-labelledby={
+          activeVenueIndex >= 0 ? `venue-tab-${activeVenueIndex}` : undefined
+        }
+      >
         <section className="map-column">
-          <section className="map-panel">
+          <section
+            className={`map-panel${activeVenue?.layoutId === "auditorium-314" ? " map-panel--viewport-fit" : ""}`}
+          >
             <HallMap
+              layoutId={activeVenue?.layoutId ?? "classic"}
               seats={seats}
               selectedSeatIds={selectedSeatIds}
               tariffs={tariffs}
@@ -262,6 +378,7 @@ function App() {
           </section>
 
           <RevenuePanel
+            venueName={activeVenue?.name ?? "Площадка"}
             occupancyPercent={occupancyPercent}
             salesPlan={salesPlan}
             seats={seats}
@@ -284,6 +401,7 @@ function App() {
             onUpdateTariff={updateTariff}
           />
           <StatsPanel
+            venueName={activeVenue?.name ?? "Площадка"}
             totalSeats={totalSeats}
             selectedSeatsCount={selectedSeatsCount}
             seats={seats}
