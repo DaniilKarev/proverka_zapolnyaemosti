@@ -14,10 +14,6 @@ import { normalizeSalesPlan } from "../utils/finance";
 import { normalizeImportedState } from "../utils/stateNormalization";
 
 export const VENUE_CONFIG = [
-  { id: "venue-1", name: "Площадка 1", layoutId: "classic", layoutRevision: 1 },
-  { id: "venue-2", name: "Площадка 2", layoutId: "auditorium-90", layoutRevision: 2 },
-  { id: "venue-3", name: "Площадка 3", layoutId: "auditorium-314", layoutRevision: 1 },
-  { id: "venue-4", name: "Театр Маска", layoutId: "theatre-maska", layoutRevision: 1 },
   { id: "venue-5", name: "Площадка 5", layoutId: "multi-tier-hall", layoutRevision: 2 },
 ] as const;
 

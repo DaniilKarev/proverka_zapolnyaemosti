@@ -409,7 +409,25 @@ export const migrateStoredState = (
   const payload = isObject(data) ? data : {};
 
   if (Array.isArray(payload.venues)) {
-    return normalizeVersionTwoState(payload, defaultState, true);
+    const configuredVenueIds = new Set(
+      defaultState.venues.map((venue) => venue.id),
+    );
+    const configuredVenues = payload.venues.filter(
+      (venue) =>
+        isObject(venue) &&
+        typeof venue.id === "string" &&
+        configuredVenueIds.has(venue.id.trim()),
+    );
+
+    return normalizeVersionTwoState(
+      {
+        ...payload,
+        activeVenueId: defaultState.activeVenueId,
+        venues: configuredVenues,
+      },
+      defaultState,
+      true,
+    );
   }
 
   const firstDefaultVenue = defaultState.venues[0];
@@ -417,23 +435,7 @@ export const migrateStoredState = (
     return cloneAppState(defaultState);
   }
 
-  const migratedFirstVenue = normalizeVenue(
-    payload,
-    firstDefaultVenue,
-    "venue-1",
-    "Площадка 1",
-  );
-  migratedFirstVenue.id = "venue-1";
-  migratedFirstVenue.name = "Площадка 1";
-
-  return {
-    version: 2,
-    activeVenueId: migratedFirstVenue.id,
-    venues: [
-      migratedFirstVenue,
-      ...defaultState.venues.slice(1).map(cloneVenue),
-    ],
-  };
+  return cloneAppState(defaultState);
 };
 
 export const normalizeFullAppState = (

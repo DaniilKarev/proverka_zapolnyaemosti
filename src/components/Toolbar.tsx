@@ -4,20 +4,16 @@ type ToolbarProps = {
   selectedSeatsCount: number;
   onClearSelection: () => void;
   onExportCurrent: () => void;
-  onExportAll: () => void;
   onImport: (file: File) => void;
   onResetCurrent: () => void;
-  onResetAll: () => void;
 };
 
 export function Toolbar({
   selectedSeatsCount,
   onClearSelection,
   onExportCurrent,
-  onExportAll,
   onImport,
   onResetCurrent,
-  onResetAll,
 }: ToolbarProps) {
   const inputRef = useRef<HTMLInputElement | null>(null);
 
@@ -32,10 +28,7 @@ export function Toolbar({
         Снять выделение
       </button>
       <button className="secondary-button" type="button" onClick={onExportCurrent}>
-        Экспортировать текущую площадку
-      </button>
-      <button className="secondary-button" type="button" onClick={onExportAll}>
-        Экспортировать все площадки
+        Экспортировать площадку
       </button>
       <button
         className="secondary-button"
@@ -49,14 +42,7 @@ export function Toolbar({
         type="button"
         onClick={onResetCurrent}
       >
-        Сбросить текущую площадку
-      </button>
-      <button
-        className="secondary-button secondary-button--danger"
-        type="button"
-        onClick={onResetAll}
-      >
-        Сбросить все площадки
+        Сбросить площадку
       </button>
       <input
         ref={inputRef}

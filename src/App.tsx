@@ -4,7 +4,6 @@ import { RevenuePanel } from "./components/RevenuePanel";
 import { StatsPanel } from "./components/StatsPanel";
 import { TariffPanel } from "./components/TariffPanel";
 import { Toolbar } from "./components/Toolbar";
-import { VenueTabs } from "./components/VenueTabs";
 import { DEFAULT_TARIFFS } from "./data/generateHall";
 import {
   createDefaultAppState,
@@ -20,13 +19,10 @@ import {
   sanitizePrice,
 } from "./utils/finance";
 import {
-  exportAllVenues,
   exportCurrentVenue,
   importStateFromFile,
 } from "./utils/exportImport";
-import { createUniqueId } from "./utils/stateNormalization";
 import {
-  clearStoredAppState,
   loadAppState,
   saveAppState,
 } from "./utils/storage";
@@ -61,9 +57,6 @@ function App() {
   const activeVenue =
     state.venues.find((venue) => venue.id === state.activeVenueId) ??
     state.venues[0];
-  const activeVenueIndex = activeVenue
-    ? state.venues.findIndex((venue) => venue.id === activeVenue.id)
-    : -1;
   const seats = activeVenue?.seats ?? [];
   const tariffs = activeVenue?.tariffs ?? [];
   const salesPlan = activeVenue?.salesPlan ?? {};
@@ -229,60 +222,43 @@ function App() {
     });
   };
 
-  const handleVenueChange = (venueId: string) => {
-    const nextVenue = state.venues.find((venue) => venue.id === venueId);
-    if (!nextVenue || venueId === state.activeVenueId) {
-      return;
-    }
-
-    setState((currentState) => ({
-      ...currentState,
-      activeVenueId: currentState.venues.some((venue) => venue.id === venueId)
-        ? venueId
-        : currentState.venues[0]?.id ?? currentState.activeVenueId,
-    }));
-    setSelectedSeatIds([]);
-    setActiveTariffId(nextVenue.tariffs[0]?.id ?? DEFAULT_TARIFFS[0].id);
-  };
-
   const handleImport = async (file: File) => {
     try {
       const imported = await importStateFromFile(file, getDefaultState());
+      const defaultVenue = getDefaultState().venues[0];
+      const importedVenue =
+        imported.kind === "all-venues"
+          ? imported.state.venues.find((venue) => venue.id === defaultVenue.id) ??
+            imported.state.venues.find(
+              (venue) => venue.layoutId === defaultVenue.layoutId,
+            ) ??
+            imported.state.venues[0]
+          : imported.venue;
 
-      if (imported.kind === "all-venues") {
-        if (
-          !window.confirm(
-            "Импорт заменит все текущие площадки и их настройки. Продолжить?",
-          )
-        ) {
-          return;
-        }
-
-        const importedActiveVenue =
-          imported.state.venues.find(
-            (venue) => venue.id === imported.state.activeVenueId,
-          ) ?? imported.state.venues[0];
-        setState(imported.state);
-        setSelectedSeatIds([]);
-        setActiveTariffId(
-          importedActiveVenue?.tariffs[0]?.id ?? DEFAULT_TARIFFS[0].id,
-        );
+      if (
+        !importedVenue ||
+        !window.confirm(
+          `Импорт заменит настройки площадки “${defaultVenue.name}”. Продолжить?`,
+        )
+      ) {
         return;
       }
 
-      const venueId = createUniqueId(
-        imported.venue.id || "imported-venue",
-        new Set(state.venues.map((venue) => venue.id)),
-      );
-      const importedVenue = { ...imported.venue, id: venueId };
-      setState((currentState) => ({
-        ...currentState,
-        activeVenueId: venueId,
-        venues: [...currentState.venues, importedVenue],
-      }));
+      const nextVenue: Venue = {
+        ...importedVenue,
+        id: defaultVenue.id,
+        name: defaultVenue.name,
+        layoutId: defaultVenue.layoutId,
+        layoutRevision: defaultVenue.layoutRevision,
+      };
+      setState({
+        version: 2,
+        activeVenueId: nextVenue.id,
+        venues: [nextVenue],
+      });
       setSelectedSeatIds([]);
       setActiveTariffId(
-        importedVenue.tariffs[0]?.id ?? DEFAULT_TARIFFS[0].id,
+        nextVenue.tariffs[0]?.id ?? DEFAULT_TARIFFS[0].id,
       );
     } catch (error) {
       const message =
@@ -314,24 +290,6 @@ function App() {
     setActiveTariffId(resetVenue.tariffs[0]?.id ?? DEFAULT_TARIFFS[0].id);
   };
 
-  const handleResetAll = () => {
-    if (
-      !window.confirm(
-        "Сбросить все площадки, тарифы, назначения и планы продаж?",
-      )
-    ) {
-      return;
-    }
-
-    clearStoredAppState();
-    const nextState = getDefaultState();
-    setState(nextState);
-    setSelectedSeatIds([]);
-    setActiveTariffId(
-      nextState.venues[0]?.tariffs[0]?.id ?? DEFAULT_TARIFFS[0].id,
-    );
-  };
-
   return (
     <div className="app-shell">
       <header className="app-header">
@@ -343,27 +301,12 @@ function App() {
           selectedSeatsCount={selectedSeatsCount}
           onClearSelection={clearSelection}
           onExportCurrent={() => activeVenue && exportCurrentVenue(activeVenue)}
-          onExportAll={() => exportAllVenues(state)}
           onImport={handleImport}
           onResetCurrent={handleResetCurrent}
-          onResetAll={handleResetAll}
         />
       </header>
 
-      <VenueTabs
-        venues={state.venues}
-        activeVenueId={activeVenue?.id ?? ""}
-        onVenueChange={handleVenueChange}
-      />
-
-      <main
-        id="active-venue-panel"
-        className="app-layout"
-        role="tabpanel"
-        aria-labelledby={
-          activeVenueIndex >= 0 ? `venue-tab-${activeVenueIndex}` : undefined
-        }
-      >
+      <main className="app-layout">
         <section className="map-column">
           <section
             className={`map-panel${activeVenue?.layoutId === "auditorium-314" ? " map-panel--viewport-fit" : ""}`}
