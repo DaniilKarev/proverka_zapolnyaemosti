@@ -1,0 +1,7200 @@
+{
+  "version": 2,
+  "venue": {
+    "id": "venue-5",
+    "name": "Площадка 5",
+    "layoutId": "multi-tier-hall",
+    "layoutRevision": 2,
+    "tariffs": [
+      {
+        "id": "tariff-1",
+        "name": "20000",
+        "color": "#b21010",
+        "price": 20000
+      },
+      {
+        "id": "tariff-2",
+        "name": "18000",
+        "color": "#ff7b00",
+        "price": 18000
+      },
+      {
+        "id": "tariff-3",
+        "name": "16000",
+        "color": "#ffdd00",
+        "price": 16000
+      },
+      {
+        "id": "tariff-4",
+        "name": "14000",
+        "color": "#1ef6ae",
+        "price": 14000
+      },
+      {
+        "id": "tariff-5",
+        "name": "12000",
+        "color": "#57f4ff",
+        "price": 12000
+      },
+      {
+        "id": "tariff-6",
+        "name": "8000",
+        "color": "#b4b3ff",
+        "price": 8000
+      },
+      {
+        "id": "tariff-7",
+        "name": "7000",
+        "color": "#7074db",
+        "price": 7000
+      },
+      {
+        "id": "tariff-8",
+        "name": "6000",
+        "color": "#6938bc",
+        "price": 6000
+      },
+      {
+        "id": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82",
+        "name": "5000",
+        "color": "#4c00ff",
+        "price": 5000
+      },
+      {
+        "id": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3",
+        "name": "4000",
+        "color": "#192a52",
+        "price": 4000
+      },
+      {
+        "id": "tariff-be972d1c-51b4-4e98-874d-ae503546d983",
+        "name": "3000",
+        "color": "#E85D5D",
+        "price": 3000
+      },
+      {
+        "id": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7",
+        "name": "2000",
+        "color": "#e2c9b1",
+        "price": 2000
+      },
+      {
+        "id": "tariff-1323f09a-d7b7-4c15-9c86-6e1fff2f438d",
+        "name": "10000",
+        "color": "#4BB7C5",
+        "price": 10000
+      }
+    ],
+    "seats": [
+      {
+        "id": "tier2-center-r4-s1",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 4,
+        "seat": 1,
+        "x": 361.5,
+        "y": 124,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier2-center-r4-s2",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 4,
+        "seat": 2,
+        "x": 379,
+        "y": 119,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier2-center-r4-s3",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 4,
+        "seat": 3,
+        "x": 397,
+        "y": 114,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier2-center-r4-s4",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 4,
+        "seat": 4,
+        "x": 416,
+        "y": 110,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier2-center-r4-s5",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 4,
+        "seat": 5,
+        "x": 434.5,
+        "y": 106,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier2-center-r4-s6",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 4,
+        "seat": 6,
+        "x": 453,
+        "y": 102.5,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier2-center-r4-s7",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 4,
+        "seat": 7,
+        "x": 471.5,
+        "y": 99,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier2-center-r4-s8",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 4,
+        "seat": 8,
+        "x": 491,
+        "y": 95.5,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier2-center-r4-s9",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 4,
+        "seat": 9,
+        "x": 509.5,
+        "y": 94,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier2-center-r4-s10",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 4,
+        "seat": 10,
+        "x": 588.5,
+        "y": 86.5,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier2-center-r4-s11",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 4,
+        "seat": 11,
+        "x": 607,
+        "y": 85,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier2-center-r4-s12",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 4,
+        "seat": 12,
+        "x": 626.5,
+        "y": 84,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier2-center-r4-s13",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 4,
+        "seat": 13,
+        "x": 645,
+        "y": 84,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier2-center-r4-s14",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 4,
+        "seat": 14,
+        "x": 664,
+        "y": 84,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier2-center-r4-s15",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 4,
+        "seat": 15,
+        "x": 683.5,
+        "y": 85,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier2-center-r4-s16",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 4,
+        "seat": 16,
+        "x": 702.5,
+        "y": 86.5,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier2-center-r4-s17",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 4,
+        "seat": 17,
+        "x": 780.5,
+        "y": 94,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier2-center-r4-s18",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 4,
+        "seat": 18,
+        "x": 800,
+        "y": 96,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier2-center-r4-s19",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 4,
+        "seat": 19,
+        "x": 821,
+        "y": 99,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier2-center-r4-s20",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 4,
+        "seat": 20,
+        "x": 840,
+        "y": 102.5,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier2-center-r4-s21",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 4,
+        "seat": 21,
+        "x": 858,
+        "y": 106,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier2-center-r4-s22",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 4,
+        "seat": 22,
+        "x": 877,
+        "y": 110.5,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier2-center-r4-s23",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 4,
+        "seat": 23,
+        "x": 895,
+        "y": 114.5,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier2-center-r4-s24",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 4,
+        "seat": 24,
+        "x": 914.5,
+        "y": 119,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier2-center-r3-s1",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 3,
+        "seat": 1,
+        "x": 347,
+        "y": 148,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier2-center-r3-s2",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 3,
+        "seat": 2,
+        "x": 365.5,
+        "y": 143,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier2-center-r3-s3",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 3,
+        "seat": 3,
+        "x": 383,
+        "y": 137,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier2-center-r3-s4",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 3,
+        "seat": 4,
+        "x": 400.5,
+        "y": 132.5,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier2-center-r3-s5",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 3,
+        "seat": 5,
+        "x": 420,
+        "y": 128.5,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier2-center-r3-s6",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 3,
+        "seat": 6,
+        "x": 438.5,
+        "y": 124.5,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier2-center-r3-s7",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 3,
+        "seat": 7,
+        "x": 457,
+        "y": 120.5,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-center-r3-s8",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 3,
+        "seat": 8,
+        "x": 476.5,
+        "y": 117,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-center-r3-s9",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 3,
+        "seat": 9,
+        "x": 494.5,
+        "y": 114.5,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-center-r3-s10",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 3,
+        "seat": 10,
+        "x": 512.5,
+        "y": 112,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-center-r3-s11",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 3,
+        "seat": 11,
+        "x": 532,
+        "y": 110,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-center-r3-s12",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 3,
+        "seat": 12,
+        "x": 551,
+        "y": 108,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-center-r3-s13",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 3,
+        "seat": 13,
+        "x": 570.5,
+        "y": 106,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-center-r3-s14",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 3,
+        "seat": 14,
+        "x": 588.5,
+        "y": 105,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-center-r3-s15",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 3,
+        "seat": 15,
+        "x": 607,
+        "y": 104,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-center-r3-s16",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 3,
+        "seat": 16,
+        "x": 626.5,
+        "y": 104,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-center-r3-s17",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 3,
+        "seat": 17,
+        "x": 645,
+        "y": 103,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-center-r3-s18",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 3,
+        "seat": 18,
+        "x": 664,
+        "y": 103,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-center-r3-s19",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 3,
+        "seat": 19,
+        "x": 685,
+        "y": 104,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-center-r3-s20",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 3,
+        "seat": 20,
+        "x": 704,
+        "y": 105,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-center-r3-s21",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 3,
+        "seat": 21,
+        "x": 722.5,
+        "y": 106,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-center-r3-s22",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 3,
+        "seat": 22,
+        "x": 741.5,
+        "y": 108,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-center-r3-s23",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 3,
+        "seat": 23,
+        "x": 760.5,
+        "y": 110,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-center-r3-s24",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 3,
+        "seat": 24,
+        "x": 780,
+        "y": 112.5,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-center-r3-s25",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 3,
+        "seat": 25,
+        "x": 798,
+        "y": 115,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-center-r3-s26",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 3,
+        "seat": 26,
+        "x": 817,
+        "y": 118.5,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-center-r3-s27",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 3,
+        "seat": 27,
+        "x": 836.5,
+        "y": 121,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-center-r3-s28",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 3,
+        "seat": 28,
+        "x": 854.5,
+        "y": 124.5,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier2-center-r3-s29",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 3,
+        "seat": 29,
+        "x": 872.5,
+        "y": 129,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier2-center-r3-s30",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 3,
+        "seat": 30,
+        "x": 891,
+        "y": 133,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier2-center-r3-s31",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 3,
+        "seat": 31,
+        "x": 910,
+        "y": 138,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier2-center-r3-s32",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 3,
+        "seat": 32,
+        "x": 928,
+        "y": 143,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier2-center-r3-s33",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 3,
+        "seat": 33,
+        "x": 946.5,
+        "y": 148.5,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier2-center-r2-s1",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 2,
+        "seat": 1,
+        "x": 383,
+        "y": 157,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier2-center-r2-s2",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 2,
+        "seat": 2,
+        "x": 402.5,
+        "y": 152,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier2-center-r2-s3",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 2,
+        "seat": 3,
+        "x": 420,
+        "y": 148,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-center-r2-s4",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 2,
+        "seat": 4,
+        "x": 438.5,
+        "y": 144,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-center-r2-s5",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 2,
+        "seat": 5,
+        "x": 457,
+        "y": 140,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-center-r2-s6",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 2,
+        "seat": 6,
+        "x": 476.5,
+        "y": 137,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-center-r2-s7",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 2,
+        "seat": 7,
+        "x": 494,
+        "y": 133,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-center-r2-s8",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 2,
+        "seat": 8,
+        "x": 513,
+        "y": 132,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-center-r2-s9",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 2,
+        "seat": 9,
+        "x": 532,
+        "y": 128.5,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-center-r2-s10",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 2,
+        "seat": 10,
+        "x": 551,
+        "y": 126.5,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-center-r2-s11",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 2,
+        "seat": 11,
+        "x": 570.5,
+        "y": 124.5,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-center-r2-s12",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 2,
+        "seat": 12,
+        "x": 589,
+        "y": 124,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-center-r2-s13",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 2,
+        "seat": 13,
+        "x": 607,
+        "y": 123,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-center-r2-s14",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 2,
+        "seat": 14,
+        "x": 626.5,
+        "y": 123,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-center-r2-s15",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 2,
+        "seat": 15,
+        "x": 645,
+        "y": 122,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-center-r2-s16",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 2,
+        "seat": 16,
+        "x": 664,
+        "y": 123,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-center-r2-s17",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 2,
+        "seat": 17,
+        "x": 685,
+        "y": 123,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-center-r2-s18",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 2,
+        "seat": 18,
+        "x": 704.5,
+        "y": 124,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-center-r2-s19",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 2,
+        "seat": 19,
+        "x": 723,
+        "y": 126,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-center-r2-s20",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 2,
+        "seat": 20,
+        "x": 742,
+        "y": 127,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-center-r2-s21",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 2,
+        "seat": 21,
+        "x": 761,
+        "y": 128.5,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-center-r2-s22",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 2,
+        "seat": 22,
+        "x": 780,
+        "y": 132,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-center-r2-s23",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 2,
+        "seat": 23,
+        "x": 798,
+        "y": 134.5,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-center-r2-s24",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 2,
+        "seat": 24,
+        "x": 817,
+        "y": 137.5,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-center-r2-s25",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 2,
+        "seat": 25,
+        "x": 836,
+        "y": 140,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-center-r2-s26",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 2,
+        "seat": 26,
+        "x": 854.5,
+        "y": 144,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-center-r2-s27",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 2,
+        "seat": 27,
+        "x": 873,
+        "y": 149,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-center-r2-s28",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 2,
+        "seat": 28,
+        "x": 891,
+        "y": 152,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier2-center-r2-s29",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 2,
+        "seat": 29,
+        "x": 909,
+        "y": 158,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier2-center-r1-s1",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 1,
+        "seat": 1,
+        "x": 420,
+        "y": 168,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier2-center-r1-s2",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 1,
+        "seat": 2,
+        "x": 439,
+        "y": 162.5,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier2-center-r1-s3",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 1,
+        "seat": 3,
+        "x": 457.5,
+        "y": 159,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier2-center-r1-s4",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 1,
+        "seat": 4,
+        "x": 476,
+        "y": 156.5,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier2-center-r1-s5",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 1,
+        "seat": 5,
+        "x": 494.5,
+        "y": 153.5,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier2-center-r1-s6",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 1,
+        "seat": 6,
+        "x": 513,
+        "y": 151,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier2-center-r1-s7",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 1,
+        "seat": 7,
+        "x": 532,
+        "y": 148,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier2-center-r1-s8",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 1,
+        "seat": 8,
+        "x": 551,
+        "y": 146,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier2-center-r1-s9",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 1,
+        "seat": 9,
+        "x": 570,
+        "y": 144,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier2-center-r1-s10",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 1,
+        "seat": 10,
+        "x": 589,
+        "y": 143,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier2-center-r1-s11",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 1,
+        "seat": 11,
+        "x": 607,
+        "y": 142,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier2-center-r1-s12",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 1,
+        "seat": 12,
+        "x": 626.5,
+        "y": 142,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier2-center-r1-s13",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 1,
+        "seat": 13,
+        "x": 645,
+        "y": 141,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier2-center-r1-s14",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 1,
+        "seat": 14,
+        "x": 664,
+        "y": 142,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier2-center-r1-s15",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 1,
+        "seat": 15,
+        "x": 684.5,
+        "y": 142.5,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier2-center-r1-s16",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 1,
+        "seat": 16,
+        "x": 704,
+        "y": 143,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier2-center-r1-s17",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 1,
+        "seat": 17,
+        "x": 723,
+        "y": 145,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier2-center-r1-s18",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 1,
+        "seat": 18,
+        "x": 742,
+        "y": 146,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier2-center-r1-s19",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 1,
+        "seat": 19,
+        "x": 761.5,
+        "y": 148,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier2-center-r1-s20",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 1,
+        "seat": 20,
+        "x": 780,
+        "y": 150.5,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier2-center-r1-s21",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 1,
+        "seat": 21,
+        "x": 798,
+        "y": 153,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier2-center-r1-s22",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 1,
+        "seat": 22,
+        "x": 816.5,
+        "y": 156,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier2-center-r1-s23",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 1,
+        "seat": 23,
+        "x": 836,
+        "y": 160,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier2-center-r1-s24",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 1,
+        "seat": 24,
+        "x": 854.5,
+        "y": 164,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier2-center-r1-s25",
+        "section": "Балкон 2-го яруса, середина",
+        "row": 1,
+        "seat": 25,
+        "x": 873.5,
+        "y": 168,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier2-right-r1-s1",
+        "section": "Балкон 2-го яруса, правая сторона",
+        "row": 1,
+        "seat": 1,
+        "x": 187.5,
+        "y": 260.5,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-right-r1-s2",
+        "section": "Балкон 2-го яруса, правая сторона",
+        "row": 1,
+        "seat": 2,
+        "x": 205,
+        "y": 251.5,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-right-r1-s3",
+        "section": "Балкон 2-го яруса, правая сторона",
+        "row": 1,
+        "seat": 3,
+        "x": 221,
+        "y": 242.5,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-right-r1-s4",
+        "section": "Балкон 2-го яруса, правая сторона",
+        "row": 1,
+        "seat": 4,
+        "x": 238,
+        "y": 233.5,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-left-r1-s1",
+        "section": "Балкон 2-го яруса, левая сторона",
+        "row": 1,
+        "seat": 1,
+        "x": 1039,
+        "y": 225.5,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-left-r1-s2",
+        "section": "Балкон 2-го яруса, левая сторона",
+        "row": 1,
+        "seat": 2,
+        "x": 1056,
+        "y": 233.5,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-left-r1-s3",
+        "section": "Балкон 2-го яруса, левая сторона",
+        "row": 1,
+        "seat": 3,
+        "x": 1073.5,
+        "y": 241.5,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier2-left-r1-s4",
+        "section": "Балкон 2-го яруса, левая сторона",
+        "row": 1,
+        "seat": 4,
+        "x": 1090.5,
+        "y": 251,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier1-center-r3-s1",
+        "section": "Балкон 1-го яруса, середина",
+        "row": 3,
+        "seat": 1,
+        "x": 471,
+        "y": 294,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier1-center-r3-s2",
+        "section": "Балкон 1-го яруса, середина",
+        "row": 3,
+        "seat": 2,
+        "x": 489.5,
+        "y": 290,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier1-center-r3-s3",
+        "section": "Балкон 1-го яруса, середина",
+        "row": 3,
+        "seat": 3,
+        "x": 507.5,
+        "y": 287,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier1-center-r3-s4",
+        "section": "Балкон 1-го яруса, середина",
+        "row": 3,
+        "seat": 4,
+        "x": 526.5,
+        "y": 284.5,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier1-center-r3-s5",
+        "section": "Балкон 1-го яруса, середина",
+        "row": 3,
+        "seat": 5,
+        "x": 545.5,
+        "y": 281.5,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier1-center-r3-s6",
+        "section": "Балкон 1-го яруса, середина",
+        "row": 3,
+        "seat": 6,
+        "x": 746,
+        "y": 282,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier1-center-r3-s7",
+        "section": "Балкон 1-го яруса, середина",
+        "row": 3,
+        "seat": 7,
+        "x": 765,
+        "y": 284,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier1-center-r3-s8",
+        "section": "Балкон 1-го яруса, середина",
+        "row": 3,
+        "seat": 8,
+        "x": 783,
+        "y": 287,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier1-center-r3-s9",
+        "section": "Балкон 1-го яруса, середина",
+        "row": 3,
+        "seat": 9,
+        "x": 802,
+        "y": 290,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier1-center-r3-s10",
+        "section": "Балкон 1-го яруса, середина",
+        "row": 3,
+        "seat": 10,
+        "x": 821,
+        "y": 294,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier1-center-r2-s1",
+        "section": "Балкон 1-го яруса, середина",
+        "row": 2,
+        "seat": 1,
+        "x": 486,
+        "y": 311,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "tier1-center-r2-s2",
+        "section": "Балкон 1-го яруса, середина",
+        "row": 2,
+        "seat": 2,
+        "x": 504,
+        "y": 307.5,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "tier1-center-r2-s3",
+        "section": "Балкон 1-го яруса, середина",
+        "row": 2,
+        "seat": 3,
+        "x": 523,
+        "y": 304.5,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "tier1-center-r2-s4",
+        "section": "Балкон 1-го яруса, середина",
+        "row": 2,
+        "seat": 4,
+        "x": 542,
+        "y": 301.5,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "tier1-center-r2-s5",
+        "section": "Балкон 1-го яруса, середина",
+        "row": 2,
+        "seat": 5,
+        "x": 561,
+        "y": 300,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "tier1-center-r2-s6",
+        "section": "Балкон 1-го яруса, середина",
+        "row": 2,
+        "seat": 6,
+        "x": 732,
+        "y": 299.5,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "tier1-center-r2-s7",
+        "section": "Балкон 1-го яруса, середина",
+        "row": 2,
+        "seat": 7,
+        "x": 751.5,
+        "y": 301.5,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "tier1-center-r2-s8",
+        "section": "Балкон 1-го яруса, середина",
+        "row": 2,
+        "seat": 8,
+        "x": 771,
+        "y": 304.5,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "tier1-center-r2-s9",
+        "section": "Балкон 1-го яруса, середина",
+        "row": 2,
+        "seat": 9,
+        "x": 788.5,
+        "y": 307,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "tier1-center-r2-s10",
+        "section": "Балкон 1-го яруса, середина",
+        "row": 2,
+        "seat": 10,
+        "x": 807.5,
+        "y": 311,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "tier1-center-r1-s1",
+        "section": "Балкон 1-го яруса, середина",
+        "row": 1,
+        "seat": 1,
+        "x": 518,
+        "y": 324.5,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "tier1-center-r1-s2",
+        "section": "Балкон 1-го яруса, середина",
+        "row": 1,
+        "seat": 2,
+        "x": 537,
+        "y": 321.5,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "tier1-center-r1-s3",
+        "section": "Балкон 1-го яруса, середина",
+        "row": 1,
+        "seat": 3,
+        "x": 556,
+        "y": 319,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "tier1-center-r1-s4",
+        "section": "Балкон 1-го яруса, середина",
+        "row": 1,
+        "seat": 4,
+        "x": 575,
+        "y": 316.5,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "tier1-center-r1-s5",
+        "section": "Балкон 1-го яруса, середина",
+        "row": 1,
+        "seat": 5,
+        "x": 594,
+        "y": 315,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "tier1-center-r1-s6",
+        "section": "Балкон 1-го яруса, середина",
+        "row": 1,
+        "seat": 6,
+        "x": 718,
+        "y": 317,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "tier1-center-r1-s7",
+        "section": "Балкон 1-го яруса, середина",
+        "row": 1,
+        "seat": 7,
+        "x": 737,
+        "y": 319,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "tier1-center-r1-s8",
+        "section": "Балкон 1-го яруса, середина",
+        "row": 1,
+        "seat": 8,
+        "x": 756,
+        "y": 321.5,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "tier1-center-r1-s9",
+        "section": "Балкон 1-го яруса, середина",
+        "row": 1,
+        "seat": 9,
+        "x": 775,
+        "y": 324,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "tier1-right-r4-s1",
+        "section": "Балкон 1-го яруса, правая сторона",
+        "row": 4,
+        "seat": 1,
+        "x": 263.5,
+        "y": 349,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier1-right-r4-s2",
+        "section": "Балкон 1-го яруса, правая сторона",
+        "row": 4,
+        "seat": 2,
+        "x": 280,
+        "y": 340,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier1-right-r4-s3",
+        "section": "Балкон 1-го яруса, правая сторона",
+        "row": 4,
+        "seat": 3,
+        "x": 296.5,
+        "y": 332,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier1-right-r4-s4",
+        "section": "Балкон 1-го яруса, правая сторона",
+        "row": 4,
+        "seat": 4,
+        "x": 315,
+        "y": 323.5,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier1-right-r4-s5",
+        "section": "Балкон 1-го яруса, правая сторона",
+        "row": 4,
+        "seat": 5,
+        "x": 332,
+        "y": 317,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier1-right-r4-s6",
+        "section": "Балкон 1-го яруса, правая сторона",
+        "row": 4,
+        "seat": 6,
+        "x": 349.5,
+        "y": 309,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier1-right-r3-s1",
+        "section": "Балкон 1-го яруса, правая сторона",
+        "row": 3,
+        "seat": 1,
+        "x": 295,
+        "y": 354,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier1-right-r3-s2",
+        "section": "Балкон 1-го яруса, правая сторона",
+        "row": 3,
+        "seat": 2,
+        "x": 307,
+        "y": 368.5,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier1-right-r3-s3",
+        "section": "Балкон 1-го яруса, правая сторона",
+        "row": 3,
+        "seat": 3,
+        "x": 312,
+        "y": 346.5,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier1-right-r3-s4",
+        "section": "Балкон 1-го яруса, правая сторона",
+        "row": 3,
+        "seat": 4,
+        "x": 324,
+        "y": 361.5,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier1-right-r3-s5",
+        "section": "Балкон 1-го яруса, правая сторона",
+        "row": 3,
+        "seat": 5,
+        "x": 329,
+        "y": 339,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier1-right-r3-s6",
+        "section": "Балкон 1-го яруса, правая сторона",
+        "row": 3,
+        "seat": 6,
+        "x": 341,
+        "y": 353.5,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier1-right-r3-s7",
+        "section": "Балкон 1-го яруса, правая сторона",
+        "row": 3,
+        "seat": 7,
+        "x": 347,
+        "y": 331,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier1-right-r3-s8",
+        "section": "Балкон 1-го яруса, правая сторона",
+        "row": 3,
+        "seat": 8,
+        "x": 359,
+        "y": 346.5,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier1-right-r3-s9",
+        "section": "Балкон 1-го яруса, правая сторона",
+        "row": 3,
+        "seat": 9,
+        "x": 364.5,
+        "y": 324,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier1-right-r2-s1",
+        "section": "Балкон 1-го яруса, правая сторона",
+        "row": 2,
+        "seat": 1,
+        "x": 166,
+        "y": 490.5,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier1-right-r2-s2",
+        "section": "Балкон 1-го яруса, правая сторона",
+        "row": 2,
+        "seat": 2,
+        "x": 180,
+        "y": 478,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier1-right-r2-s3",
+        "section": "Балкон 1-го яруса, правая сторона",
+        "row": 2,
+        "seat": 3,
+        "x": 194.5,
+        "y": 465,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier1-right-r2-s4",
+        "section": "Балкон 1-го яруса, правая сторона",
+        "row": 2,
+        "seat": 4,
+        "x": 338.5,
+        "y": 376,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier1-right-r2-s5",
+        "section": "Балкон 1-го яруса, правая сторона",
+        "row": 2,
+        "seat": 5,
+        "x": 355.5,
+        "y": 368,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier1-right-r2-s6",
+        "section": "Балкон 1-го яруса, правая сторона",
+        "row": 2,
+        "seat": 6,
+        "x": 373.5,
+        "y": 361.5,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier1-right-r2-s7",
+        "section": "Балкон 1-го яруса, правая сторона",
+        "row": 2,
+        "seat": 7,
+        "x": 377.5,
+        "y": 339,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier1-right-r2-s8",
+        "section": "Балкон 1-го яруса, правая сторона",
+        "row": 2,
+        "seat": 8,
+        "x": 392,
+        "y": 356,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier1-right-r1-s1",
+        "section": "Балкон 1-го яруса, правая сторона",
+        "row": 1,
+        "seat": 1,
+        "x": 128.5,
+        "y": 533.5,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier1-right-r1-s2",
+        "section": "Балкон 1-го яруса, правая сторона",
+        "row": 1,
+        "seat": 2,
+        "x": 140,
+        "y": 519,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier1-right-r1-s3",
+        "section": "Балкон 1-го яруса, правая сторона",
+        "row": 1,
+        "seat": 3,
+        "x": 153.5,
+        "y": 505,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier1-left-r4-s1",
+        "section": "Балкон 1-го яруса, левая сторона",
+        "row": 4,
+        "seat": 1,
+        "x": 940.5,
+        "y": 309,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier1-left-r4-s2",
+        "section": "Балкон 1-го яруса, левая сторона",
+        "row": 4,
+        "seat": 2,
+        "x": 958.5,
+        "y": 316,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier1-left-r4-s3",
+        "section": "Балкон 1-го яруса, левая сторона",
+        "row": 4,
+        "seat": 3,
+        "x": 975.5,
+        "y": 323.5,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier1-left-r4-s4",
+        "section": "Балкон 1-го яруса, левая сторона",
+        "row": 4,
+        "seat": 4,
+        "x": 992.5,
+        "y": 331,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier1-left-r4-s5",
+        "section": "Балкон 1-го яруса, левая сторона",
+        "row": 4,
+        "seat": 5,
+        "x": 1010,
+        "y": 339.5,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier1-left-r4-s6",
+        "section": "Балкон 1-го яруса, левая сторона",
+        "row": 4,
+        "seat": 6,
+        "x": 1027,
+        "y": 348,
+        "tariffId": "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7"
+      },
+      {
+        "id": "tier1-left-r3-s1",
+        "section": "Балкон 1-го яруса, левая сторона",
+        "row": 3,
+        "seat": 1,
+        "x": 926,
+        "y": 324,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier1-left-r3-s2",
+        "section": "Балкон 1-го яруса, левая сторона",
+        "row": 3,
+        "seat": 2,
+        "x": 934,
+        "y": 347,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier1-left-r3-s3",
+        "section": "Балкон 1-го яруса, левая сторона",
+        "row": 3,
+        "seat": 3,
+        "x": 944.5,
+        "y": 331,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier1-left-r3-s4",
+        "section": "Балкон 1-го яруса, левая сторона",
+        "row": 3,
+        "seat": 4,
+        "x": 951,
+        "y": 355,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier1-left-r3-s5",
+        "section": "Балкон 1-го яруса, левая сторона",
+        "row": 3,
+        "seat": 5,
+        "x": 961,
+        "y": 339,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier1-left-r3-s6",
+        "section": "Балкон 1-го яруса, левая сторона",
+        "row": 3,
+        "seat": 6,
+        "x": 968,
+        "y": 362.5,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier1-left-r3-s7",
+        "section": "Балкон 1-го яруса, левая сторона",
+        "row": 3,
+        "seat": 7,
+        "x": 979.5,
+        "y": 346.5,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier1-left-r3-s8",
+        "section": "Балкон 1-го яруса, левая сторона",
+        "row": 3,
+        "seat": 8,
+        "x": 985,
+        "y": 370,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier1-left-r3-s9",
+        "section": "Балкон 1-го яруса, левая сторона",
+        "row": 3,
+        "seat": 9,
+        "x": 996,
+        "y": 354,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier1-left-r2-s1",
+        "section": "Балкон 1-го яруса, левая сторона",
+        "row": 2,
+        "seat": 1,
+        "x": 901.5,
+        "y": 355.5,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier1-left-r2-s2",
+        "section": "Балкон 1-го яруса, левая сторона",
+        "row": 2,
+        "seat": 2,
+        "x": 916,
+        "y": 341,
+        "tariffId": "tariff-be972d1c-51b4-4e98-874d-ae503546d983"
+      },
+      {
+        "id": "tier1-left-r2-s3",
+        "section": "Балкон 1-го яруса, левая сторона",
+        "row": 2,
+        "seat": 3,
+        "x": 920,
+        "y": 362.5,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier1-left-r2-s4",
+        "section": "Балкон 1-го яруса, левая сторона",
+        "row": 2,
+        "seat": 4,
+        "x": 938,
+        "y": 369,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier1-left-r2-s5",
+        "section": "Балкон 1-го яруса, левая сторона",
+        "row": 2,
+        "seat": 5,
+        "x": 955,
+        "y": 376.5,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier1-left-r2-s6",
+        "section": "Балкон 1-го яруса, левая сторона",
+        "row": 2,
+        "seat": 6,
+        "x": 1086.5,
+        "y": 456,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier1-left-r2-s7",
+        "section": "Балкон 1-го яруса, левая сторона",
+        "row": 2,
+        "seat": 7,
+        "x": 1102,
+        "y": 469,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier1-left-r1-s1",
+        "section": "Балкон 1-го яруса, левая сторона",
+        "row": 1,
+        "seat": 1,
+        "x": 1115,
+        "y": 482,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier1-left-r1-s2",
+        "section": "Балкон 1-го яруса, левая сторона",
+        "row": 1,
+        "seat": 2,
+        "x": 1128,
+        "y": 494.5,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier1-left-r1-s3",
+        "section": "Балкон 1-го яруса, левая сторона",
+        "row": 1,
+        "seat": 3,
+        "x": 1142,
+        "y": 508.5,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "tier1-left-r1-s4",
+        "section": "Балкон 1-го яруса, левая сторона",
+        "row": 1,
+        "seat": 4,
+        "x": 1154,
+        "y": 523,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "mezzanine-center-r4-s1",
+        "section": "Бельэтаж, середина",
+        "row": 4,
+        "seat": 1,
+        "x": 391,
+        "y": 479.5,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-center-r4-s2",
+        "section": "Бельэтаж, середина",
+        "row": 4,
+        "seat": 2,
+        "x": 408.5,
+        "y": 472.5,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-center-r4-s3",
+        "section": "Бельэтаж, середина",
+        "row": 4,
+        "seat": 3,
+        "x": 425.5,
+        "y": 465.5,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-center-r4-s4",
+        "section": "Бельэтаж, середина",
+        "row": 4,
+        "seat": 4,
+        "x": 444,
+        "y": 460.5,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-center-r4-s5",
+        "section": "Бельэтаж, середина",
+        "row": 4,
+        "seat": 5,
+        "x": 462,
+        "y": 454.5,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-center-r4-s6",
+        "section": "Бельэтаж, середина",
+        "row": 4,
+        "seat": 6,
+        "x": 480,
+        "y": 449.5,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-center-r4-s7",
+        "section": "Бельэтаж, середина",
+        "row": 4,
+        "seat": 7,
+        "x": 499.5,
+        "y": 446,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-center-r4-s8",
+        "section": "Бельэтаж, середина",
+        "row": 4,
+        "seat": 8,
+        "x": 792,
+        "y": 445.5,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-center-r4-s9",
+        "section": "Бельэтаж, середина",
+        "row": 4,
+        "seat": 9,
+        "x": 811,
+        "y": 449.5,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-center-r4-s10",
+        "section": "Бельэтаж, середина",
+        "row": 4,
+        "seat": 10,
+        "x": 829.5,
+        "y": 454.5,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-center-r4-s11",
+        "section": "Бельэтаж, середина",
+        "row": 4,
+        "seat": 11,
+        "x": 847.5,
+        "y": 460,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-center-r4-s12",
+        "section": "Бельэтаж, середина",
+        "row": 4,
+        "seat": 12,
+        "x": 865.5,
+        "y": 466,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-center-r4-s13",
+        "section": "Бельэтаж, середина",
+        "row": 4,
+        "seat": 13,
+        "x": 883.5,
+        "y": 472.5,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-center-r4-s14",
+        "section": "Бельэтаж, середина",
+        "row": 4,
+        "seat": 14,
+        "x": 900.5,
+        "y": 479,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-center-r4-s15",
+        "section": "Бельэтаж, середина",
+        "row": 4,
+        "seat": 15,
+        "x": 917.5,
+        "y": 487,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-center-r3-s1",
+        "section": "Бельэтаж, середина",
+        "row": 3,
+        "seat": 1,
+        "x": 339.5,
+        "y": 502,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-center-r3-s2",
+        "section": "Бельэтаж, середина",
+        "row": 3,
+        "seat": 2,
+        "x": 356.5,
+        "y": 494.5,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-center-r3-s3",
+        "section": "Бельэтаж, середина",
+        "row": 3,
+        "seat": 3,
+        "x": 373.5,
+        "y": 487,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-center-r3-s4",
+        "section": "Бельэтаж, середина",
+        "row": 3,
+        "seat": 4,
+        "x": 381,
+        "y": 503.5,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "mezzanine-center-r3-s5",
+        "section": "Бельэтаж, середина",
+        "row": 3,
+        "seat": 5,
+        "x": 398.5,
+        "y": 496.5,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "mezzanine-center-r3-s6",
+        "section": "Бельэтаж, середина",
+        "row": 3,
+        "seat": 6,
+        "x": 416.5,
+        "y": 489.5,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "mezzanine-center-r3-s7",
+        "section": "Бельэтаж, середина",
+        "row": 3,
+        "seat": 7,
+        "x": 433.5,
+        "y": 482.5,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "mezzanine-center-r3-s8",
+        "section": "Бельэтаж, середина",
+        "row": 3,
+        "seat": 8,
+        "x": 451.5,
+        "y": 477.5,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "mezzanine-center-r3-s9",
+        "section": "Бельэтаж, середина",
+        "row": 3,
+        "seat": 9,
+        "x": 469.5,
+        "y": 472.5,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "mezzanine-center-r3-s10",
+        "section": "Бельэтаж, середина",
+        "row": 3,
+        "seat": 10,
+        "x": 488,
+        "y": 467.5,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "mezzanine-center-r3-s11",
+        "section": "Бельэтаж, середина",
+        "row": 3,
+        "seat": 11,
+        "x": 506.5,
+        "y": 463,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "mezzanine-center-r3-s12",
+        "section": "Бельэтаж, середина",
+        "row": 3,
+        "seat": 12,
+        "x": 783.5,
+        "y": 463.5,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "mezzanine-center-r3-s13",
+        "section": "Бельэтаж, середина",
+        "row": 3,
+        "seat": 13,
+        "x": 803,
+        "y": 466.5,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "mezzanine-center-r3-s14",
+        "section": "Бельэтаж, середина",
+        "row": 3,
+        "seat": 14,
+        "x": 820.5,
+        "y": 471.5,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "mezzanine-center-r3-s15",
+        "section": "Бельэтаж, середина",
+        "row": 3,
+        "seat": 15,
+        "x": 839,
+        "y": 477.5,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "mezzanine-center-r3-s16",
+        "section": "Бельэтаж, середина",
+        "row": 3,
+        "seat": 16,
+        "x": 857,
+        "y": 483.5,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "mezzanine-center-r3-s17",
+        "section": "Бельэтаж, середина",
+        "row": 3,
+        "seat": 17,
+        "x": 875,
+        "y": 489.5,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "mezzanine-center-r3-s18",
+        "section": "Бельэтаж, середина",
+        "row": 3,
+        "seat": 18,
+        "x": 891.5,
+        "y": 496.5,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "mezzanine-center-r3-s19",
+        "section": "Бельэтаж, середина",
+        "row": 3,
+        "seat": 19,
+        "x": 909,
+        "y": 503.5,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "mezzanine-center-r3-s20",
+        "section": "Бельэтаж, середина",
+        "row": 3,
+        "seat": 20,
+        "x": 935,
+        "y": 495.5,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-center-r3-s21",
+        "section": "Бельэтаж, середина",
+        "row": 3,
+        "seat": 21,
+        "x": 951.5,
+        "y": 503.5,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-center-r2-s1",
+        "section": "Бельэтаж, середина",
+        "row": 2,
+        "seat": 1,
+        "x": 388,
+        "y": 521.5,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "mezzanine-center-r2-s2",
+        "section": "Бельэтаж, середина",
+        "row": 2,
+        "seat": 2,
+        "x": 405,
+        "y": 514.5,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "mezzanine-center-r2-s3",
+        "section": "Бельэтаж, середина",
+        "row": 2,
+        "seat": 3,
+        "x": 422,
+        "y": 507.5,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "mezzanine-center-r2-s4",
+        "section": "Бельэтаж, середина",
+        "row": 2,
+        "seat": 4,
+        "x": 440,
+        "y": 501.5,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "mezzanine-center-r2-s5",
+        "section": "Бельэтаж, середина",
+        "row": 2,
+        "seat": 5,
+        "x": 458.5,
+        "y": 495.5,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "mezzanine-center-r2-s6",
+        "section": "Бельэтаж, середина",
+        "row": 2,
+        "seat": 6,
+        "x": 476.5,
+        "y": 490,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "mezzanine-center-r2-s7",
+        "section": "Бельэтаж, середина",
+        "row": 2,
+        "seat": 7,
+        "x": 494,
+        "y": 485.5,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "mezzanine-center-r2-s8",
+        "section": "Бельэтаж, середина",
+        "row": 2,
+        "seat": 8,
+        "x": 513.5,
+        "y": 481.5,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "mezzanine-center-r2-s9",
+        "section": "Бельэтаж, середина",
+        "row": 2,
+        "seat": 9,
+        "x": 776,
+        "y": 481.5,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "mezzanine-center-r2-s10",
+        "section": "Бельэтаж, середина",
+        "row": 2,
+        "seat": 10,
+        "x": 794.5,
+        "y": 485,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "mezzanine-center-r2-s11",
+        "section": "Бельэтаж, середина",
+        "row": 2,
+        "seat": 11,
+        "x": 812.5,
+        "y": 489.5,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "mezzanine-center-r2-s12",
+        "section": "Бельэтаж, середина",
+        "row": 2,
+        "seat": 12,
+        "x": 830,
+        "y": 494.5,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "mezzanine-center-r2-s13",
+        "section": "Бельэтаж, середина",
+        "row": 2,
+        "seat": 13,
+        "x": 848.5,
+        "y": 500.5,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "mezzanine-center-r2-s14",
+        "section": "Бельэтаж, середина",
+        "row": 2,
+        "seat": 14,
+        "x": 866.5,
+        "y": 507,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "mezzanine-center-r2-s15",
+        "section": "Бельэтаж, середина",
+        "row": 2,
+        "seat": 15,
+        "x": 884.5,
+        "y": 513.5,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "mezzanine-center-r2-s16",
+        "section": "Бельэтаж, середина",
+        "row": 2,
+        "seat": 16,
+        "x": 901.5,
+        "y": 521,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "mezzanine-center-r1-s1",
+        "section": "Бельэтаж, середина",
+        "row": 1,
+        "seat": 1,
+        "x": 413.5,
+        "y": 531.5,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "mezzanine-center-r1-s2",
+        "section": "Бельэтаж, середина",
+        "row": 1,
+        "seat": 2,
+        "x": 430.5,
+        "y": 524.5,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "mezzanine-center-r1-s3",
+        "section": "Бельэтаж, середина",
+        "row": 1,
+        "seat": 3,
+        "x": 448.5,
+        "y": 518.5,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "mezzanine-center-r1-s4",
+        "section": "Бельэтаж, середина",
+        "row": 1,
+        "seat": 4,
+        "x": 466.5,
+        "y": 512.5,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "mezzanine-center-r1-s5",
+        "section": "Бельэтаж, середина",
+        "row": 1,
+        "seat": 5,
+        "x": 485,
+        "y": 507.5,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "mezzanine-center-r1-s6",
+        "section": "Бельэтаж, середина",
+        "row": 1,
+        "seat": 6,
+        "x": 503,
+        "y": 503,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "mezzanine-center-r1-s7",
+        "section": "Бельэтаж, середина",
+        "row": 1,
+        "seat": 7,
+        "x": 521.5,
+        "y": 499.5,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "mezzanine-center-r1-s8",
+        "section": "Бельэтаж, середина",
+        "row": 1,
+        "seat": 8,
+        "x": 769.5,
+        "y": 499.5,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "mezzanine-center-r1-s9",
+        "section": "Бельэтаж, середина",
+        "row": 1,
+        "seat": 9,
+        "x": 788.5,
+        "y": 503,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "mezzanine-center-r1-s10",
+        "section": "Бельэтаж, середина",
+        "row": 1,
+        "seat": 10,
+        "x": 807,
+        "y": 507.5,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "mezzanine-center-r1-s11",
+        "section": "Бельэтаж, середина",
+        "row": 1,
+        "seat": 11,
+        "x": 824.5,
+        "y": 512.5,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "mezzanine-center-r1-s12",
+        "section": "Бельэтаж, середина",
+        "row": 1,
+        "seat": 12,
+        "x": 842.5,
+        "y": 518,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "mezzanine-center-r1-s13",
+        "section": "Бельэтаж, середина",
+        "row": 1,
+        "seat": 13,
+        "x": 860.5,
+        "y": 524.5,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "mezzanine-center-r1-s14",
+        "section": "Бельэтаж, середина",
+        "row": 1,
+        "seat": 14,
+        "x": 877.5,
+        "y": 531.5,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "mezzanine-right-r4-s1",
+        "section": "Бельэтаж, правая сторона",
+        "row": 4,
+        "seat": 1,
+        "x": 191,
+        "y": 814.5,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-right-r4-s2",
+        "section": "Бельэтаж, правая сторона",
+        "row": 4,
+        "seat": 2,
+        "x": 266,
+        "y": 638,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "mezzanine-right-r4-s3",
+        "section": "Бельэтаж, правая сторона",
+        "row": 4,
+        "seat": 3,
+        "x": 279,
+        "y": 623.5,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "mezzanine-right-r4-s4",
+        "section": "Бельэтаж, правая сторона",
+        "row": 4,
+        "seat": 4,
+        "x": 291,
+        "y": 610,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "mezzanine-right-r4-s5",
+        "section": "Бельэтаж, правая сторона",
+        "row": 4,
+        "seat": 5,
+        "x": 294,
+        "y": 582.5,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "mezzanine-right-r4-s6",
+        "section": "Бельэтаж, правая сторона",
+        "row": 4,
+        "seat": 6,
+        "x": 305,
+        "y": 597,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "mezzanine-right-r3-s1",
+        "section": "Бельэтаж, правая сторона",
+        "row": 3,
+        "seat": 1,
+        "x": 191,
+        "y": 777.5,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-right-r3-s2",
+        "section": "Бельэтаж, правая сторона",
+        "row": 3,
+        "seat": 2,
+        "x": 191,
+        "y": 797,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-right-r3-s3",
+        "section": "Бельэтаж, правая сторона",
+        "row": 3,
+        "seat": 3,
+        "x": 193,
+        "y": 759,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-right-r3-s4",
+        "section": "Бельэтаж, правая сторона",
+        "row": 3,
+        "seat": 4,
+        "x": 244.5,
+        "y": 669,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-right-r3-s5",
+        "section": "Бельэтаж, правая сторона",
+        "row": 3,
+        "seat": 5,
+        "x": 254,
+        "y": 623,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "mezzanine-right-r3-s6",
+        "section": "Бельэтаж, правая сторона",
+        "row": 3,
+        "seat": 6,
+        "x": 255,
+        "y": 653,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-right-r3-s7",
+        "section": "Бельэтаж, правая сторона",
+        "row": 3,
+        "seat": 7,
+        "x": 266,
+        "y": 608,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "mezzanine-right-r3-s8",
+        "section": "Бельэтаж, правая сторона",
+        "row": 3,
+        "seat": 8,
+        "x": 280,
+        "y": 568.5,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-right-r3-s9",
+        "section": "Бельэтаж, правая сторона",
+        "row": 3,
+        "seat": 9,
+        "x": 280,
+        "y": 595.5,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "mezzanine-right-r2-s1",
+        "section": "Бельэтаж, правая сторона",
+        "row": 2,
+        "seat": 1,
+        "x": 174,
+        "y": 759,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-right-r2-s2",
+        "section": "Бельэтаж, правая сторона",
+        "row": 2,
+        "seat": 2,
+        "x": 197,
+        "y": 740.5,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-right-r2-s3",
+        "section": "Бельэтаж, правая сторона",
+        "row": 2,
+        "seat": 3,
+        "x": 201,
+        "y": 722,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-right-r2-s4",
+        "section": "Бельэтаж, правая сторона",
+        "row": 2,
+        "seat": 4,
+        "x": 206.5,
+        "y": 704.5,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-right-r2-s5",
+        "section": "Бельэтаж, правая сторона",
+        "row": 2,
+        "seat": 5,
+        "x": 214,
+        "y": 686.5,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-right-r2-s6",
+        "section": "Бельэтаж, правая сторона",
+        "row": 2,
+        "seat": 6,
+        "x": 223,
+        "y": 669,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-right-r2-s7",
+        "section": "Бельэтаж, правая сторона",
+        "row": 2,
+        "seat": 7,
+        "x": 232,
+        "y": 653,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-right-r2-s8",
+        "section": "Бельэтаж, правая сторона",
+        "row": 2,
+        "seat": 8,
+        "x": 236.5,
+        "y": 613,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-right-r2-s9",
+        "section": "Бельэтаж, правая сторона",
+        "row": 2,
+        "seat": 9,
+        "x": 242.5,
+        "y": 638,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-right-r2-s10",
+        "section": "Бельэтаж, правая сторона",
+        "row": 2,
+        "seat": 10,
+        "x": 250,
+        "y": 598,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-right-r2-s11",
+        "section": "Бельэтаж, правая сторона",
+        "row": 2,
+        "seat": 11,
+        "x": 264.5,
+        "y": 583,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-right-r2-s12",
+        "section": "Бельэтаж, правая сторона",
+        "row": 2,
+        "seat": 12,
+        "x": 267,
+        "y": 555,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "mezzanine-right-r1-s1",
+        "section": "Бельэтаж, правая сторона",
+        "row": 1,
+        "seat": 1,
+        "x": 177,
+        "y": 739.5,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-right-r1-s2",
+        "section": "Бельэтаж, правая сторона",
+        "row": 1,
+        "seat": 2,
+        "x": 181,
+        "y": 720.5,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-right-r1-s3",
+        "section": "Бельэтаж, правая сторона",
+        "row": 1,
+        "seat": 3,
+        "x": 187.5,
+        "y": 701.5,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-right-r1-s4",
+        "section": "Бельэтаж, правая сторона",
+        "row": 1,
+        "seat": 4,
+        "x": 195,
+        "y": 682.5,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-right-r1-s5",
+        "section": "Бельэтаж, правая сторона",
+        "row": 1,
+        "seat": 5,
+        "x": 204,
+        "y": 664,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-right-r1-s6",
+        "section": "Бельэтаж, правая сторона",
+        "row": 1,
+        "seat": 6,
+        "x": 204.5,
+        "y": 625.5,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "mezzanine-right-r1-s7",
+        "section": "Бельэтаж, правая сторона",
+        "row": 1,
+        "seat": 7,
+        "x": 213,
+        "y": 647.5,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-right-r1-s8",
+        "section": "Бельэтаж, правая сторона",
+        "row": 1,
+        "seat": 8,
+        "x": 215,
+        "y": 610,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "mezzanine-right-r1-s9",
+        "section": "Бельэтаж, правая сторона",
+        "row": 1,
+        "seat": 9,
+        "x": 224.5,
+        "y": 630,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-right-r1-s10",
+        "section": "Бельэтаж, правая сторона",
+        "row": 1,
+        "seat": 10,
+        "x": 227.5,
+        "y": 595,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "mezzanine-right-r1-s11",
+        "section": "Бельэтаж, правая сторона",
+        "row": 1,
+        "seat": 11,
+        "x": 240,
+        "y": 581,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "mezzanine-right-r1-s12",
+        "section": "Бельэтаж, правая сторона",
+        "row": 1,
+        "seat": 12,
+        "x": 252.5,
+        "y": 567.5,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "mezzanine-left-r4-s1",
+        "section": "Бельэтаж, левая сторона",
+        "row": 4,
+        "seat": 1,
+        "x": 984,
+        "y": 596,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "mezzanine-left-r4-s2",
+        "section": "Бельэтаж, левая сторона",
+        "row": 4,
+        "seat": 2,
+        "x": 997,
+        "y": 581.5,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "mezzanine-left-r4-s3",
+        "section": "Бельэтаж, левая сторона",
+        "row": 4,
+        "seat": 3,
+        "x": 999,
+        "y": 608,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "mezzanine-left-r4-s4",
+        "section": "Бельэтаж, левая сторона",
+        "row": 4,
+        "seat": 4,
+        "x": 1012,
+        "y": 622,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "mezzanine-left-r4-s5",
+        "section": "Бельэтаж, левая сторона",
+        "row": 4,
+        "seat": 5,
+        "x": 1024,
+        "y": 636,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "mezzanine-left-r3-s1",
+        "section": "Бельэтаж, левая сторона",
+        "row": 3,
+        "seat": 1,
+        "x": 1011,
+        "y": 568,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-left-r3-s2",
+        "section": "Бельэтаж, левая сторона",
+        "row": 3,
+        "seat": 2,
+        "x": 1012,
+        "y": 595,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "mezzanine-left-r3-s3",
+        "section": "Бельэтаж, левая сторона",
+        "row": 3,
+        "seat": 3,
+        "x": 1025,
+        "y": 581,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-left-r3-s4",
+        "section": "Бельэтаж, левая сторона",
+        "row": 3,
+        "seat": 4,
+        "x": 1025,
+        "y": 608.5,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "mezzanine-left-r3-s5",
+        "section": "Бельэтаж, левая сторона",
+        "row": 3,
+        "seat": 5,
+        "x": 1035.5,
+        "y": 651,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-left-r3-s6",
+        "section": "Бельэтаж, левая сторона",
+        "row": 3,
+        "seat": 6,
+        "x": 1037.5,
+        "y": 623,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "mezzanine-left-r3-s7",
+        "section": "Бельэтаж, левая сторона",
+        "row": 3,
+        "seat": 7,
+        "x": 1045,
+        "y": 667,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-left-r3-s8",
+        "section": "Бельэтаж, левая сторона",
+        "row": 3,
+        "seat": 8,
+        "x": 1049,
+        "y": 638,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-left-r3-s9",
+        "section": "Бельэтаж, левая сторона",
+        "row": 3,
+        "seat": 9,
+        "x": 1094.5,
+        "y": 739,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-left-r3-s10",
+        "section": "Бельэтаж, левая сторона",
+        "row": 3,
+        "seat": 10,
+        "x": 1098,
+        "y": 758.5,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-left-r3-s11",
+        "section": "Бельэтаж, левая сторона",
+        "row": 3,
+        "seat": 11,
+        "x": 1100,
+        "y": 776,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-left-r3-s12",
+        "section": "Бельэтаж, левая сторона",
+        "row": 3,
+        "seat": 12,
+        "x": 1100,
+        "y": 795.5,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-left-r2-s1",
+        "section": "Бельэтаж, левая сторона",
+        "row": 2,
+        "seat": 1,
+        "x": 1024,
+        "y": 555,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "mezzanine-left-r2-s2",
+        "section": "Бельэтаж, левая сторона",
+        "row": 2,
+        "seat": 2,
+        "x": 1038,
+        "y": 595,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-left-r2-s3",
+        "section": "Бельэтаж, левая сторона",
+        "row": 2,
+        "seat": 3,
+        "x": 1038.5,
+        "y": 567.5,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "mezzanine-left-r2-s4",
+        "section": "Бельэтаж, левая сторона",
+        "row": 2,
+        "seat": 4,
+        "x": 1051,
+        "y": 609,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-left-r2-s5",
+        "section": "Бельэтаж, левая сторона",
+        "row": 2,
+        "seat": 5,
+        "x": 1051.5,
+        "y": 582,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "mezzanine-left-r2-s6",
+        "section": "Бельэтаж, левая сторона",
+        "row": 2,
+        "seat": 6,
+        "x": 1059,
+        "y": 653,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-left-r2-s7",
+        "section": "Бельэтаж, левая сторона",
+        "row": 2,
+        "seat": 7,
+        "x": 1062,
+        "y": 623.5,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-left-r2-s8",
+        "section": "Бельэтаж, левая сторона",
+        "row": 2,
+        "seat": 8,
+        "x": 1068.5,
+        "y": 669,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-left-r2-s9",
+        "section": "Бельэтаж, левая сторона",
+        "row": 2,
+        "seat": 9,
+        "x": 1073.5,
+        "y": 639,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-left-r2-s10",
+        "section": "Бельэтаж, левая сторона",
+        "row": 2,
+        "seat": 10,
+        "x": 1077,
+        "y": 686,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-left-r2-s11",
+        "section": "Бельэтаж, левая сторона",
+        "row": 2,
+        "seat": 11,
+        "x": 1083,
+        "y": 655,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-left-r2-s12",
+        "section": "Бельэтаж, левая сторона",
+        "row": 2,
+        "seat": 12,
+        "x": 1084,
+        "y": 703,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-left-r2-s13",
+        "section": "Бельэтаж, левая сторона",
+        "row": 2,
+        "seat": 13,
+        "x": 1090.5,
+        "y": 721.5,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-left-r2-s14",
+        "section": "Бельэтаж, левая сторона",
+        "row": 2,
+        "seat": 14,
+        "x": 1091.5,
+        "y": 672,
+        "tariffId": "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82"
+      },
+      {
+        "id": "mezzanine-left-r1-s1",
+        "section": "Бельэтаж, левая сторона",
+        "row": 1,
+        "seat": 1,
+        "x": 1064,
+        "y": 595,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "mezzanine-left-r1-s2",
+        "section": "Бельэтаж, левая сторона",
+        "row": 1,
+        "seat": 2,
+        "x": 1076,
+        "y": 610.5,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "mezzanine-left-r1-s3",
+        "section": "Бельэтаж, левая сторона",
+        "row": 1,
+        "seat": 3,
+        "x": 1087,
+        "y": 625.5,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "mezzanine-left-r1-s4",
+        "section": "Бельэтаж, левая сторона",
+        "row": 1,
+        "seat": 4,
+        "x": 1097,
+        "y": 641.5,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "mezzanine-left-r1-s5",
+        "section": "Бельэтаж, левая сторона",
+        "row": 1,
+        "seat": 5,
+        "x": 1106,
+        "y": 658,
+        "tariffId": "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3"
+      },
+      {
+        "id": "director-box-r4-s1",
+        "section": "Ложа дирекции",
+        "row": 4,
+        "seat": 1,
+        "x": 598,
+        "y": 432,
+        "tariffId": "none"
+      },
+      {
+        "id": "director-box-r4-s2",
+        "section": "Ложа дирекции",
+        "row": 4,
+        "seat": 2,
+        "x": 617,
+        "y": 431,
+        "tariffId": "none"
+      },
+      {
+        "id": "director-box-r4-s3",
+        "section": "Ложа дирекции",
+        "row": 4,
+        "seat": 3,
+        "x": 636,
+        "y": 430,
+        "tariffId": "none"
+      },
+      {
+        "id": "director-box-r4-s4",
+        "section": "Ложа дирекции",
+        "row": 4,
+        "seat": 4,
+        "x": 656,
+        "y": 430,
+        "tariffId": "none"
+      },
+      {
+        "id": "director-box-r4-s5",
+        "section": "Ложа дирекции",
+        "row": 4,
+        "seat": 5,
+        "x": 675,
+        "y": 431,
+        "tariffId": "none"
+      },
+      {
+        "id": "director-box-r4-s6",
+        "section": "Ложа дирекции",
+        "row": 4,
+        "seat": 6,
+        "x": 694,
+        "y": 432,
+        "tariffId": "none"
+      },
+      {
+        "id": "director-box-r3-s1",
+        "section": "Ложа дирекции",
+        "row": 3,
+        "seat": 1,
+        "x": 598,
+        "y": 451,
+        "tariffId": "none"
+      },
+      {
+        "id": "director-box-r3-s2",
+        "section": "Ложа дирекции",
+        "row": 3,
+        "seat": 2,
+        "x": 617,
+        "y": 450,
+        "tariffId": "none"
+      },
+      {
+        "id": "director-box-r3-s3",
+        "section": "Ложа дирекции",
+        "row": 3,
+        "seat": 3,
+        "x": 636,
+        "y": 449,
+        "tariffId": "none"
+      },
+      {
+        "id": "director-box-r3-s4",
+        "section": "Ложа дирекции",
+        "row": 3,
+        "seat": 4,
+        "x": 655,
+        "y": 449,
+        "tariffId": "none"
+      },
+      {
+        "id": "director-box-r3-s5",
+        "section": "Ложа дирекции",
+        "row": 3,
+        "seat": 5,
+        "x": 674,
+        "y": 450,
+        "tariffId": "none"
+      },
+      {
+        "id": "director-box-r3-s6",
+        "section": "Ложа дирекции",
+        "row": 3,
+        "seat": 6,
+        "x": 693,
+        "y": 451,
+        "tariffId": "none"
+      },
+      {
+        "id": "director-box-r2-s1",
+        "section": "Ложа дирекции",
+        "row": 2,
+        "seat": 1,
+        "x": 606,
+        "y": 470,
+        "tariffId": "none"
+      },
+      {
+        "id": "director-box-r2-s2",
+        "section": "Ложа дирекции",
+        "row": 2,
+        "seat": 2,
+        "x": 625,
+        "y": 469,
+        "tariffId": "none"
+      },
+      {
+        "id": "director-box-r2-s3",
+        "section": "Ложа дирекции",
+        "row": 2,
+        "seat": 3,
+        "x": 644,
+        "y": 468,
+        "tariffId": "none"
+      },
+      {
+        "id": "director-box-r2-s4",
+        "section": "Ложа дирекции",
+        "row": 2,
+        "seat": 4,
+        "x": 663,
+        "y": 469,
+        "tariffId": "none"
+      },
+      {
+        "id": "director-box-r2-s5",
+        "section": "Ложа дирекции",
+        "row": 2,
+        "seat": 5,
+        "x": 682,
+        "y": 469,
+        "tariffId": "none"
+      },
+      {
+        "id": "director-box-r1-s1",
+        "section": "Ложа дирекции",
+        "row": 1,
+        "seat": 1,
+        "x": 617,
+        "y": 488,
+        "tariffId": "none"
+      },
+      {
+        "id": "director-box-r1-s2",
+        "section": "Ложа дирекции",
+        "row": 1,
+        "seat": 2,
+        "x": 636,
+        "y": 488,
+        "tariffId": "none"
+      },
+      {
+        "id": "director-box-r1-s3",
+        "section": "Ложа дирекции",
+        "row": 1,
+        "seat": 3,
+        "x": 655,
+        "y": 488,
+        "tariffId": "none"
+      },
+      {
+        "id": "director-box-r1-s4",
+        "section": "Ложа дирекции",
+        "row": 1,
+        "seat": 4,
+        "x": 674,
+        "y": 488,
+        "tariffId": "none"
+      },
+      {
+        "id": "amphitheater-r4-s1",
+        "section": "Амфитеатр",
+        "row": 4,
+        "seat": 1,
+        "x": 473.5,
+        "y": 632,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "amphitheater-r4-s2",
+        "section": "Амфитеатр",
+        "row": 4,
+        "seat": 2,
+        "x": 491,
+        "y": 626.5,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "amphitheater-r4-s3",
+        "section": "Амфитеатр",
+        "row": 4,
+        "seat": 3,
+        "x": 509.5,
+        "y": 620.5,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "amphitheater-r4-s4",
+        "section": "Амфитеатр",
+        "row": 4,
+        "seat": 4,
+        "x": 527.5,
+        "y": 616,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "amphitheater-r4-s5",
+        "section": "Амфитеатр",
+        "row": 4,
+        "seat": 5,
+        "x": 546,
+        "y": 612,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "amphitheater-r4-s6",
+        "section": "Амфитеатр",
+        "row": 4,
+        "seat": 6,
+        "x": 565,
+        "y": 609.5,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "amphitheater-r4-s7",
+        "section": "Амфитеатр",
+        "row": 4,
+        "seat": 7,
+        "x": 583,
+        "y": 606,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "amphitheater-r4-s8",
+        "section": "Амфитеатр",
+        "row": 4,
+        "seat": 8,
+        "x": 688.5,
+        "y": 604.5,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "amphitheater-r4-s9",
+        "section": "Амфитеатр",
+        "row": 4,
+        "seat": 9,
+        "x": 707,
+        "y": 606.5,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "amphitheater-r4-s10",
+        "section": "Амфитеатр",
+        "row": 4,
+        "seat": 10,
+        "x": 726.5,
+        "y": 609.5,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "amphitheater-r4-s11",
+        "section": "Амфитеатр",
+        "row": 4,
+        "seat": 11,
+        "x": 744.5,
+        "y": 612,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "amphitheater-r4-s12",
+        "section": "Амфитеатр",
+        "row": 4,
+        "seat": 12,
+        "x": 763,
+        "y": 616,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "amphitheater-r4-s13",
+        "section": "Амфитеатр",
+        "row": 4,
+        "seat": 13,
+        "x": 781,
+        "y": 621,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "amphitheater-r4-s14",
+        "section": "Амфитеатр",
+        "row": 4,
+        "seat": 14,
+        "x": 799,
+        "y": 625.5,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "amphitheater-r4-s15",
+        "section": "Амфитеатр",
+        "row": 4,
+        "seat": 15,
+        "x": 817,
+        "y": 632,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "amphitheater-r3-s1",
+        "section": "Амфитеатр",
+        "row": 3,
+        "seat": 1,
+        "x": 422,
+        "y": 656,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "amphitheater-r3-s2",
+        "section": "Амфитеатр",
+        "row": 3,
+        "seat": 2,
+        "x": 439,
+        "y": 647.5,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "amphitheater-r3-s3",
+        "section": "Амфитеатр",
+        "row": 3,
+        "seat": 3,
+        "x": 455.5,
+        "y": 639.5,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "amphitheater-r3-s4",
+        "section": "Амфитеатр",
+        "row": 3,
+        "seat": 4,
+        "x": 491,
+        "y": 646,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "amphitheater-r3-s5",
+        "section": "Амфитеатр",
+        "row": 3,
+        "seat": 5,
+        "x": 509,
+        "y": 641,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "amphitheater-r3-s6",
+        "section": "Амфитеатр",
+        "row": 3,
+        "seat": 6,
+        "x": 528,
+        "y": 636.5,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "amphitheater-r3-s7",
+        "section": "Амфитеатр",
+        "row": 3,
+        "seat": 7,
+        "x": 546,
+        "y": 631,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "amphitheater-r3-s8",
+        "section": "Амфитеатр",
+        "row": 3,
+        "seat": 8,
+        "x": 565,
+        "y": 628,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "amphitheater-r3-s9",
+        "section": "Амфитеатр",
+        "row": 3,
+        "seat": 9,
+        "x": 583.5,
+        "y": 625.5,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "amphitheater-r3-s10",
+        "section": "Амфитеатр",
+        "row": 3,
+        "seat": 10,
+        "x": 601.5,
+        "y": 624,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "amphitheater-r3-s11",
+        "section": "Амфитеатр",
+        "row": 3,
+        "seat": 11,
+        "x": 670,
+        "y": 622.5,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "amphitheater-r3-s12",
+        "section": "Амфитеатр",
+        "row": 3,
+        "seat": 12,
+        "x": 689,
+        "y": 623.5,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "amphitheater-r3-s13",
+        "section": "Амфитеатр",
+        "row": 3,
+        "seat": 13,
+        "x": 707,
+        "y": 625.5,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "amphitheater-r3-s14",
+        "section": "Амфитеатр",
+        "row": 3,
+        "seat": 14,
+        "x": 726.5,
+        "y": 628.5,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "amphitheater-r3-s15",
+        "section": "Амфитеатр",
+        "row": 3,
+        "seat": 15,
+        "x": 744.5,
+        "y": 631,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "amphitheater-r3-s16",
+        "section": "Амфитеатр",
+        "row": 3,
+        "seat": 16,
+        "x": 763,
+        "y": 635,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "amphitheater-r3-s17",
+        "section": "Амфитеатр",
+        "row": 3,
+        "seat": 17,
+        "x": 781,
+        "y": 640.5,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "amphitheater-r3-s18",
+        "section": "Амфитеатр",
+        "row": 3,
+        "seat": 18,
+        "x": 799,
+        "y": 645,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "amphitheater-r3-s19",
+        "section": "Амфитеатр",
+        "row": 3,
+        "seat": 19,
+        "x": 817,
+        "y": 652,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "amphitheater-r3-s20",
+        "section": "Амфитеатр",
+        "row": 3,
+        "seat": 20,
+        "x": 834,
+        "y": 639,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "amphitheater-r3-s21",
+        "section": "Амфитеатр",
+        "row": 3,
+        "seat": 21,
+        "x": 851,
+        "y": 647,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "amphitheater-r3-s22",
+        "section": "Амфитеатр",
+        "row": 3,
+        "seat": 22,
+        "x": 868,
+        "y": 656,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "amphitheater-r3-s23",
+        "section": "Амфитеатр",
+        "row": 3,
+        "seat": 23,
+        "x": 884.5,
+        "y": 665,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "amphitheater-r2-s1",
+        "section": "Амфитеатр",
+        "row": 2,
+        "seat": 1,
+        "x": 376.5,
+        "y": 689,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "amphitheater-r2-s2",
+        "section": "Амфитеатр",
+        "row": 2,
+        "seat": 2,
+        "x": 391,
+        "y": 677,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "amphitheater-r2-s3",
+        "section": "Амфитеатр",
+        "row": 2,
+        "seat": 3,
+        "x": 406,
+        "y": 666,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "amphitheater-r2-s4",
+        "section": "Амфитеатр",
+        "row": 2,
+        "seat": 4,
+        "x": 423,
+        "y": 677.5,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "amphitheater-r2-s5",
+        "section": "Амфитеатр",
+        "row": 2,
+        "seat": 5,
+        "x": 439,
+        "y": 668,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "amphitheater-r2-s6",
+        "section": "Амфитеатр",
+        "row": 2,
+        "seat": 6,
+        "x": 456,
+        "y": 659.5,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "amphitheater-r2-s7",
+        "section": "Амфитеатр",
+        "row": 2,
+        "seat": 7,
+        "x": 473,
+        "y": 653,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "amphitheater-r2-s8",
+        "section": "Амфитеатр",
+        "row": 2,
+        "seat": 8,
+        "x": 495,
+        "y": 665.5,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "amphitheater-r2-s9",
+        "section": "Амфитеатр",
+        "row": 2,
+        "seat": 9,
+        "x": 513,
+        "y": 660,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "amphitheater-r2-s10",
+        "section": "Амфитеатр",
+        "row": 2,
+        "seat": 10,
+        "x": 531,
+        "y": 654,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "amphitheater-r2-s11",
+        "section": "Амфитеатр",
+        "row": 2,
+        "seat": 11,
+        "x": 549.5,
+        "y": 650,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "amphitheater-r2-s12",
+        "section": "Амфитеатр",
+        "row": 2,
+        "seat": 12,
+        "x": 568,
+        "y": 647,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "amphitheater-r2-s13",
+        "section": "Амфитеатр",
+        "row": 2,
+        "seat": 13,
+        "x": 602,
+        "y": 642.5,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "amphitheater-r2-s14",
+        "section": "Амфитеатр",
+        "row": 2,
+        "seat": 14,
+        "x": 620,
+        "y": 641.5,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "amphitheater-r2-s15",
+        "section": "Амфитеатр",
+        "row": 2,
+        "seat": 15,
+        "x": 670,
+        "y": 641.5,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "amphitheater-r2-s16",
+        "section": "Амфитеатр",
+        "row": 2,
+        "seat": 16,
+        "x": 688.5,
+        "y": 642,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "amphitheater-r2-s17",
+        "section": "Амфитеатр",
+        "row": 2,
+        "seat": 17,
+        "x": 722.5,
+        "y": 646.5,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "amphitheater-r2-s18",
+        "section": "Амфитеатр",
+        "row": 2,
+        "seat": 18,
+        "x": 741,
+        "y": 650,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "amphitheater-r2-s19",
+        "section": "Амфитеатр",
+        "row": 2,
+        "seat": 19,
+        "x": 759.5,
+        "y": 654,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "amphitheater-r2-s20",
+        "section": "Амфитеатр",
+        "row": 2,
+        "seat": 20,
+        "x": 777.5,
+        "y": 658.5,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "amphitheater-r2-s21",
+        "section": "Амфитеатр",
+        "row": 2,
+        "seat": 21,
+        "x": 795,
+        "y": 664,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "amphitheater-r2-s22",
+        "section": "Амфитеатр",
+        "row": 2,
+        "seat": 22,
+        "x": 834,
+        "y": 660,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "amphitheater-r2-s23",
+        "section": "Амфитеатр",
+        "row": 2,
+        "seat": 23,
+        "x": 851,
+        "y": 668,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "amphitheater-r2-s24",
+        "section": "Амфитеатр",
+        "row": 2,
+        "seat": 24,
+        "x": 867,
+        "y": 678,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "amphitheater-r2-s25",
+        "section": "Амфитеатр",
+        "row": 2,
+        "seat": 25,
+        "x": 899.5,
+        "y": 677,
+        "tariffId": "tariff-8"
+      },
+      {
+        "id": "amphitheater-r1-s1",
+        "section": "Амфитеатр",
+        "row": 1,
+        "seat": 1,
+        "x": 408,
+        "y": 688,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "amphitheater-r1-s2",
+        "section": "Амфитеатр",
+        "row": 1,
+        "seat": 2,
+        "x": 447,
+        "y": 686,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "amphitheater-r1-s3",
+        "section": "Амфитеатр",
+        "row": 1,
+        "seat": 3,
+        "x": 464,
+        "y": 678,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "amphitheater-r1-s4",
+        "section": "Амфитеатр",
+        "row": 1,
+        "seat": 4,
+        "x": 491.5,
+        "y": 686.5,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "amphitheater-r1-s5",
+        "section": "Амфитеатр",
+        "row": 1,
+        "seat": 5,
+        "x": 509,
+        "y": 680,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "amphitheater-r1-s6",
+        "section": "Амфитеатр",
+        "row": 1,
+        "seat": 6,
+        "x": 527,
+        "y": 675,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "amphitheater-r1-s7",
+        "section": "Амфитеатр",
+        "row": 1,
+        "seat": 7,
+        "x": 545.5,
+        "y": 670.5,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "amphitheater-r1-s8",
+        "section": "Амфитеатр",
+        "row": 1,
+        "seat": 8,
+        "x": 564.5,
+        "y": 667.5,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "amphitheater-r1-s9",
+        "section": "Амфитеатр",
+        "row": 1,
+        "seat": 9,
+        "x": 583.5,
+        "y": 664,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "amphitheater-r1-s10",
+        "section": "Амфитеатр",
+        "row": 1,
+        "seat": 10,
+        "x": 601.5,
+        "y": 661.5,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "amphitheater-r1-s11",
+        "section": "Амфитеатр",
+        "row": 1,
+        "seat": 11,
+        "x": 620.5,
+        "y": 660,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "amphitheater-r1-s12",
+        "section": "Амфитеатр",
+        "row": 1,
+        "seat": 12,
+        "x": 670.5,
+        "y": 660,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "amphitheater-r1-s13",
+        "section": "Амфитеатр",
+        "row": 1,
+        "seat": 13,
+        "x": 689,
+        "y": 661,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "amphitheater-r1-s14",
+        "section": "Амфитеатр",
+        "row": 1,
+        "seat": 14,
+        "x": 707,
+        "y": 663.5,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "amphitheater-r1-s15",
+        "section": "Амфитеатр",
+        "row": 1,
+        "seat": 15,
+        "x": 726,
+        "y": 666.5,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "amphitheater-r1-s16",
+        "section": "Амфитеатр",
+        "row": 1,
+        "seat": 16,
+        "x": 743.5,
+        "y": 670.5,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "amphitheater-r1-s17",
+        "section": "Амфитеатр",
+        "row": 1,
+        "seat": 17,
+        "x": 763,
+        "y": 675,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "amphitheater-r1-s18",
+        "section": "Амфитеатр",
+        "row": 1,
+        "seat": 18,
+        "x": 780.5,
+        "y": 679.5,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "amphitheater-r1-s19",
+        "section": "Амфитеатр",
+        "row": 1,
+        "seat": 19,
+        "x": 798.5,
+        "y": 686.5,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "amphitheater-r1-s20",
+        "section": "Амфитеатр",
+        "row": 1,
+        "seat": 20,
+        "x": 826.5,
+        "y": 677,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "amphitheater-r1-s21",
+        "section": "Амфитеатр",
+        "row": 1,
+        "seat": 21,
+        "x": 843.5,
+        "y": 685,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "parter-r12-s1",
+        "section": "Партер",
+        "row": 12,
+        "seat": 1,
+        "x": 540.5,
+        "y": 768.5,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "parter-r12-s2",
+        "section": "Партер",
+        "row": 12,
+        "seat": 2,
+        "x": 559.5,
+        "y": 768.5,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "parter-r12-s3",
+        "section": "Партер",
+        "row": 12,
+        "seat": 3,
+        "x": 578.5,
+        "y": 768.5,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "parter-r12-s4",
+        "section": "Партер",
+        "row": 12,
+        "seat": 4,
+        "x": 597.5,
+        "y": 769,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "parter-r12-s5",
+        "section": "Партер",
+        "row": 12,
+        "seat": 5,
+        "x": 616.5,
+        "y": 768.5,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "parter-r12-s6",
+        "section": "Партер",
+        "row": 12,
+        "seat": 6,
+        "x": 635.5,
+        "y": 768.5,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "parter-r12-s7",
+        "section": "Партер",
+        "row": 12,
+        "seat": 7,
+        "x": 654.5,
+        "y": 769,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "parter-r12-s8",
+        "section": "Партер",
+        "row": 12,
+        "seat": 8,
+        "x": 673.5,
+        "y": 768.5,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "parter-r12-s9",
+        "section": "Партер",
+        "row": 12,
+        "seat": 9,
+        "x": 692.5,
+        "y": 768.5,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "parter-r12-s10",
+        "section": "Партер",
+        "row": 12,
+        "seat": 10,
+        "x": 711.5,
+        "y": 768.5,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "parter-r12-s11",
+        "section": "Партер",
+        "row": 12,
+        "seat": 11,
+        "x": 730.5,
+        "y": 768.5,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "parter-r12-s12",
+        "section": "Партер",
+        "row": 12,
+        "seat": 12,
+        "x": 749.5,
+        "y": 769,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "parter-r11-s1",
+        "section": "Партер",
+        "row": 11,
+        "seat": 1,
+        "x": 407.5,
+        "y": 795,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "parter-r11-s2",
+        "section": "Партер",
+        "row": 11,
+        "seat": 2,
+        "x": 427,
+        "y": 794,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "parter-r11-s3",
+        "section": "Партер",
+        "row": 11,
+        "seat": 3,
+        "x": 445.5,
+        "y": 794.5,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "parter-r11-s4",
+        "section": "Партер",
+        "row": 11,
+        "seat": 4,
+        "x": 503,
+        "y": 794.5,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "parter-r11-s5",
+        "section": "Партер",
+        "row": 11,
+        "seat": 5,
+        "x": 521.5,
+        "y": 794.5,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "parter-r11-s6",
+        "section": "Партер",
+        "row": 11,
+        "seat": 6,
+        "x": 540.5,
+        "y": 794.5,
+        "tariffId": "tariff-4"
+      },
+      {
+        "id": "parter-r11-s7",
+        "section": "Партер",
+        "row": 11,
+        "seat": 7,
+        "x": 559.5,
+        "y": 794.5,
+        "tariffId": "tariff-4"
+      },
+      {
+        "id": "parter-r11-s8",
+        "section": "Партер",
+        "row": 11,
+        "seat": 8,
+        "x": 578.5,
+        "y": 794.5,
+        "tariffId": "tariff-4"
+      },
+      {
+        "id": "parter-r11-s9",
+        "section": "Партер",
+        "row": 11,
+        "seat": 9,
+        "x": 597.5,
+        "y": 794.5,
+        "tariffId": "tariff-4"
+      },
+      {
+        "id": "parter-r11-s10",
+        "section": "Партер",
+        "row": 11,
+        "seat": 10,
+        "x": 616.5,
+        "y": 794.5,
+        "tariffId": "tariff-4"
+      },
+      {
+        "id": "parter-r11-s11",
+        "section": "Партер",
+        "row": 11,
+        "seat": 11,
+        "x": 635.5,
+        "y": 794.5,
+        "tariffId": "tariff-4"
+      },
+      {
+        "id": "parter-r11-s12",
+        "section": "Партер",
+        "row": 11,
+        "seat": 12,
+        "x": 654.5,
+        "y": 794.5,
+        "tariffId": "tariff-4"
+      },
+      {
+        "id": "parter-r11-s13",
+        "section": "Партер",
+        "row": 11,
+        "seat": 13,
+        "x": 673.5,
+        "y": 794.5,
+        "tariffId": "tariff-4"
+      },
+      {
+        "id": "parter-r11-s14",
+        "section": "Партер",
+        "row": 11,
+        "seat": 14,
+        "x": 692.5,
+        "y": 794.5,
+        "tariffId": "tariff-4"
+      },
+      {
+        "id": "parter-r11-s15",
+        "section": "Партер",
+        "row": 11,
+        "seat": 15,
+        "x": 711.5,
+        "y": 794.5,
+        "tariffId": "tariff-4"
+      },
+      {
+        "id": "parter-r11-s16",
+        "section": "Партер",
+        "row": 11,
+        "seat": 16,
+        "x": 730.5,
+        "y": 794.5,
+        "tariffId": "tariff-4"
+      },
+      {
+        "id": "parter-r11-s17",
+        "section": "Партер",
+        "row": 11,
+        "seat": 17,
+        "x": 749.5,
+        "y": 794.5,
+        "tariffId": "tariff-4"
+      },
+      {
+        "id": "parter-r11-s18",
+        "section": "Партер",
+        "row": 11,
+        "seat": 18,
+        "x": 768.5,
+        "y": 794.5,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "parter-r11-s19",
+        "section": "Партер",
+        "row": 11,
+        "seat": 19,
+        "x": 787.5,
+        "y": 794.5,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "parter-r11-s20",
+        "section": "Партер",
+        "row": 11,
+        "seat": 20,
+        "x": 844.5,
+        "y": 794.5,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "parter-r11-s21",
+        "section": "Партер",
+        "row": 11,
+        "seat": 21,
+        "x": 863.5,
+        "y": 795,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "parter-r11-s22",
+        "section": "Партер",
+        "row": 11,
+        "seat": 22,
+        "x": 882.5,
+        "y": 794.5,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "parter-r10-s1",
+        "section": "Партер",
+        "row": 10,
+        "seat": 1,
+        "x": 408,
+        "y": 820,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "parter-r10-s2",
+        "section": "Партер",
+        "row": 10,
+        "seat": 2,
+        "x": 427,
+        "y": 820.5,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "parter-r10-s3",
+        "section": "Партер",
+        "row": 10,
+        "seat": 3,
+        "x": 446,
+        "y": 820,
+        "tariffId": "tariff-1323f09a-d7b7-4c15-9c86-6e1fff2f438d"
+      },
+      {
+        "id": "parter-r10-s4",
+        "section": "Партер",
+        "row": 10,
+        "seat": 4,
+        "x": 464.5,
+        "y": 820,
+        "tariffId": "tariff-1323f09a-d7b7-4c15-9c86-6e1fff2f438d"
+      },
+      {
+        "id": "parter-r10-s5",
+        "section": "Партер",
+        "row": 10,
+        "seat": 5,
+        "x": 502.5,
+        "y": 820.5,
+        "tariffId": "tariff-4"
+      },
+      {
+        "id": "parter-r10-s6",
+        "section": "Партер",
+        "row": 10,
+        "seat": 6,
+        "x": 521.5,
+        "y": 820.5,
+        "tariffId": "tariff-4"
+      },
+      {
+        "id": "parter-r10-s7",
+        "section": "Партер",
+        "row": 10,
+        "seat": 7,
+        "x": 540.5,
+        "y": 820.5,
+        "tariffId": "tariff-4"
+      },
+      {
+        "id": "parter-r10-s8",
+        "section": "Партер",
+        "row": 10,
+        "seat": 8,
+        "x": 559.5,
+        "y": 820.5,
+        "tariffId": "tariff-4"
+      },
+      {
+        "id": "parter-r10-s9",
+        "section": "Партер",
+        "row": 10,
+        "seat": 9,
+        "x": 578.5,
+        "y": 820.5,
+        "tariffId": "tariff-4"
+      },
+      {
+        "id": "parter-r10-s10",
+        "section": "Партер",
+        "row": 10,
+        "seat": 10,
+        "x": 597.5,
+        "y": 820.5,
+        "tariffId": "tariff-4"
+      },
+      {
+        "id": "parter-r10-s11",
+        "section": "Партер",
+        "row": 10,
+        "seat": 11,
+        "x": 616.5,
+        "y": 820.5,
+        "tariffId": "tariff-4"
+      },
+      {
+        "id": "parter-r10-s12",
+        "section": "Партер",
+        "row": 10,
+        "seat": 12,
+        "x": 635.5,
+        "y": 820.5,
+        "tariffId": "tariff-4"
+      },
+      {
+        "id": "parter-r10-s13",
+        "section": "Партер",
+        "row": 10,
+        "seat": 13,
+        "x": 654.5,
+        "y": 820.5,
+        "tariffId": "tariff-4"
+      },
+      {
+        "id": "parter-r10-s14",
+        "section": "Партер",
+        "row": 10,
+        "seat": 14,
+        "x": 673.5,
+        "y": 820.5,
+        "tariffId": "tariff-4"
+      },
+      {
+        "id": "parter-r10-s15",
+        "section": "Партер",
+        "row": 10,
+        "seat": 15,
+        "x": 692.5,
+        "y": 820.5,
+        "tariffId": "tariff-4"
+      },
+      {
+        "id": "parter-r10-s16",
+        "section": "Партер",
+        "row": 10,
+        "seat": 16,
+        "x": 711.5,
+        "y": 820.5,
+        "tariffId": "tariff-4"
+      },
+      {
+        "id": "parter-r10-s17",
+        "section": "Партер",
+        "row": 10,
+        "seat": 17,
+        "x": 730.5,
+        "y": 820.5,
+        "tariffId": "tariff-4"
+      },
+      {
+        "id": "parter-r10-s18",
+        "section": "Партер",
+        "row": 10,
+        "seat": 18,
+        "x": 749.5,
+        "y": 820.5,
+        "tariffId": "tariff-4"
+      },
+      {
+        "id": "parter-r10-s19",
+        "section": "Партер",
+        "row": 10,
+        "seat": 19,
+        "x": 768.5,
+        "y": 820.5,
+        "tariffId": "tariff-4"
+      },
+      {
+        "id": "parter-r10-s20",
+        "section": "Партер",
+        "row": 10,
+        "seat": 20,
+        "x": 787.5,
+        "y": 820.5,
+        "tariffId": "tariff-4"
+      },
+      {
+        "id": "parter-r10-s21",
+        "section": "Партер",
+        "row": 10,
+        "seat": 21,
+        "x": 826,
+        "y": 820,
+        "tariffId": "tariff-1323f09a-d7b7-4c15-9c86-6e1fff2f438d"
+      },
+      {
+        "id": "parter-r10-s22",
+        "section": "Партер",
+        "row": 10,
+        "seat": 22,
+        "x": 844.5,
+        "y": 820.5,
+        "tariffId": "tariff-1323f09a-d7b7-4c15-9c86-6e1fff2f438d"
+      },
+      {
+        "id": "parter-r10-s23",
+        "section": "Партер",
+        "row": 10,
+        "seat": 23,
+        "x": 863.5,
+        "y": 820,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "parter-r10-s24",
+        "section": "Партер",
+        "row": 10,
+        "seat": 24,
+        "x": 882.5,
+        "y": 820.5,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "parter-r9-s1",
+        "section": "Партер",
+        "row": 9,
+        "seat": 1,
+        "x": 407.5,
+        "y": 845.5,
+        "tariffId": "tariff-1323f09a-d7b7-4c15-9c86-6e1fff2f438d"
+      },
+      {
+        "id": "parter-r9-s2",
+        "section": "Партер",
+        "row": 9,
+        "seat": 2,
+        "x": 426.5,
+        "y": 845.5,
+        "tariffId": "tariff-1323f09a-d7b7-4c15-9c86-6e1fff2f438d"
+      },
+      {
+        "id": "parter-r9-s3",
+        "section": "Партер",
+        "row": 9,
+        "seat": 3,
+        "x": 445.5,
+        "y": 845.5,
+        "tariffId": "tariff-1323f09a-d7b7-4c15-9c86-6e1fff2f438d"
+      },
+      {
+        "id": "parter-r9-s4",
+        "section": "Партер",
+        "row": 9,
+        "seat": 4,
+        "x": 464.5,
+        "y": 845.5,
+        "tariffId": "tariff-1323f09a-d7b7-4c15-9c86-6e1fff2f438d"
+      },
+      {
+        "id": "parter-r9-s5",
+        "section": "Партер",
+        "row": 9,
+        "seat": 5,
+        "x": 502.5,
+        "y": 845.5,
+        "tariffId": "tariff-4"
+      },
+      {
+        "id": "parter-r9-s6",
+        "section": "Партер",
+        "row": 9,
+        "seat": 6,
+        "x": 521.5,
+        "y": 846,
+        "tariffId": "tariff-4"
+      },
+      {
+        "id": "parter-r9-s7",
+        "section": "Партер",
+        "row": 9,
+        "seat": 7,
+        "x": 540.5,
+        "y": 846,
+        "tariffId": "tariff-3"
+      },
+      {
+        "id": "parter-r9-s8",
+        "section": "Партер",
+        "row": 9,
+        "seat": 8,
+        "x": 559.5,
+        "y": 846,
+        "tariffId": "tariff-3"
+      },
+      {
+        "id": "parter-r9-s9",
+        "section": "Партер",
+        "row": 9,
+        "seat": 9,
+        "x": 578.5,
+        "y": 845.5,
+        "tariffId": "tariff-3"
+      },
+      {
+        "id": "parter-r9-s10",
+        "section": "Партер",
+        "row": 9,
+        "seat": 10,
+        "x": 597.5,
+        "y": 846,
+        "tariffId": "tariff-3"
+      },
+      {
+        "id": "parter-r9-s11",
+        "section": "Партер",
+        "row": 9,
+        "seat": 11,
+        "x": 616.5,
+        "y": 846,
+        "tariffId": "tariff-3"
+      },
+      {
+        "id": "parter-r9-s12",
+        "section": "Партер",
+        "row": 9,
+        "seat": 12,
+        "x": 635.5,
+        "y": 845.5,
+        "tariffId": "tariff-3"
+      },
+      {
+        "id": "parter-r9-s13",
+        "section": "Партер",
+        "row": 9,
+        "seat": 13,
+        "x": 654.5,
+        "y": 846,
+        "tariffId": "tariff-3"
+      },
+      {
+        "id": "parter-r9-s14",
+        "section": "Партер",
+        "row": 9,
+        "seat": 14,
+        "x": 673.5,
+        "y": 846,
+        "tariffId": "tariff-3"
+      },
+      {
+        "id": "parter-r9-s15",
+        "section": "Партер",
+        "row": 9,
+        "seat": 15,
+        "x": 692.5,
+        "y": 845.5,
+        "tariffId": "tariff-3"
+      },
+      {
+        "id": "parter-r9-s16",
+        "section": "Партер",
+        "row": 9,
+        "seat": 16,
+        "x": 711.5,
+        "y": 846,
+        "tariffId": "tariff-3"
+      },
+      {
+        "id": "parter-r9-s17",
+        "section": "Партер",
+        "row": 9,
+        "seat": 17,
+        "x": 730.5,
+        "y": 845.5,
+        "tariffId": "tariff-3"
+      },
+      {
+        "id": "parter-r9-s18",
+        "section": "Партер",
+        "row": 9,
+        "seat": 18,
+        "x": 749.5,
+        "y": 846,
+        "tariffId": "tariff-3"
+      },
+      {
+        "id": "parter-r9-s19",
+        "section": "Партер",
+        "row": 9,
+        "seat": 19,
+        "x": 768.5,
+        "y": 846,
+        "tariffId": "tariff-4"
+      },
+      {
+        "id": "parter-r9-s20",
+        "section": "Партер",
+        "row": 9,
+        "seat": 20,
+        "x": 788,
+        "y": 845.5,
+        "tariffId": "tariff-4"
+      },
+      {
+        "id": "parter-r9-s21",
+        "section": "Партер",
+        "row": 9,
+        "seat": 21,
+        "x": 825.5,
+        "y": 845.5,
+        "tariffId": "tariff-1323f09a-d7b7-4c15-9c86-6e1fff2f438d"
+      },
+      {
+        "id": "parter-r9-s22",
+        "section": "Партер",
+        "row": 9,
+        "seat": 22,
+        "x": 844.5,
+        "y": 845.5,
+        "tariffId": "tariff-1323f09a-d7b7-4c15-9c86-6e1fff2f438d"
+      },
+      {
+        "id": "parter-r9-s23",
+        "section": "Партер",
+        "row": 9,
+        "seat": 23,
+        "x": 863.5,
+        "y": 845.5,
+        "tariffId": "tariff-1323f09a-d7b7-4c15-9c86-6e1fff2f438d"
+      },
+      {
+        "id": "parter-r9-s24",
+        "section": "Партер",
+        "row": 9,
+        "seat": 24,
+        "x": 882.5,
+        "y": 845.5,
+        "tariffId": "tariff-1323f09a-d7b7-4c15-9c86-6e1fff2f438d"
+      },
+      {
+        "id": "parter-r8-s1",
+        "section": "Партер",
+        "row": 8,
+        "seat": 1,
+        "x": 407.5,
+        "y": 871.5,
+        "tariffId": "tariff-1323f09a-d7b7-4c15-9c86-6e1fff2f438d"
+      },
+      {
+        "id": "parter-r8-s2",
+        "section": "Партер",
+        "row": 8,
+        "seat": 2,
+        "x": 426.5,
+        "y": 871.5,
+        "tariffId": "tariff-1323f09a-d7b7-4c15-9c86-6e1fff2f438d"
+      },
+      {
+        "id": "parter-r8-s3",
+        "section": "Партер",
+        "row": 8,
+        "seat": 3,
+        "x": 445.5,
+        "y": 871.5,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "parter-r8-s4",
+        "section": "Партер",
+        "row": 8,
+        "seat": 4,
+        "x": 464.5,
+        "y": 871.5,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "parter-r8-s5",
+        "section": "Партер",
+        "row": 8,
+        "seat": 5,
+        "x": 502.5,
+        "y": 871.5,
+        "tariffId": "tariff-3"
+      },
+      {
+        "id": "parter-r8-s6",
+        "section": "Партер",
+        "row": 8,
+        "seat": 6,
+        "x": 521.5,
+        "y": 871.5,
+        "tariffId": "tariff-3"
+      },
+      {
+        "id": "parter-r8-s7",
+        "section": "Партер",
+        "row": 8,
+        "seat": 7,
+        "x": 541,
+        "y": 871.5,
+        "tariffId": "tariff-3"
+      },
+      {
+        "id": "parter-r8-s8",
+        "section": "Партер",
+        "row": 8,
+        "seat": 8,
+        "x": 559.5,
+        "y": 871.5,
+        "tariffId": "tariff-3"
+      },
+      {
+        "id": "parter-r8-s9",
+        "section": "Партер",
+        "row": 8,
+        "seat": 9,
+        "x": 578.5,
+        "y": 871.5,
+        "tariffId": "tariff-3"
+      },
+      {
+        "id": "parter-r8-s10",
+        "section": "Партер",
+        "row": 8,
+        "seat": 10,
+        "x": 597.5,
+        "y": 871.5,
+        "tariffId": "tariff-3"
+      },
+      {
+        "id": "parter-r8-s11",
+        "section": "Партер",
+        "row": 8,
+        "seat": 11,
+        "x": 616.5,
+        "y": 871.5,
+        "tariffId": "tariff-3"
+      },
+      {
+        "id": "parter-r8-s12",
+        "section": "Партер",
+        "row": 8,
+        "seat": 12,
+        "x": 635.5,
+        "y": 871.5,
+        "tariffId": "tariff-3"
+      },
+      {
+        "id": "parter-r8-s13",
+        "section": "Партер",
+        "row": 8,
+        "seat": 13,
+        "x": 654.5,
+        "y": 871.5,
+        "tariffId": "tariff-3"
+      },
+      {
+        "id": "parter-r8-s14",
+        "section": "Партер",
+        "row": 8,
+        "seat": 14,
+        "x": 673.5,
+        "y": 871.5,
+        "tariffId": "tariff-3"
+      },
+      {
+        "id": "parter-r8-s15",
+        "section": "Партер",
+        "row": 8,
+        "seat": 15,
+        "x": 693,
+        "y": 871.5,
+        "tariffId": "tariff-3"
+      },
+      {
+        "id": "parter-r8-s16",
+        "section": "Партер",
+        "row": 8,
+        "seat": 16,
+        "x": 711.5,
+        "y": 871.5,
+        "tariffId": "tariff-3"
+      },
+      {
+        "id": "parter-r8-s17",
+        "section": "Партер",
+        "row": 8,
+        "seat": 17,
+        "x": 731,
+        "y": 871.5,
+        "tariffId": "tariff-3"
+      },
+      {
+        "id": "parter-r8-s18",
+        "section": "Партер",
+        "row": 8,
+        "seat": 18,
+        "x": 749.5,
+        "y": 871.5,
+        "tariffId": "tariff-3"
+      },
+      {
+        "id": "parter-r8-s19",
+        "section": "Партер",
+        "row": 8,
+        "seat": 19,
+        "x": 768.5,
+        "y": 871.5,
+        "tariffId": "tariff-3"
+      },
+      {
+        "id": "parter-r8-s20",
+        "section": "Партер",
+        "row": 8,
+        "seat": 20,
+        "x": 788,
+        "y": 871.5,
+        "tariffId": "tariff-3"
+      },
+      {
+        "id": "parter-r8-s21",
+        "section": "Партер",
+        "row": 8,
+        "seat": 21,
+        "x": 825.5,
+        "y": 871.5,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "parter-r8-s22",
+        "section": "Партер",
+        "row": 8,
+        "seat": 22,
+        "x": 844.5,
+        "y": 871.5,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "parter-r8-s23",
+        "section": "Партер",
+        "row": 8,
+        "seat": 23,
+        "x": 863.5,
+        "y": 871.5,
+        "tariffId": "tariff-1323f09a-d7b7-4c15-9c86-6e1fff2f438d"
+      },
+      {
+        "id": "parter-r8-s24",
+        "section": "Партер",
+        "row": 8,
+        "seat": 24,
+        "x": 882.5,
+        "y": 871.5,
+        "tariffId": "tariff-1323f09a-d7b7-4c15-9c86-6e1fff2f438d"
+      },
+      {
+        "id": "parter-r7-s1",
+        "section": "Партер",
+        "row": 7,
+        "seat": 1,
+        "x": 407.5,
+        "y": 897.5,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "parter-r7-s2",
+        "section": "Партер",
+        "row": 7,
+        "seat": 2,
+        "x": 426.5,
+        "y": 897,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "parter-r7-s3",
+        "section": "Партер",
+        "row": 7,
+        "seat": 3,
+        "x": 445.5,
+        "y": 897,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "parter-r7-s4",
+        "section": "Партер",
+        "row": 7,
+        "seat": 4,
+        "x": 464.5,
+        "y": 897.5,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "parter-r7-s5",
+        "section": "Партер",
+        "row": 7,
+        "seat": 5,
+        "x": 502.5,
+        "y": 897.5,
+        "tariffId": "tariff-3"
+      },
+      {
+        "id": "parter-r7-s6",
+        "section": "Партер",
+        "row": 7,
+        "seat": 6,
+        "x": 521.5,
+        "y": 897,
+        "tariffId": "tariff-3"
+      },
+      {
+        "id": "parter-r7-s7",
+        "section": "Партер",
+        "row": 7,
+        "seat": 7,
+        "x": 540.5,
+        "y": 897,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r7-s8",
+        "section": "Партер",
+        "row": 7,
+        "seat": 8,
+        "x": 559.5,
+        "y": 897,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r7-s9",
+        "section": "Партер",
+        "row": 7,
+        "seat": 9,
+        "x": 578.5,
+        "y": 897.5,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r7-s10",
+        "section": "Партер",
+        "row": 7,
+        "seat": 10,
+        "x": 597.5,
+        "y": 897,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r7-s11",
+        "section": "Партер",
+        "row": 7,
+        "seat": 11,
+        "x": 616.5,
+        "y": 897,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r7-s12",
+        "section": "Партер",
+        "row": 7,
+        "seat": 12,
+        "x": 635.5,
+        "y": 897,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r7-s13",
+        "section": "Партер",
+        "row": 7,
+        "seat": 13,
+        "x": 654.5,
+        "y": 897,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r7-s14",
+        "section": "Партер",
+        "row": 7,
+        "seat": 14,
+        "x": 673.5,
+        "y": 897,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r7-s15",
+        "section": "Партер",
+        "row": 7,
+        "seat": 15,
+        "x": 692.5,
+        "y": 897.5,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r7-s16",
+        "section": "Партер",
+        "row": 7,
+        "seat": 16,
+        "x": 711.5,
+        "y": 897,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r7-s17",
+        "section": "Партер",
+        "row": 7,
+        "seat": 17,
+        "x": 730.5,
+        "y": 897,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r7-s18",
+        "section": "Партер",
+        "row": 7,
+        "seat": 18,
+        "x": 749.5,
+        "y": 897,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r7-s19",
+        "section": "Партер",
+        "row": 7,
+        "seat": 19,
+        "x": 768.5,
+        "y": 897,
+        "tariffId": "tariff-3"
+      },
+      {
+        "id": "parter-r7-s20",
+        "section": "Партер",
+        "row": 7,
+        "seat": 20,
+        "x": 788,
+        "y": 897.5,
+        "tariffId": "tariff-3"
+      },
+      {
+        "id": "parter-r7-s21",
+        "section": "Партер",
+        "row": 7,
+        "seat": 21,
+        "x": 825.5,
+        "y": 897,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "parter-r7-s22",
+        "section": "Партер",
+        "row": 7,
+        "seat": 22,
+        "x": 844.5,
+        "y": 897.5,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "parter-r7-s23",
+        "section": "Партер",
+        "row": 7,
+        "seat": 23,
+        "x": 863.5,
+        "y": 897.5,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "parter-r7-s24",
+        "section": "Партер",
+        "row": 7,
+        "seat": 24,
+        "x": 882.5,
+        "y": 897.5,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "parter-r6-s1",
+        "section": "Партер",
+        "row": 6,
+        "seat": 1,
+        "x": 407.5,
+        "y": 922.5,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "parter-r6-s2",
+        "section": "Партер",
+        "row": 6,
+        "seat": 2,
+        "x": 426.5,
+        "y": 922.5,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "parter-r6-s3",
+        "section": "Партер",
+        "row": 6,
+        "seat": 3,
+        "x": 445.5,
+        "y": 923,
+        "tariffId": "tariff-4"
+      },
+      {
+        "id": "parter-r6-s4",
+        "section": "Партер",
+        "row": 6,
+        "seat": 4,
+        "x": 465,
+        "y": 922.5,
+        "tariffId": "tariff-4"
+      },
+      {
+        "id": "parter-r6-s5",
+        "section": "Партер",
+        "row": 6,
+        "seat": 5,
+        "x": 503,
+        "y": 923,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r6-s6",
+        "section": "Партер",
+        "row": 6,
+        "seat": 6,
+        "x": 522,
+        "y": 923,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r6-s7",
+        "section": "Партер",
+        "row": 6,
+        "seat": 7,
+        "x": 540.5,
+        "y": 923,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r6-s8",
+        "section": "Партер",
+        "row": 6,
+        "seat": 8,
+        "x": 560,
+        "y": 923,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r6-s9",
+        "section": "Партер",
+        "row": 6,
+        "seat": 9,
+        "x": 579,
+        "y": 923,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r6-s10",
+        "section": "Партер",
+        "row": 6,
+        "seat": 10,
+        "x": 598,
+        "y": 923,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r6-s11",
+        "section": "Партер",
+        "row": 6,
+        "seat": 11,
+        "x": 617,
+        "y": 923,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r6-s12",
+        "section": "Партер",
+        "row": 6,
+        "seat": 12,
+        "x": 636,
+        "y": 923,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r6-s13",
+        "section": "Партер",
+        "row": 6,
+        "seat": 13,
+        "x": 655,
+        "y": 923,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r6-s14",
+        "section": "Партер",
+        "row": 6,
+        "seat": 14,
+        "x": 674,
+        "y": 923,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r6-s15",
+        "section": "Партер",
+        "row": 6,
+        "seat": 15,
+        "x": 693,
+        "y": 923,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r6-s16",
+        "section": "Партер",
+        "row": 6,
+        "seat": 16,
+        "x": 711.5,
+        "y": 923,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r6-s17",
+        "section": "Партер",
+        "row": 6,
+        "seat": 17,
+        "x": 731,
+        "y": 923,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r6-s18",
+        "section": "Партер",
+        "row": 6,
+        "seat": 18,
+        "x": 750,
+        "y": 923,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r6-s19",
+        "section": "Партер",
+        "row": 6,
+        "seat": 19,
+        "x": 768.5,
+        "y": 923,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r6-s20",
+        "section": "Партер",
+        "row": 6,
+        "seat": 20,
+        "x": 787.5,
+        "y": 923,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r6-s21",
+        "section": "Партер",
+        "row": 6,
+        "seat": 21,
+        "x": 825.5,
+        "y": 922.5,
+        "tariffId": "tariff-4"
+      },
+      {
+        "id": "parter-r6-s22",
+        "section": "Партер",
+        "row": 6,
+        "seat": 22,
+        "x": 844.5,
+        "y": 922.5,
+        "tariffId": "tariff-4"
+      },
+      {
+        "id": "parter-r6-s23",
+        "section": "Партер",
+        "row": 6,
+        "seat": 23,
+        "x": 863.5,
+        "y": 922.5,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "parter-r6-s24",
+        "section": "Партер",
+        "row": 6,
+        "seat": 24,
+        "x": 883,
+        "y": 922.5,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "parter-r5-s1",
+        "section": "Партер",
+        "row": 5,
+        "seat": 1,
+        "x": 407.5,
+        "y": 948.5,
+        "tariffId": "tariff-4"
+      },
+      {
+        "id": "parter-r5-s2",
+        "section": "Партер",
+        "row": 5,
+        "seat": 2,
+        "x": 426.5,
+        "y": 948.5,
+        "tariffId": "tariff-4"
+      },
+      {
+        "id": "parter-r5-s3",
+        "section": "Партер",
+        "row": 5,
+        "seat": 3,
+        "x": 445.5,
+        "y": 948.5,
+        "tariffId": "tariff-4"
+      },
+      {
+        "id": "parter-r5-s4",
+        "section": "Партер",
+        "row": 5,
+        "seat": 4,
+        "x": 464.5,
+        "y": 948.5,
+        "tariffId": "tariff-4"
+      },
+      {
+        "id": "parter-r5-s5",
+        "section": "Партер",
+        "row": 5,
+        "seat": 5,
+        "x": 503,
+        "y": 948,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r5-s6",
+        "section": "Партер",
+        "row": 5,
+        "seat": 6,
+        "x": 522,
+        "y": 948,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r5-s7",
+        "section": "Партер",
+        "row": 5,
+        "seat": 7,
+        "x": 540.5,
+        "y": 948.5,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r5-s8",
+        "section": "Партер",
+        "row": 5,
+        "seat": 8,
+        "x": 559.5,
+        "y": 948,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r5-s9",
+        "section": "Партер",
+        "row": 5,
+        "seat": 9,
+        "x": 579,
+        "y": 948.5,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r5-s10",
+        "section": "Партер",
+        "row": 5,
+        "seat": 10,
+        "x": 597.5,
+        "y": 948,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r5-s11",
+        "section": "Партер",
+        "row": 5,
+        "seat": 11,
+        "x": 617,
+        "y": 948,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r5-s12",
+        "section": "Партер",
+        "row": 5,
+        "seat": 12,
+        "x": 636,
+        "y": 948,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r5-s13",
+        "section": "Партер",
+        "row": 5,
+        "seat": 13,
+        "x": 655,
+        "y": 948,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r5-s14",
+        "section": "Партер",
+        "row": 5,
+        "seat": 14,
+        "x": 674,
+        "y": 948,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r5-s15",
+        "section": "Партер",
+        "row": 5,
+        "seat": 15,
+        "x": 693,
+        "y": 948,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r5-s16",
+        "section": "Партер",
+        "row": 5,
+        "seat": 16,
+        "x": 711.5,
+        "y": 948,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r5-s17",
+        "section": "Партер",
+        "row": 5,
+        "seat": 17,
+        "x": 731,
+        "y": 948.5,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r5-s18",
+        "section": "Партер",
+        "row": 5,
+        "seat": 18,
+        "x": 750,
+        "y": 948,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r5-s19",
+        "section": "Партер",
+        "row": 5,
+        "seat": 19,
+        "x": 768.5,
+        "y": 948,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r5-s20",
+        "section": "Партер",
+        "row": 5,
+        "seat": 20,
+        "x": 787.5,
+        "y": 948,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r5-s21",
+        "section": "Партер",
+        "row": 5,
+        "seat": 21,
+        "x": 825.5,
+        "y": 948.5,
+        "tariffId": "tariff-4"
+      },
+      {
+        "id": "parter-r5-s22",
+        "section": "Партер",
+        "row": 5,
+        "seat": 22,
+        "x": 844.5,
+        "y": 948.5,
+        "tariffId": "tariff-4"
+      },
+      {
+        "id": "parter-r5-s23",
+        "section": "Партер",
+        "row": 5,
+        "seat": 23,
+        "x": 863.5,
+        "y": 948.5,
+        "tariffId": "tariff-4"
+      },
+      {
+        "id": "parter-r5-s24",
+        "section": "Партер",
+        "row": 5,
+        "seat": 24,
+        "x": 882.5,
+        "y": 948.5,
+        "tariffId": "tariff-4"
+      },
+      {
+        "id": "parter-r4-s1",
+        "section": "Партер",
+        "row": 4,
+        "seat": 1,
+        "x": 407.5,
+        "y": 974,
+        "tariffId": "tariff-4"
+      },
+      {
+        "id": "parter-r4-s2",
+        "section": "Партер",
+        "row": 4,
+        "seat": 2,
+        "x": 427,
+        "y": 974,
+        "tariffId": "tariff-4"
+      },
+      {
+        "id": "parter-r4-s3",
+        "section": "Партер",
+        "row": 4,
+        "seat": 3,
+        "x": 445.5,
+        "y": 974,
+        "tariffId": "tariff-3"
+      },
+      {
+        "id": "parter-r4-s4",
+        "section": "Партер",
+        "row": 4,
+        "seat": 4,
+        "x": 465,
+        "y": 974,
+        "tariffId": "tariff-3"
+      },
+      {
+        "id": "parter-r4-s5",
+        "section": "Партер",
+        "row": 4,
+        "seat": 5,
+        "x": 503,
+        "y": 974,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r4-s6",
+        "section": "Партер",
+        "row": 4,
+        "seat": 6,
+        "x": 522,
+        "y": 974,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r4-s7",
+        "section": "Партер",
+        "row": 4,
+        "seat": 7,
+        "x": 540.5,
+        "y": 974,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r4-s8",
+        "section": "Партер",
+        "row": 4,
+        "seat": 8,
+        "x": 560,
+        "y": 974,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r4-s9",
+        "section": "Партер",
+        "row": 4,
+        "seat": 9,
+        "x": 578.5,
+        "y": 974,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r4-s10",
+        "section": "Партер",
+        "row": 4,
+        "seat": 10,
+        "x": 597.5,
+        "y": 974,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r4-s11",
+        "section": "Партер",
+        "row": 4,
+        "seat": 11,
+        "x": 616,
+        "y": 974,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r4-s12",
+        "section": "Партер",
+        "row": 4,
+        "seat": 12,
+        "x": 636,
+        "y": 974,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r4-s13",
+        "section": "Партер",
+        "row": 4,
+        "seat": 13,
+        "x": 655,
+        "y": 974,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r4-s14",
+        "section": "Партер",
+        "row": 4,
+        "seat": 14,
+        "x": 674,
+        "y": 974,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r4-s15",
+        "section": "Партер",
+        "row": 4,
+        "seat": 15,
+        "x": 692.5,
+        "y": 974,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r4-s16",
+        "section": "Партер",
+        "row": 4,
+        "seat": 16,
+        "x": 711.5,
+        "y": 974,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r4-s17",
+        "section": "Партер",
+        "row": 4,
+        "seat": 17,
+        "x": 731,
+        "y": 974,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r4-s18",
+        "section": "Партер",
+        "row": 4,
+        "seat": 18,
+        "x": 750,
+        "y": 974,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r4-s19",
+        "section": "Партер",
+        "row": 4,
+        "seat": 19,
+        "x": 768.5,
+        "y": 974,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r4-s20",
+        "section": "Партер",
+        "row": 4,
+        "seat": 20,
+        "x": 787.5,
+        "y": 974,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r4-s21",
+        "section": "Партер",
+        "row": 4,
+        "seat": 21,
+        "x": 825.5,
+        "y": 974,
+        "tariffId": "tariff-3"
+      },
+      {
+        "id": "parter-r4-s22",
+        "section": "Партер",
+        "row": 4,
+        "seat": 22,
+        "x": 844.5,
+        "y": 974,
+        "tariffId": "tariff-3"
+      },
+      {
+        "id": "parter-r4-s23",
+        "section": "Партер",
+        "row": 4,
+        "seat": 23,
+        "x": 863.5,
+        "y": 974,
+        "tariffId": "tariff-4"
+      },
+      {
+        "id": "parter-r4-s24",
+        "section": "Партер",
+        "row": 4,
+        "seat": 24,
+        "x": 882.5,
+        "y": 974,
+        "tariffId": "tariff-4"
+      },
+      {
+        "id": "parter-r3-s1",
+        "section": "Партер",
+        "row": 3,
+        "seat": 1,
+        "x": 408,
+        "y": 999.5,
+        "tariffId": "tariff-3"
+      },
+      {
+        "id": "parter-r3-s2",
+        "section": "Партер",
+        "row": 3,
+        "seat": 2,
+        "x": 427,
+        "y": 999.5,
+        "tariffId": "tariff-3"
+      },
+      {
+        "id": "parter-r3-s3",
+        "section": "Партер",
+        "row": 3,
+        "seat": 3,
+        "x": 445.5,
+        "y": 999.5,
+        "tariffId": "tariff-3"
+      },
+      {
+        "id": "parter-r3-s4",
+        "section": "Партер",
+        "row": 3,
+        "seat": 4,
+        "x": 465,
+        "y": 999.5,
+        "tariffId": "tariff-3"
+      },
+      {
+        "id": "parter-r3-s5",
+        "section": "Партер",
+        "row": 3,
+        "seat": 5,
+        "x": 503,
+        "y": 999.5,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r3-s6",
+        "section": "Партер",
+        "row": 3,
+        "seat": 6,
+        "x": 521.5,
+        "y": 999.5,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r3-s7",
+        "section": "Партер",
+        "row": 3,
+        "seat": 7,
+        "x": 541.5,
+        "y": 999.5,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r3-s8",
+        "section": "Партер",
+        "row": 3,
+        "seat": 8,
+        "x": 560,
+        "y": 999.5,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r3-s9",
+        "section": "Партер",
+        "row": 3,
+        "seat": 9,
+        "x": 578.5,
+        "y": 999.5,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r3-s10",
+        "section": "Партер",
+        "row": 3,
+        "seat": 10,
+        "x": 598,
+        "y": 999.5,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r3-s11",
+        "section": "Партер",
+        "row": 3,
+        "seat": 11,
+        "x": 616.5,
+        "y": 999.5,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r3-s12",
+        "section": "Партер",
+        "row": 3,
+        "seat": 12,
+        "x": 635.5,
+        "y": 999.5,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r3-s13",
+        "section": "Партер",
+        "row": 3,
+        "seat": 13,
+        "x": 655,
+        "y": 999.5,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r3-s14",
+        "section": "Партер",
+        "row": 3,
+        "seat": 14,
+        "x": 673.5,
+        "y": 999.5,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r3-s15",
+        "section": "Партер",
+        "row": 3,
+        "seat": 15,
+        "x": 693,
+        "y": 999.5,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r3-s16",
+        "section": "Партер",
+        "row": 3,
+        "seat": 16,
+        "x": 711.5,
+        "y": 999.5,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r3-s17",
+        "section": "Партер",
+        "row": 3,
+        "seat": 17,
+        "x": 730.5,
+        "y": 999.5,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r3-s18",
+        "section": "Партер",
+        "row": 3,
+        "seat": 18,
+        "x": 749.5,
+        "y": 999.5,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r3-s19",
+        "section": "Партер",
+        "row": 3,
+        "seat": 19,
+        "x": 768.5,
+        "y": 999.5,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r3-s20",
+        "section": "Партер",
+        "row": 3,
+        "seat": 20,
+        "x": 788,
+        "y": 999.5,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r3-s21",
+        "section": "Партер",
+        "row": 3,
+        "seat": 21,
+        "x": 826,
+        "y": 999.5,
+        "tariffId": "tariff-3"
+      },
+      {
+        "id": "parter-r3-s22",
+        "section": "Партер",
+        "row": 3,
+        "seat": 22,
+        "x": 844.5,
+        "y": 999.5,
+        "tariffId": "tariff-3"
+      },
+      {
+        "id": "parter-r3-s23",
+        "section": "Партер",
+        "row": 3,
+        "seat": 23,
+        "x": 863.5,
+        "y": 999.5,
+        "tariffId": "tariff-3"
+      },
+      {
+        "id": "parter-r3-s24",
+        "section": "Партер",
+        "row": 3,
+        "seat": 24,
+        "x": 882.5,
+        "y": 999.5,
+        "tariffId": "tariff-3"
+      },
+      {
+        "id": "parter-r2-s1",
+        "section": "Партер",
+        "row": 2,
+        "seat": 1,
+        "x": 408,
+        "y": 1025,
+        "tariffId": "tariff-3"
+      },
+      {
+        "id": "parter-r2-s2",
+        "section": "Партер",
+        "row": 2,
+        "seat": 2,
+        "x": 427,
+        "y": 1025,
+        "tariffId": "tariff-3"
+      },
+      {
+        "id": "parter-r2-s3",
+        "section": "Партер",
+        "row": 2,
+        "seat": 3,
+        "x": 446,
+        "y": 1025,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r2-s4",
+        "section": "Партер",
+        "row": 2,
+        "seat": 4,
+        "x": 465,
+        "y": 1025,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r2-s5",
+        "section": "Партер",
+        "row": 2,
+        "seat": 5,
+        "x": 503,
+        "y": 1025.5,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r2-s6",
+        "section": "Партер",
+        "row": 2,
+        "seat": 6,
+        "x": 521.5,
+        "y": 1025,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r2-s7",
+        "section": "Партер",
+        "row": 2,
+        "seat": 7,
+        "x": 540.5,
+        "y": 1025,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r2-s8",
+        "section": "Партер",
+        "row": 2,
+        "seat": 8,
+        "x": 559.5,
+        "y": 1025,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r2-s9",
+        "section": "Партер",
+        "row": 2,
+        "seat": 9,
+        "x": 578.5,
+        "y": 1025.5,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r2-s10",
+        "section": "Партер",
+        "row": 2,
+        "seat": 10,
+        "x": 597.5,
+        "y": 1025,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r2-s11",
+        "section": "Партер",
+        "row": 2,
+        "seat": 11,
+        "x": 616.5,
+        "y": 1025,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r2-s12",
+        "section": "Партер",
+        "row": 2,
+        "seat": 12,
+        "x": 636,
+        "y": 1025.5,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r2-s13",
+        "section": "Партер",
+        "row": 2,
+        "seat": 13,
+        "x": 655,
+        "y": 1025.5,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r2-s14",
+        "section": "Партер",
+        "row": 2,
+        "seat": 14,
+        "x": 673.5,
+        "y": 1025.5,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r2-s15",
+        "section": "Партер",
+        "row": 2,
+        "seat": 15,
+        "x": 692.5,
+        "y": 1025.5,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r2-s16",
+        "section": "Партер",
+        "row": 2,
+        "seat": 16,
+        "x": 711.5,
+        "y": 1025,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r2-s17",
+        "section": "Партер",
+        "row": 2,
+        "seat": 17,
+        "x": 731,
+        "y": 1025.5,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r2-s18",
+        "section": "Партер",
+        "row": 2,
+        "seat": 18,
+        "x": 749.5,
+        "y": 1025.5,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r2-s19",
+        "section": "Партер",
+        "row": 2,
+        "seat": 19,
+        "x": 768.5,
+        "y": 1025,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r2-s20",
+        "section": "Партер",
+        "row": 2,
+        "seat": 20,
+        "x": 787.5,
+        "y": 1025.5,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r2-s21",
+        "section": "Партер",
+        "row": 2,
+        "seat": 21,
+        "x": 826,
+        "y": 1025,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r2-s22",
+        "section": "Партер",
+        "row": 2,
+        "seat": 22,
+        "x": 844.5,
+        "y": 1025,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r2-s23",
+        "section": "Партер",
+        "row": 2,
+        "seat": 23,
+        "x": 863.5,
+        "y": 1025,
+        "tariffId": "tariff-3"
+      },
+      {
+        "id": "parter-r2-s24",
+        "section": "Партер",
+        "row": 2,
+        "seat": 24,
+        "x": 883,
+        "y": 1025,
+        "tariffId": "tariff-3"
+      },
+      {
+        "id": "parter-r1-s1",
+        "section": "Партер",
+        "row": 1,
+        "seat": 1,
+        "x": 408,
+        "y": 1051,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r1-s2",
+        "section": "Партер",
+        "row": 1,
+        "seat": 2,
+        "x": 427,
+        "y": 1051,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r1-s3",
+        "section": "Партер",
+        "row": 1,
+        "seat": 3,
+        "x": 446,
+        "y": 1051,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r1-s4",
+        "section": "Партер",
+        "row": 1,
+        "seat": 4,
+        "x": 465,
+        "y": 1051,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r1-s5",
+        "section": "Партер",
+        "row": 1,
+        "seat": 5,
+        "x": 503.5,
+        "y": 1051,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r1-s6",
+        "section": "Партер",
+        "row": 1,
+        "seat": 6,
+        "x": 521.5,
+        "y": 1051,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r1-s7",
+        "section": "Партер",
+        "row": 1,
+        "seat": 7,
+        "x": 540.5,
+        "y": 1051,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r1-s8",
+        "section": "Партер",
+        "row": 1,
+        "seat": 8,
+        "x": 559.5,
+        "y": 1050.5,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r1-s9",
+        "section": "Партер",
+        "row": 1,
+        "seat": 9,
+        "x": 578.5,
+        "y": 1051,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r1-s10",
+        "section": "Партер",
+        "row": 1,
+        "seat": 10,
+        "x": 597.5,
+        "y": 1051,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r1-s11",
+        "section": "Партер",
+        "row": 1,
+        "seat": 11,
+        "x": 616.5,
+        "y": 1051.5,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r1-s12",
+        "section": "Партер",
+        "row": 1,
+        "seat": 12,
+        "x": 635.5,
+        "y": 1051,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r1-s13",
+        "section": "Партер",
+        "row": 1,
+        "seat": 13,
+        "x": 654.5,
+        "y": 1051,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r1-s14",
+        "section": "Партер",
+        "row": 1,
+        "seat": 14,
+        "x": 673.5,
+        "y": 1051,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r1-s15",
+        "section": "Партер",
+        "row": 1,
+        "seat": 15,
+        "x": 692.5,
+        "y": 1051,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r1-s16",
+        "section": "Партер",
+        "row": 1,
+        "seat": 16,
+        "x": 711.5,
+        "y": 1051,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r1-s17",
+        "section": "Партер",
+        "row": 1,
+        "seat": 17,
+        "x": 730.5,
+        "y": 1051,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r1-s18",
+        "section": "Партер",
+        "row": 1,
+        "seat": 18,
+        "x": 749.5,
+        "y": 1051,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r1-s19",
+        "section": "Партер",
+        "row": 1,
+        "seat": 19,
+        "x": 769,
+        "y": 1051,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r1-s20",
+        "section": "Партер",
+        "row": 1,
+        "seat": 20,
+        "x": 788,
+        "y": 1051,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "parter-r1-s21",
+        "section": "Партер",
+        "row": 1,
+        "seat": 21,
+        "x": 826,
+        "y": 1051,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r1-s22",
+        "section": "Партер",
+        "row": 1,
+        "seat": 22,
+        "x": 844.5,
+        "y": 1051,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r1-s23",
+        "section": "Партер",
+        "row": 1,
+        "seat": 23,
+        "x": 863.5,
+        "y": 1051,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "parter-r1-s24",
+        "section": "Партер",
+        "row": 1,
+        "seat": 24,
+        "x": 883,
+        "y": 1051,
+        "tariffId": "tariff-2"
+      },
+      {
+        "id": "boxes-right-r6-s1",
+        "section": "Ложи, правая сторона",
+        "row": 6,
+        "seat": 1,
+        "x": 326,
+        "y": 766,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "boxes-right-r6-s2",
+        "section": "Ложи, правая сторона",
+        "row": 6,
+        "seat": 2,
+        "x": 326,
+        "y": 785,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "boxes-right-r6-s3",
+        "section": "Ложи, правая сторона",
+        "row": 6,
+        "seat": 3,
+        "x": 345,
+        "y": 766,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "boxes-right-r6-s4",
+        "section": "Ложи, правая сторона",
+        "row": 6,
+        "seat": 4,
+        "x": 345,
+        "y": 785,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "boxes-right-r5-s1",
+        "section": "Ложи, правая сторона",
+        "row": 5,
+        "seat": 1,
+        "x": 326,
+        "y": 831.5,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "boxes-right-r5-s2",
+        "section": "Ложи, правая сторона",
+        "row": 5,
+        "seat": 2,
+        "x": 326,
+        "y": 850.5,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "boxes-right-r5-s3",
+        "section": "Ложи, правая сторона",
+        "row": 5,
+        "seat": 3,
+        "x": 345,
+        "y": 831.5,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "boxes-right-r5-s4",
+        "section": "Ложи, правая сторона",
+        "row": 5,
+        "seat": 4,
+        "x": 345,
+        "y": 850.5,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "boxes-right-r4-s1",
+        "section": "Ложи, правая сторона",
+        "row": 4,
+        "seat": 1,
+        "x": 326,
+        "y": 889.5,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "boxes-right-r4-s2",
+        "section": "Ложи, правая сторона",
+        "row": 4,
+        "seat": 2,
+        "x": 326,
+        "y": 908.5,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "boxes-right-r4-s3",
+        "section": "Ложи, правая сторона",
+        "row": 4,
+        "seat": 3,
+        "x": 345,
+        "y": 889.5,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "boxes-right-r4-s4",
+        "section": "Ложи, правая сторона",
+        "row": 4,
+        "seat": 4,
+        "x": 345,
+        "y": 908.5,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "boxes-right-r3-s1",
+        "section": "Ложи, правая сторона",
+        "row": 3,
+        "seat": 1,
+        "x": 326,
+        "y": 947.5,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "boxes-right-r3-s2",
+        "section": "Ложи, правая сторона",
+        "row": 3,
+        "seat": 2,
+        "x": 326,
+        "y": 966.5,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "boxes-right-r3-s3",
+        "section": "Ложи, правая сторона",
+        "row": 3,
+        "seat": 3,
+        "x": 345,
+        "y": 947.5,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "boxes-right-r3-s4",
+        "section": "Ложи, правая сторона",
+        "row": 3,
+        "seat": 4,
+        "x": 345,
+        "y": 966.5,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "boxes-right-r2-s1",
+        "section": "Ложи, правая сторона",
+        "row": 2,
+        "seat": 1,
+        "x": 326,
+        "y": 1005,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "boxes-right-r2-s2",
+        "section": "Ложи, правая сторона",
+        "row": 2,
+        "seat": 2,
+        "x": 326,
+        "y": 1024,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "boxes-right-r2-s3",
+        "section": "Ложи, правая сторона",
+        "row": 2,
+        "seat": 3,
+        "x": 345,
+        "y": 1005,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "boxes-right-r2-s4",
+        "section": "Ложи, правая сторона",
+        "row": 2,
+        "seat": 4,
+        "x": 345,
+        "y": 1024,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "boxes-right-r1-s1",
+        "section": "Ложи, правая сторона",
+        "row": 1,
+        "seat": 1,
+        "x": 326,
+        "y": 1063,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "boxes-right-r1-s2",
+        "section": "Ложи, правая сторона",
+        "row": 1,
+        "seat": 2,
+        "x": 326,
+        "y": 1082,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "boxes-right-r1-s3",
+        "section": "Ложи, правая сторона",
+        "row": 1,
+        "seat": 3,
+        "x": 345,
+        "y": 1063,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "boxes-right-r1-s4",
+        "section": "Ложи, правая сторона",
+        "row": 1,
+        "seat": 4,
+        "x": 345,
+        "y": 1082,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "boxes-left-r12-s1",
+        "section": "Ложи, левая сторона",
+        "row": 12,
+        "seat": 1,
+        "x": 945,
+        "y": 1063,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "boxes-left-r12-s2",
+        "section": "Ложи, левая сторона",
+        "row": 12,
+        "seat": 2,
+        "x": 945,
+        "y": 1082,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "boxes-left-r12-s3",
+        "section": "Ложи, левая сторона",
+        "row": 12,
+        "seat": 3,
+        "x": 964,
+        "y": 1063,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "boxes-left-r12-s4",
+        "section": "Ложи, левая сторона",
+        "row": 12,
+        "seat": 4,
+        "x": 964,
+        "y": 1082,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "boxes-left-r11-s1",
+        "section": "Ложи, левая сторона",
+        "row": 11,
+        "seat": 1,
+        "x": 945,
+        "y": 1005,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "boxes-left-r11-s2",
+        "section": "Ложи, левая сторона",
+        "row": 11,
+        "seat": 2,
+        "x": 945,
+        "y": 1024,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "boxes-left-r11-s3",
+        "section": "Ложи, левая сторона",
+        "row": 11,
+        "seat": 3,
+        "x": 964,
+        "y": 1005,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "boxes-left-r11-s4",
+        "section": "Ложи, левая сторона",
+        "row": 11,
+        "seat": 4,
+        "x": 964,
+        "y": 1024,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "boxes-left-r10-s1",
+        "section": "Ложи, левая сторона",
+        "row": 10,
+        "seat": 1,
+        "x": 945,
+        "y": 946.5,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "boxes-left-r10-s2",
+        "section": "Ложи, левая сторона",
+        "row": 10,
+        "seat": 2,
+        "x": 945,
+        "y": 965.5,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "boxes-left-r10-s3",
+        "section": "Ложи, левая сторона",
+        "row": 10,
+        "seat": 3,
+        "x": 964,
+        "y": 946.5,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "boxes-left-r10-s4",
+        "section": "Ложи, левая сторона",
+        "row": 10,
+        "seat": 4,
+        "x": 964,
+        "y": 965.5,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "boxes-left-r7-s1",
+        "section": "Ложи, левая сторона",
+        "row": 7,
+        "seat": 1,
+        "x": 945,
+        "y": 766,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "boxes-left-r7-s2",
+        "section": "Ложи, левая сторона",
+        "row": 7,
+        "seat": 2,
+        "x": 945,
+        "y": 785,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "boxes-left-r7-s3",
+        "section": "Ложи, левая сторона",
+        "row": 7,
+        "seat": 3,
+        "x": 964,
+        "y": 766,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "boxes-left-r7-s4",
+        "section": "Ложи, левая сторона",
+        "row": 7,
+        "seat": 4,
+        "x": 964,
+        "y": 785,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "boxes-left-r6-s1",
+        "section": "Ложи, левая сторона",
+        "row": 6,
+        "seat": 1,
+        "x": 945,
+        "y": 831,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "boxes-left-r6-s2",
+        "section": "Ложи, левая сторона",
+        "row": 6,
+        "seat": 2,
+        "x": 945,
+        "y": 850,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "boxes-left-r6-s3",
+        "section": "Ложи, левая сторона",
+        "row": 6,
+        "seat": 3,
+        "x": 964,
+        "y": 831,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "boxes-left-r6-s4",
+        "section": "Ложи, левая сторона",
+        "row": 6,
+        "seat": 4,
+        "x": 964,
+        "y": 850,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "boxes-left-r5-s1",
+        "section": "Ложи, левая сторона",
+        "row": 5,
+        "seat": 1,
+        "x": 945,
+        "y": 888.5,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "boxes-left-r5-s2",
+        "section": "Ложи, левая сторона",
+        "row": 5,
+        "seat": 2,
+        "x": 945,
+        "y": 907.5,
+        "tariffId": "tariff-5"
+      },
+      {
+        "id": "boxes-left-r5-s3",
+        "section": "Ложи, левая сторона",
+        "row": 5,
+        "seat": 3,
+        "x": 964,
+        "y": 888.5,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "boxes-left-r5-s4",
+        "section": "Ложи, левая сторона",
+        "row": 5,
+        "seat": 4,
+        "x": 964,
+        "y": 907.5,
+        "tariffId": "tariff-6"
+      },
+      {
+        "id": "box-a-r1-s1",
+        "section": "Ложа А",
+        "row": 1,
+        "seat": 1,
+        "x": 326,
+        "y": 1125,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "box-a-r1-s2",
+        "section": "Ложа А",
+        "row": 1,
+        "seat": 2,
+        "x": 326,
+        "y": 1144,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "box-b-r1-s1",
+        "section": "Ложа Б",
+        "row": 1,
+        "seat": 1,
+        "x": 964,
+        "y": 1125,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "box-b-r1-s2",
+        "section": "Ложа Б",
+        "row": 1,
+        "seat": 2,
+        "x": 964,
+        "y": 1144,
+        "tariffId": "tariff-7"
+      },
+      {
+        "id": "vip-parter-r1-s1",
+        "section": "VIP-партер",
+        "row": 1,
+        "seat": 1,
+        "x": 503,
+        "y": 1144,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "vip-parter-r1-s2",
+        "section": "VIP-партер",
+        "row": 1,
+        "seat": 2,
+        "x": 522,
+        "y": 1144,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "vip-parter-r1-s3",
+        "section": "VIP-партер",
+        "row": 1,
+        "seat": 3,
+        "x": 541,
+        "y": 1144,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "vip-parter-r1-s4",
+        "section": "VIP-партер",
+        "row": 1,
+        "seat": 4,
+        "x": 560,
+        "y": 1144,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "vip-parter-r1-s5",
+        "section": "VIP-партер",
+        "row": 1,
+        "seat": 5,
+        "x": 579,
+        "y": 1144,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "vip-parter-r1-s6",
+        "section": "VIP-партер",
+        "row": 1,
+        "seat": 6,
+        "x": 598,
+        "y": 1144,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "vip-parter-r1-s7",
+        "section": "VIP-партер",
+        "row": 1,
+        "seat": 7,
+        "x": 617,
+        "y": 1144,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "vip-parter-r1-s8",
+        "section": "VIP-партер",
+        "row": 1,
+        "seat": 8,
+        "x": 636,
+        "y": 1144,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "vip-parter-r1-s9",
+        "section": "VIP-партер",
+        "row": 1,
+        "seat": 9,
+        "x": 655,
+        "y": 1144,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "vip-parter-r1-s10",
+        "section": "VIP-партер",
+        "row": 1,
+        "seat": 10,
+        "x": 674,
+        "y": 1144,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "vip-parter-r1-s11",
+        "section": "VIP-партер",
+        "row": 1,
+        "seat": 11,
+        "x": 693,
+        "y": 1144,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "vip-parter-r1-s12",
+        "section": "VIP-партер",
+        "row": 1,
+        "seat": 12,
+        "x": 712,
+        "y": 1144,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "vip-parter-r1-s13",
+        "section": "VIP-партер",
+        "row": 1,
+        "seat": 13,
+        "x": 731,
+        "y": 1144,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "vip-parter-r1-s14",
+        "section": "VIP-партер",
+        "row": 1,
+        "seat": 14,
+        "x": 750,
+        "y": 1144,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "vip-parter-r1-s15",
+        "section": "VIP-партер",
+        "row": 1,
+        "seat": 15,
+        "x": 769,
+        "y": 1144,
+        "tariffId": "tariff-1"
+      },
+      {
+        "id": "vip-parter-r1-s16",
+        "section": "VIP-партер",
+        "row": 1,
+        "seat": 16,
+        "x": 788,
+        "y": 1144,
+        "tariffId": "tariff-1"
+      }
+    ],
+    "salesPlan": {
+      "tariff-1": 84,
+      "tariff-2": 52,
+      "tariff-3": 48,
+      "tariff-4": 48,
+      "tariff-5": 56,
+      "tariff-6": 60,
+      "tariff-7": 50,
+      "tariff-8": 74,
+      "tariff-6d37d17b-cfd3-4e41-8a90-f4c9c9a75a82": 84,
+      "tariff-44ace87f-cd46-4f15-ae3f-973fa7bdb0d3": 69,
+      "tariff-be972d1c-51b4-4e98-874d-ae503546d983": 74,
+      "tariff-524a9607-2c0e-4edd-bb5a-2d01a35558e7": 52,
+      "tariff-1323f09a-d7b7-4c15-9c86-6e1fff2f438d": 16,
+      "none": 21
+    },
+    "occupancyPercent": 100
+  }
+}

@@ -283,7 +283,6 @@ function App() {
     const resetVenue = createDefaultVenue(
       activeVenue.id,
       activeVenue.name,
-      activeVenue.layoutId,
     );
     updateActiveVenue(() => resetVenue);
     setSelectedSeatIds([]);
